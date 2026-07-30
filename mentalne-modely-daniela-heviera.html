@@ -1,0 +1,241 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Štyri princípy myslenia Daniela Heviera</title>
+<style>
+  :root {
+    --ground: #edecea;
+    --paper: #ffffff;
+    --ink: #191919;
+    --ink-soft: #2e2e2e;
+    --rule: #1a1a1a;
+    --red: #e4032e;
+    --serif: "Didot", "Bodoni MT", "Bodoni 72", "Playfair Display", "Georgia", "Times New Roman", serif;
+    --sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground: #17171a; }
+  }
+  :root[data-theme="dark"]  { --ground: #17171a; }
+  :root[data-theme="light"] { --ground: #edecea; }
+
+  html, body { margin: 0; padding: 0; background: var(--ground); }
+  body {
+    font-family: var(--serif);
+    color: var(--ink);
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px 64px;
+  }
+
+  /* ---------- the printed page ---------- */
+  .page {
+    position: relative;
+    background: var(--paper);
+    color: var(--ink);
+    width: min(860px, 100%);
+    box-shadow: 0 24px 60px rgba(0,0,0,.18);
+    padding: 56px 84px 0 64px;
+    box-sizing: border-box;
+  }
+  .corner-mark {
+    position: absolute;
+    top: 0; right: 0;
+    width: 30px; height: 30px;
+    background: var(--red);
+  }
+  .rail {
+    position: absolute;
+    top: 150px; right: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--sans);
+    font-size: 9px;
+    letter-spacing: .32em;
+    color: var(--ink);
+  }
+  .rail .pagenum { letter-spacing: .1em; border-bottom: 1px solid var(--ink); padding-bottom: 6px; }
+  .rail .vert {
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead { text-align: center; margin: 0 auto 8px; max-width: 560px; }
+  .masthead h1 {
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: clamp(17px, 2.6vw, 22px);
+    letter-spacing: .26em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .masthead p {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0;
+    line-height: 1.8;
+  }
+
+  /* ---------- diagram ---------- */
+  .diagram {
+    position: relative;
+    margin-top: 18px;
+    height: 820px;
+  }
+  .diagram svg.web {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .dot {
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 26px; height: 26px;
+    margin: -13px 0 0 -13px;
+    border-radius: 50%;
+    background: var(--red);
+  }
+
+  .model {
+    position: absolute;
+    text-align: center;
+    background: var(--paper);
+    padding: 10px 12px;
+    box-sizing: border-box;
+  }
+  .model h2 {
+    font-family: var(--serif);
+    font-weight: 700;
+    line-height: 1.08;
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+  .model .quote {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+    color: var(--ink);
+  }
+  .model .tag {
+    font-family: var(--sans);
+    display: inline-block;
+    font-size: 8.5px;
+    font-weight: 800;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--red);
+    padding: 3px 8px 2px;
+    margin-bottom: 8px;
+  }
+  .model .lesson {
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--ink-soft);
+  }
+
+  .m-top    { top: 0;   left: 50%; transform: translateX(-50%); width: 46%; }
+  .m-top h2 { font-size: clamp(26px, 4vw, 34px); }
+  .m-left   { top: 25%; left: 0;   width: 26%; }
+  .m-right  { top: 25%; right: 0;  width: 26%; }
+  .m-left h2, .m-right h2 { font-size: clamp(20px, 2.8vw, 25px); }
+  .m-bottom { bottom: 8px; left: 50%; transform: translateX(-50%); width: 44%; }
+  .m-bottom h2 { font-size: clamp(22px, 3.2vw, 28px); }
+
+  /* ---------- footer ---------- */
+  .colophon {
+    margin: 26px -84px 0 -64px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--sans);
+    font-size: 9px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    padding: 12px 84px 16px 64px;
+  }
+
+  /* ---------- small screens: stack the quadrants ---------- */
+  @media (max-width: 700px) {
+    .page { padding: 44px 26px 0; }
+    .rail { display: none; }
+    .diagram { height: auto; }
+    .diagram svg.web, .dot { display: none; }
+    .model {
+      position: static;
+      transform: none;
+      width: auto;
+      max-width: 420px;
+      margin: 0 auto;
+      padding: 26px 8px;
+    }
+    .model + .model { border-top: 1px solid var(--rule); }
+    .colophon { margin: 10px -26px 0; padding: 12px 26px 16px; }
+  }
+</style>
+
+<main class="page">
+  <div class="corner-mark"></div>
+  <aside class="rail" aria-hidden="true">
+    <span class="pagenum">117</span>
+    <span class="vert">Top influenceri &nbsp;•&nbsp; Daniel Hevier</span>
+  </aside>
+
+  <header class="masthead">
+    <h1>Štyri princípy myslenia<br>Daniela Heviera</h1>
+    <p>Skúsenosti básnika, umelca a tiktokera, ktoré menia pohľad na tvorivosť aj život.</p>
+  </header>
+
+  <section class="diagram">
+    <svg class="web" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="0"   y1="0"   x2="100" y2="100" stroke="var(--rule)" stroke-width="0.12" />
+      <line x1="100" y1="0"   x2="0"   y2="100" stroke="var(--rule)" stroke-width="0.12" />
+    </svg>
+    <div class="dot" aria-hidden="true"></div>
+
+    <article class="model m-top">
+      <h2>Myseľ pracuje aj&nbsp;v&nbsp;spánku.</h2>
+      <p class="quote">„Pracujem 16 hodín denne plus 8 hodín v&nbsp;spánku, pretože aj keď spím, tak premýšľam, riešim problémy. Veľakrát sa mi stalo, že som vo sne alebo tesne nad ránom prišiel na riešenie, ktoré som potreboval.“</p>
+      <span class="tag">V tvorbe</span>
+      <p class="lesson">Buď permanentne pripravený na nápady, na zázraky. Stále sa okolo seba pozeraj, všetko archivuj v&nbsp;hlave a&nbsp;veľa si zapisuj.</p>
+    </article>
+
+    <article class="model m-left">
+      <h2>Nesústredenosť je všestrannosť.</h2>
+      <p class="quote">„Neberiem ako tragédiu, že deti možno nejaké schopnosti strácajú, pretože iné zase získavajú. Nesústredenosť je podľa mňa iba iným slovom pre určitú všestrannosť, tvorivý nepokoj.“</p>
+      <span class="tag">V tvorbe</span>
+      <p class="lesson">„Viacsústredený“ človek zachytáva rôzne čiastkové podnety a&nbsp;impulzy — a&nbsp;dokáže z&nbsp;nich vyťažiť pozitívnu aktivitu.</p>
+    </article>
+
+    <article class="model m-right">
+      <h2>Všetko sa začína ako výzva.</h2>
+      <p class="quote">„Všetko, čo sa aj mne v&nbsp;živote podarilo, sa začalo ako výzva. Musel som vyriešiť nejaký problém či obmedzenie a&nbsp;to ma potom posunulo ďalej.“</p>
+      <span class="tag">V tvorbe</span>
+      <p class="lesson">Ber všetko, čo ti príde do cesty — aj problém —, ako niečo, s&nbsp;čím si treba poradiť a&nbsp;na čo treba byť pripravený.</p>
+    </article>
+
+    <article class="model m-bottom">
+      <h2>Kreativita je&nbsp;sval.</h2>
+      <p class="quote">„Kreativita sa dá rozvíjať a&nbsp;trénovať, podobne ako viete natrénovať svaly. Cieľom vzdelávania by nemali byť len vedomosti, ale budovanie odolnej osobnosti, ktorá bude schopná žiť vo veľmi zložitom a&nbsp;komplikovanom svete.“</p>
+      <span class="tag">V tvorbe</span>
+      <p class="lesson">Zostaň „učižiakom“: uč sa spolu s&nbsp;inými, uč sa od nich — aj po škole, aj cez prázdniny, celý život.</p>
+    </article>
+  </section>
+
+  <footer class="colophon">
+    <span>Júl 2026</span>
+    <span>Forbes.sk</span>
+  </footer>
+</main>
