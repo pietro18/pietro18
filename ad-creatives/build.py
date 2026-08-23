@@ -238,7 +238,11 @@ CARDS = [
     dict(step=1, head="Zadáš úlohu s odmenou",
          body_text="Vyber si zo šablón alebo si vytvor vlastnú. Odmenu v eurách určuješ ty.",
          phone_src="tasks-rewards.jpg"),
-    dict(step=2, head="Dieťa pošle fotku, AI ju skontroluje",
+    # "Amos ju skontroluje", not "AI" — it matches the app's own voice ("Amos
+    # zadá úlohy, skontroluje fotku") and a named character reads warmer to
+    # parents than a technology that invites doubt. The break is explicit: the
+    # longer word leaves only 4px of slack, too little to trust to wrapping.
+    dict(step=2, head="Dieťa pošle fotku,<br>Amos ju skontroluje",
          body_text="Pravidlá sú každý deň rovnaké. Nemusíš byť rozhodca a nemusíte sa hádať.",
          phone_src="parent-overview.jpg"),
     dict(step=3, head="Odmena ide na sen, ktorý si vybralo samo",
