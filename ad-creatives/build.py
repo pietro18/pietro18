@@ -144,10 +144,14 @@ def ad(*, width, height, pad_top, gap, phone_top, phone_width,
 # that" and the endless reminding. Variant B used to be a benefit ("learn the
 # value of money") — a vitamin, not a painkiller.
 VARIANTS = {
+    # Janka's line. It beats "Už žiadne „Kúpiš mi to?“": that was absolutist —
+    # every parent knows "never again" is a lie — and it only removed the
+    # problem. This shows the replacement, and both halves are in the child's
+    # voice, so the contrast reads at a glance.
     "A": dict(
         badge_text="Zadarmo pre prvých 333 rodín",
-        head_html=headline("Už žiadne", "„Kúpiš mi to?“"),
-        sub="Dieťa si na svoje veci zarobí samo — cez bežné úlohy doma.",
+        head_html=headline("Menej „Kúpiš mi to?“", "Viac „Našetril som si.“", 84),
+        sub="Amos učí deti zarobiť si vreckové a šetriť na to, po čom túžia.",
         cta_text="Chcem to skúsiť",
         phone_src="tasks-rewards.jpg",
     ),
@@ -159,6 +163,18 @@ VARIANTS = {
         cta_text="Chcem to skúsiť",
         phone_src="parent-overview.jpg",
         phone_shift=40,  # the bubble makes this column taller than variant A's
+    ),
+    # Janka's line again, and the sharpest of the three: it answers the guilt of
+    # saying no by reframing it as teaching. A different axis from A (the
+    # wanting) and B (the nagging), so it is worth testing alongside them.
+    "C": dict(
+        badge_text="Zadarmo pre prvých 333 rodín",
+        head_html=headline("Nechceš mu splniť<br>každý sen.",
+                           "Chceš ho naučiť,<br>ako si ho splniť.", 70),
+        sub="Plní úlohy, sleduje svoj pokrok a učí sa, že veci majú hodnotu.",
+        cta_text="Chcem to skúsiť",
+        phone_src="goals-savings.jpg",
+        phone_shift=112,  # four headline lines instead of two
     ),
 }
 
@@ -214,7 +230,7 @@ CARDS = [
          body_text="Pravidlá sú každý deň rovnaké. Nemusíš byť rozhodca a nemusíte sa hádať.",
          phone_src="parent-overview.jpg"),
     dict(step=3, head="Odmena ide na sen, ktorý si vybralo samo",
-         body_text="Bicykel, chrániče, lístok na hokej. Nie body pre body — naozajstné peniaze.",
+         body_text="Nechceš mu splniť každý sen. Naučíš ho, ako si ho splní sám.",
          phone_src="goals-savings.jpg"),
     dict(step=4, head="Zadarmo navždy pre prvých 333 rodín",
          body_text="Prvých 333 rodín na Slovensku si prémiové funkcie zamkne zadarmo natrvalo.",
@@ -226,7 +242,9 @@ CARDS = [
 
 TARGETS = {}
 for name, frame, variant in (("Main.dc.html", FEED, "A"), ("FeedB.dc.html", FEED, "B"),
-                             ("StoryA.dc.html", STORY, "A"), ("StoryB.dc.html", STORY, "B")):
+                             ("FeedC.dc.html", FEED, "C"),
+                             ("StoryA.dc.html", STORY, "A"), ("StoryB.dc.html", STORY, "B"),
+                             ("StoryC.dc.html", STORY, "C")):
     TARGETS[name] = ad(**frame, **VARIANTS[variant])
 
 for i, spec in enumerate(CARDS, start=1):
@@ -236,22 +254,61 @@ for filename, html in TARGETS.items():
     (HERE / filename).write_text(html, encoding="utf-8")
     print("wrote", filename)
 
-GAP_X, GAP_Y = 160, 220
+GAP_X, GAP_Y = 160, 240
+COL = 1080 + GAP_X
+HOOKS = [("A", "Našetril som si"), ("B", "Nemusíš sa pýtať"), ("C", "Ako si ho splniť")]
+STORY_ROW_Y = 1350 + GAP_Y
+CAROUSEL_ROW_Y = STORY_ROW_Y + 1920 + GAP_Y
+
 canvas = {
     "artboards": [
-        {"file": "Main.dc.html", "title": "Feed 4:5 — A · „Kúpiš mi to?“", "x": 0, "y": 0, "w": 1080, "h": 1350},
-        {"file": "FeedB.dc.html", "title": "Feed 4:5 — B · Naposledy", "x": 1240, "y": 0, "w": 1080, "h": 1350},
-        {"file": "StoryA.dc.html", "title": "Story 9:16 — A", "x": 2480, "y": 0, "w": 1080, "h": 1920},
-        {"file": "StoryB.dc.html", "title": "Story 9:16 — B", "x": 3720, "y": 0, "w": 1080, "h": 1920},
+        {"file": "Main.dc.html" if key == "A" else f"Feed{key}.dc.html",
+         "title": f"Feed 4:5 — {key} · {hook}", "x": i * COL, "y": 0, "w": 1080, "h": 1350}
+        for i, (key, hook) in enumerate(HOOKS)
     ] + [
-        {"file": f"Card{i}.dc.html", "title": f"Carousel {i}/5", "x": (i - 1) * (1080 + GAP_X),
-         "y": 1920 + GAP_Y, "w": 1080, "h": 1350}
+        {"file": f"Story{key}.dc.html", "title": f"Story 9:16 — {key} · {hook}",
+         "x": i * COL, "y": STORY_ROW_Y, "w": 1080, "h": 1920}
+        for i, (key, hook) in enumerate(HOOKS)
+    ] + [
+        {"file": f"Card{i}.dc.html", "title": f"Carousel {i}/5", "x": (i - 1) * COL,
+         "y": CAROUSEL_ROW_Y, "w": 1080, "h": 1350}
         for i in range(1, 6)
     ],
     "annotations": [
         {
+            "id": "primary-text",
+            "x": 3 * COL,
+            "y": STORY_ROW_Y,
+            "w": 620,
+            "text": (
+                "PRIMARY TEXT do Meta Ads Manager\n"
+                "(text nad obrázkom — Meta ho oreže\n"
+                "po ~125 znakoch, hook musí byť prvý)\n\n"
+                "— A —\n"
+                "„Kúpiš mi to?“ pozná asi každý rodič. 🙂\n"
+                "S Amosom môže byť odpoveďou vlastný cieľ\n"
+                "dieťaťa. Plnením rozvojového plánu získava\n"
+                "vreckové, sleduje svoj pokrok a učí sa, že\n"
+                "veci, po ktorých túži, majú svoju hodnotu.\n\n"
+                "— B —\n"
+                "Koľkokrát denne sa pýtaš, či sú úlohy\n"
+                "hotové? Amos zadá úlohu, skontroluje\n"
+                "fotku a vyplatí vreckové. Pravidlá sú\n"
+                "každý deň rovnaké, takže nemusíš byť\n"
+                "rozhodca — a naťahovanie končí.\n\n"
+                "— C —\n"
+                "Nechceš mu splniť každý sen. Chceš ho\n"
+                "naučiť, ako si ho splní sám. V Amosovi\n"
+                "si dieťa vyberie cieľ, plní úlohy doma\n"
+                "a sporí si naň — a na konci sú to naozaj\n"
+                "jeho peniaze.\n\n"
+                "Headline: pozri text na kreatíve\n"
+                "CTA tlačidlo v Meta: Prihlásiť sa"
+            ),
+        },
+        {
             "id": "campaign-note",
-            "x": 4960,
+            "x": 3 * COL,
             "y": 0,
             "w": 470,
             "text": (

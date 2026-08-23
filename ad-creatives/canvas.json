@@ -2,7 +2,7 @@
   "artboards": [
     {
       "file": "Main.dc.html",
-      "title": "Feed 4:5 — A · „Kúpiš mi to?“",
+      "title": "Feed 4:5 — A · Našetril som si",
       "x": 0,
       "y": 0,
       "w": 1080,
@@ -10,25 +10,41 @@
     },
     {
       "file": "FeedB.dc.html",
-      "title": "Feed 4:5 — B · Naposledy",
+      "title": "Feed 4:5 — B · Nemusíš sa pýtať",
       "x": 1240,
       "y": 0,
       "w": 1080,
       "h": 1350
     },
     {
-      "file": "StoryA.dc.html",
-      "title": "Story 9:16 — A",
+      "file": "FeedC.dc.html",
+      "title": "Feed 4:5 — C · Ako si ho splniť",
       "x": 2480,
       "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "StoryA.dc.html",
+      "title": "Story 9:16 — A · Našetril som si",
+      "x": 0,
+      "y": 1590,
       "w": 1080,
       "h": 1920
     },
     {
       "file": "StoryB.dc.html",
-      "title": "Story 9:16 — B",
-      "x": 3720,
-      "y": 0,
+      "title": "Story 9:16 — B · Nemusíš sa pýtať",
+      "x": 1240,
+      "y": 1590,
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "file": "StoryC.dc.html",
+      "title": "Story 9:16 — C · Ako si ho splniť",
+      "x": 2480,
+      "y": 1590,
       "w": 1080,
       "h": 1920
     },
@@ -36,7 +52,7 @@
       "file": "Card1.dc.html",
       "title": "Carousel 1/5",
       "x": 0,
-      "y": 2140,
+      "y": 3750,
       "w": 1080,
       "h": 1350
     },
@@ -44,7 +60,7 @@
       "file": "Card2.dc.html",
       "title": "Carousel 2/5",
       "x": 1240,
-      "y": 2140,
+      "y": 3750,
       "w": 1080,
       "h": 1350
     },
@@ -52,7 +68,7 @@
       "file": "Card3.dc.html",
       "title": "Carousel 3/5",
       "x": 2480,
-      "y": 2140,
+      "y": 3750,
       "w": 1080,
       "h": 1350
     },
@@ -60,7 +76,7 @@
       "file": "Card4.dc.html",
       "title": "Carousel 4/5",
       "x": 3720,
-      "y": 2140,
+      "y": 3750,
       "w": 1080,
       "h": 1350
     },
@@ -68,15 +84,22 @@
       "file": "Card5.dc.html",
       "title": "Carousel 5/5",
       "x": 4960,
-      "y": 2140,
+      "y": 3750,
       "w": 1080,
       "h": 1350
     }
   ],
   "annotations": [
     {
+      "id": "primary-text",
+      "x": 3720,
+      "y": 1590,
+      "w": 620,
+      "text": "PRIMARY TEXT do Meta Ads Manager\n(text nad obrázkom — Meta ho oreže\npo ~125 znakoch, hook musí byť prvý)\n\n— A —\n„Kúpiš mi to?“ pozná asi každý rodič. 🙂\nS Amosom môže byť odpoveďou vlastný cieľ\ndieťaťa. Plnením rozvojového plánu získava\nvreckové, sleduje svoj pokrok a učí sa, že\nveci, po ktorých túži, majú svoju hodnotu.\n\n— B —\nKoľkokrát denne sa pýtaš, či sú úlohy\nhotové? Amos zadá úlohu, skontroluje\nfotku a vyplatí vreckové. Pravidlá sú\nkaždý deň rovnaké, takže nemusíš byť\nrozhodca — a naťahovanie končí.\n\n— C —\nNechceš mu splniť každý sen. Chceš ho\nnaučiť, ako si ho splní sám. V Amosovi\nsi dieťa vyberie cieľ, plní úlohy doma\na sporí si naň — a na konci sú to naozaj\njeho peniaze.\n\nHeadline: pozri text na kreatíve\nCTA tlačidlo v Meta: Prihlásiť sa"
+    },
+    {
       "id": "campaign-note",
-      "x": 4960,
+      "x": 3720,
       "y": 0,
       "w": 470,
       "text": "Meta kampaň — 100 € / 6 dní\n\nOdkaz vo všetkých reklamách:\nhttps://amos.finance\n(funnel s Pixelom 302713312832266\na Lead eventom pri registrácii)\n\nFeed 4:5 → FB/IG Feed\nStory 9:16 → Stories/Reels\nCarousel 1-5 → jedna reklama, 5 kariet\n\nExport: Export → PNG na každom artboarde.\n\nPozor pri úprave textu: podnadpis nechaj\ndo ~76 znakov, inak sa zalomí do 3 riadkov\na v 4:5 naruší telefón.\n\nOver, či je ponuka „prvých 333 rodín“\nstále aktuálna — je prevzatá z textov\nna amos.kids."
