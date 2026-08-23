@@ -92,6 +92,26 @@ def logo(width=244):
     return f'    <img src="amos-logo-white.png" alt="Amos.kids" style="width: {width}px; height: auto;">'
 
 
+def headline(plain, accent, size=96):
+    return f"""    <h1 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: {size}px; line-height: 1.06; letter-spacing: -0.015em; color: #ffffff;">{plain}<br><span style="color: {AMBER};">{accent}</span></h1>"""
+
+
+def struck_bubble(text, size=42):
+    """The nagging question as a struck-through speech bubble.
+
+    A tester read the old „…?“ / „Naposledy.“ pair as two unrelated lines: the
+    quotation marks alone did not say who was speaking, and the ellipsis did
+    not say the asking stops. The bubble names the speaker and the strikethrough
+    carries "not any more" without spending words on either.
+    """
+    tail = ('<div style="position: absolute; left: 76px; bottom: -15px; width: 34px; height: 34px; '
+            'background: #ffffff; transform: rotate(45deg);"></div>')
+    return f"""    <div style="position: relative; display: inline-block; padding: 22px 40px; border-radius: 32px; background: #ffffff;">
+      <span style="font-family: {BODY}; font-size: {size}px; font-weight: 700; color: #4B3A63; text-decoration: line-through; text-decoration-thickness: 5px; text-decoration-color: #E5484D;">{text}</span>
+      {tail}
+    </div>"""
+
+
 def phone(src, top, width):
     return f"""  <img src="{src}" alt="Ukážka aplikácie Amos.kids" style="position: absolute; left: 50%; top: {top}px; width: {width}px; margin-left: -{width // 2}px; border-radius: 46px; box-shadow: 0 48px 90px rgba(23,4,58,0.55);">"""
 
@@ -101,8 +121,8 @@ def phone(src, top, width):
 # --------------------------------------------------------------------------
 
 def ad(*, width, height, pad_top, gap, phone_top, phone_width,
-       phone_src, badge_text, head_plain, head_accent, sub, cta_text):
-    inner = f"""{phone(phone_src, phone_top, phone_width)}
+       phone_src, badge_text, head_html, sub, cta_text, phone_shift=0):
+    inner = f"""{phone(phone_src, phone_top + phone_shift, phone_width)}
 
   <div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: {gap}px; padding: {pad_top}px 76px 0; text-align: center;">
 
@@ -110,7 +130,7 @@ def ad(*, width, height, pad_top, gap, phone_top, phone_width,
 
 {badge(badge_text)}
 
-    <h1 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: 96px; line-height: 1.06; letter-spacing: -0.015em; color: #ffffff;">{head_plain}<br><span style="color: {AMBER};">{head_accent}</span></h1>
+{head_html}
 
     <p style="margin: 0; max-width: 780px; font-size: 39px; font-weight: 600; line-height: 1.38; color: rgba(255,255,255,0.9); text-wrap: pretty;">{sub}</p>
 
@@ -126,19 +146,19 @@ def ad(*, width, height, pad_top, gap, phone_top, phone_width,
 VARIANTS = {
     "A": dict(
         badge_text="Zadarmo pre prvých 333 rodín",
-        head_plain="Už žiadne",
-        head_accent="„Kúpiš mi to?“",
+        head_html=headline("Už žiadne", "„Kúpiš mi to?“"),
         sub="Dieťa si na svoje veci zarobí samo — cez bežné úlohy doma.",
         cta_text="Chcem to skúsiť",
         phone_src="tasks-rewards.jpg",
     ),
     "B": dict(
         badge_text="Zadarmo pre prvých 333 rodín",
-        head_plain="„Urobil si si už povinnosti?“",
-        head_accent="Naposledy.",
+        head_html=struck_bubble("Urobil si si úlohy?") + "\n"
+                  + headline("Nemusíš sa", "pýtať."),
         sub="Amos zadá úlohu, skontroluje fotku a vyplatí vreckové. Naťahovanie preberá za teba.",
         cta_text="Chcem to skúsiť",
         phone_src="parent-overview.jpg",
+        phone_shift=40,  # the bubble makes this column taller than variant A's
     ),
 }
 
@@ -167,10 +187,10 @@ def card(*, step, head, body_text, phone_src=None, closing=False):
         return shell(1080, 1350, block)
 
     if phone_src is None:
-        block = f"""  <div style="position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 44px; padding: 0 88px; text-align: center;">
+        block = f"""  <div style="position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 46px; padding: 0 88px; text-align: center;">
 {logo(244)}
-    <h2 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: 104px; line-height: 1.04; letter-spacing: -0.015em; color: #ffffff;">{head}</h2>
-    <p style="margin: 0; font-size: 42px; font-weight: 600; line-height: 1.38; color: {AMBER}; text-wrap: pretty;">{body_text}</p>
+{struck_bubble(head, 46)}
+    <h2 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: 104px; line-height: 1.04; letter-spacing: -0.015em; color: #ffffff;">{body_text}</h2>
     <p style="margin: 0; font-size: 28px; font-weight: 600; color: rgba(255,255,255,0.66);">Potiahni ďalej →</p>
   </div>"""
         return shell(1080, 1350, block)
@@ -186,7 +206,7 @@ def card(*, step, head, body_text, phone_src=None, closing=False):
 
 
 CARDS = [
-    dict(step=0, head="„Urobil si si už povinnosti?“", body_text="Naposledy."),
+    dict(step=0, head="Urobil si si úlohy?", body_text="Nemusíš sa pýtať."),
     dict(step=1, head="Zadáš úlohu s odmenou",
          body_text="Vyber si zo šablón alebo si vytvor vlastnú. Odmenu v eurách určuješ ty.",
          phone_src="tasks-rewards.jpg"),
