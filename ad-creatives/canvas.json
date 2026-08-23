@@ -2,7 +2,7 @@
   "artboards": [
     {
       "file": "Main.dc.html",
-      "title": "Feed 4:5 — A",
+      "title": "Feed 4:5 — A · „Kúpiš mi to?“",
       "x": 0,
       "y": 0,
       "w": 1080,
@@ -10,7 +10,7 @@
     },
     {
       "file": "FeedB.dc.html",
-      "title": "Feed 4:5 — B",
+      "title": "Feed 4:5 — B · Naposledy",
       "x": 1240,
       "y": 0,
       "w": 1080,
@@ -19,27 +19,67 @@
     {
       "file": "StoryA.dc.html",
       "title": "Story 9:16 — A",
-      "x": 0,
-      "y": 1560,
+      "x": 2480,
+      "y": 0,
       "w": 1080,
       "h": 1920
     },
     {
       "file": "StoryB.dc.html",
       "title": "Story 9:16 — B",
-      "x": 1240,
-      "y": 1560,
+      "x": 3720,
+      "y": 0,
       "w": 1080,
       "h": 1920
+    },
+    {
+      "file": "Card1.dc.html",
+      "title": "Carousel 1/5",
+      "x": 0,
+      "y": 2140,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "Card2.dc.html",
+      "title": "Carousel 2/5",
+      "x": 1240,
+      "y": 2140,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "Card3.dc.html",
+      "title": "Carousel 3/5",
+      "x": 2480,
+      "y": 2140,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "Card4.dc.html",
+      "title": "Carousel 4/5",
+      "x": 3720,
+      "y": 2140,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "Card5.dc.html",
+      "title": "Carousel 5/5",
+      "x": 4960,
+      "y": 2140,
+      "w": 1080,
+      "h": 1350
     }
   ],
   "annotations": [
     {
       "id": "campaign-note",
-      "x": 2440,
+      "x": 4960,
       "y": 0,
-      "w": 460,
-      "text": "Meta kampaň — 100 € / 6 dní\n\nA = painkiller hook, B = benefit hook.\nOba vedú na family-finance-trail.lovable.app\n(Pixel 302713312832266, Lead event pri registrácii).\n\nFeed 4:5 → FB/IG Feed\nStory 9:16 → Stories/Reels\n\nExport: Export → PNG na každom artboarde.\n\nPozor pri úprave textu: podnadpis nechaj\ndo ~76 znakov, inak sa zalomí do 3 riadkov\na v 4:5 naruší telefón."
+      "w": 470,
+      "text": "Meta kampaň — 100 € / 6 dní\n\nOdkaz vo všetkých reklamách:\nhttps://amos.finance\n(funnel s Pixelom 302713312832266\na Lead eventom pri registrácii)\n\nFeed 4:5 → FB/IG Feed\nStory 9:16 → Stories/Reels\nCarousel 1-5 → jedna reklama, 5 kariet\n\nExport: Export → PNG na každom artboarde.\n\nPozor pri úprave textu: podnadpis nechaj\ndo ~76 znakov, inak sa zalomí do 3 riadkov\na v 4:5 naruší telefón.\n\nOver, či je ponuka „prvých 333 rodín“\nstále aktuálna — je prevzatá z textov\nna amos.kids."
     }
   ],
   "launch": {

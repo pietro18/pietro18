@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Generate the .dc.html artboards for the Amos Kids Meta ad creatives.
+"""Generate the .dc.html artboards for the Amos Kids Meta campaign.
 
-Fonts are inlined as base64 @font-face so PNG export keeps the real brand
-type (Google Fonts are not embedded by the canvas exporter).
+Two single-image ads (Feed 4:5 + Story 9:16, two copy variants) and a
+five-card carousel.
+
+Fonts are inlined as base64 because the canvas exporter does not embed Google
+Fonts. Headlines use Baloo 2 rather than the app's Fredoka: Google serves no
+Fredoka subset containing č, ď, ľ, ň, ŕ or ť, so Slovak headlines set in
+Fredoka fall back to a system font mid-word.
 """
 import json
 import pathlib
@@ -16,39 +21,28 @@ PURPLE_MID = "#7B2AE8"
 PURPLE_LIGHT = "#A65EE6"
 AMBER = "#FFC94D"
 TEAL = "#1EDCB6"
-INK = "#1F2937"
 
+DISPLAY = "'Baloo 2', 'Trebuchet MS', sans-serif"
+BODY = "'Nunito', 'Trebuchet MS', sans-serif"
+
+# Each face is subsetted to the whole Slovak alphabet, so no unicode-range
+# splitting is needed and no glyph can silently fall back.
 FONT_FACES = """
-    @font-face {{
-      font-family: 'Fredoka'; font-style: normal; font-weight: 600 700;
-      font-display: block;
-      src: url(data:font/woff2;base64,{fredoka_latinext}) format('woff2');
-      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }}
-    @font-face {{
-      font-family: 'Fredoka'; font-style: normal; font-weight: 600 700;
-      font-display: block;
-      src: url(data:font/woff2;base64,{fredoka_latin}) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }}
-    @font-face {{
-      font-family: 'Nunito'; font-style: normal; font-weight: 600 700;
-      font-display: block;
-      src: url(data:font/woff2;base64,{nunito_latinext}) format('woff2');
-      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }}
-    @font-face {{
-      font-family: 'Nunito'; font-style: normal; font-weight: 600 700;
-      font-display: block;
-      src: url(data:font/woff2;base64,{nunito_latin}) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-    }}
-""".format(**FONTS)
+    @font-face {{ font-family: 'Baloo 2'; font-style: normal; font-weight: 700;
+      font-display: block; src: url(data:font/woff2;base64,{baloo2}) format('woff2'); }}
+    @font-face {{ font-family: 'Nunito'; font-style: normal; font-weight: 600;
+      font-display: block; src: url(data:font/woff2;base64,{nunito600}) format('woff2'); }}
+    @font-face {{ font-family: 'Nunito'; font-style: normal; font-weight: 700;
+      font-display: block; src: url(data:font/woff2;base64,{nunito700}) format('woff2'); }}
+""".format(baloo2=FONTS["baloo-2700"], nunito600=FONTS["nunito600"], nunito700=FONTS["nunito700"])
+
+BACKDROP = f"""
+  <div style="position: absolute; top: -18%; left: -12%; width: 760px; height: 760px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 70%);"></div>
+  <div style="position: absolute; bottom: -22%; right: -18%; width: 900px; height: 900px; border-radius: 50%; background: radial-gradient(circle, rgba(30,220,182,0.20) 0%, rgba(30,220,182,0) 68%);"></div>"""
 
 
-def artboard(*, width, height, pad_top, phone_top, phone_width, phone_src,
-             badge, head_plain, head_accent, sub, cta, gap):
-    """One ad artboard. Everything is inline-styled so it stays editable."""
+def shell(width, height, inner):
+    """The frame every artboard shares: brand gradient, glow, inlined fonts."""
     return f"""<!doctype html>
 <html>
 <head>
@@ -65,37 +59,9 @@ def artboard(*, width, height, pad_top, phone_top, phone_width, phone_src,
     a:hover {{ color: #ffd977; }}
   </style>
 </helmet>
-<div style="position: relative; width: {width}px; height: {height}px; overflow: hidden; background: linear-gradient(158deg, {PURPLE_DEEP} 0%, {PURPLE_MID} 46%, {PURPLE_LIGHT} 100%); font-family: 'Nunito', 'Trebuchet MS', sans-serif;">
-
-  <div style="position: absolute; top: -18%; left: -12%; width: 760px; height: 760px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 70%);"></div>
-  <div style="position: absolute; bottom: -22%; right: -18%; width: 900px; height: 900px; border-radius: 50%; background: radial-gradient(circle, rgba(30,220,182,0.20) 0%, rgba(30,220,182,0) 68%);"></div>
-
-  <img src="{phone_src}" alt="Ukážka aplikácie Amos.kids" style="position: absolute; left: 50%; top: {phone_top}px; width: {phone_width}px; margin-left: -{phone_width // 2}px; border-radius: 46px; box-shadow: 0 48px 90px rgba(23,4,58,0.55);">
-
-  <div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: {gap}px; padding: {pad_top}px 76px 0; text-align: center;">
-
-    <img src="amos-logo-white.png" alt="Amos.kids" style="width: 244px; height: auto;">
-
-    <div style="display: flex; align-items: center; gap: 14px; padding: 15px 30px; border-radius: 999px; background: {TEAL}; color: #05372C; font-size: 27px; font-weight: 700; letter-spacing: 0.01em;">
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#05372C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"></path>
-      </svg>
-      {badge}
-    </div>
-
-    <h1 style="margin: 0; font-family: 'Fredoka', 'Trebuchet MS', sans-serif; font-weight: 700; font-size: 96px; line-height: 1.06; letter-spacing: -0.015em; color: #ffffff; text-wrap: balance;">{head_plain}<br><span style="color: {AMBER};">{head_accent}</span></h1>
-
-    <p style="margin: 0; max-width: 780px; font-size: 39px; font-weight: 600; line-height: 1.38; color: rgba(255,255,255,0.9); text-wrap: pretty;">{sub}</p>
-
-    <div style="display: flex; align-items: center; gap: 18px; padding: 27px 54px; border-radius: 999px; background: #ffffff; color: {PURPLE_DEEP}; font-family: 'Fredoka', 'Trebuchet MS', sans-serif; font-size: 40px; font-weight: 700; box-shadow: 0 18px 40px rgba(23,4,58,0.32);">
-      {cta}
-      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="{PURPLE_DEEP}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M5 12h13"></path>
-        <path d="M12 5l7 7-7 7"></path>
-      </svg>
-    </div>
-
-  </div>
+<div style="position: relative; width: {width}px; height: {height}px; overflow: hidden; background: linear-gradient(158deg, {PURPLE_DEEP} 0%, {PURPLE_MID} 46%, {PURPLE_LIGHT} 100%); font-family: {BODY};">
+{BACKDROP}
+{inner}
 </div>
 </x-dc>
 </body>
@@ -103,58 +69,188 @@ def artboard(*, width, height, pad_top, phone_top, phone_width, phone_src,
 """
 
 
+def badge(text):
+    return f"""    <div style="display: flex; align-items: center; gap: 14px; padding: 15px 30px; border-radius: 999px; background: {TEAL}; color: #05372C; font-size: 27px; font-weight: 700;">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#05372C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z"></path>
+      </svg>
+      {text}
+    </div>"""
+
+
+def cta(text, size=40):
+    return f"""    <div style="display: flex; align-items: center; gap: 18px; padding: 27px 54px; border-radius: 999px; background: #ffffff; color: {PURPLE_DEEP}; font-family: {DISPLAY}; font-size: {size}px; font-weight: 700; box-shadow: 0 18px 40px rgba(23,4,58,0.32);">
+      {text}
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="{PURPLE_DEEP}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h13"></path>
+        <path d="M12 5l7 7-7 7"></path>
+      </svg>
+    </div>"""
+
+
+def logo(width=244):
+    return f'    <img src="amos-logo-white.png" alt="Amos.kids" style="width: {width}px; height: auto;">'
+
+
+def phone(src, top, width):
+    return f"""  <img src="{src}" alt="Ukážka aplikácie Amos.kids" style="position: absolute; left: 50%; top: {top}px; width: {width}px; margin-left: -{width // 2}px; border-radius: 46px; box-shadow: 0 48px 90px rgba(23,4,58,0.55);">"""
+
+
+# --------------------------------------------------------------------------
+# Single-image ads
+# --------------------------------------------------------------------------
+
+def ad(*, width, height, pad_top, gap, phone_top, phone_width,
+       phone_src, badge_text, head_plain, head_accent, sub, cta_text):
+    inner = f"""{phone(phone_src, phone_top, phone_width)}
+
+  <div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: {gap}px; padding: {pad_top}px 76px 0; text-align: center;">
+
+{logo()}
+
+{badge(badge_text)}
+
+    <h1 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: 96px; line-height: 1.06; letter-spacing: -0.015em; color: #ffffff;">{head_plain}<br><span style="color: {AMBER};">{head_accent}</span></h1>
+
+    <p style="margin: 0; max-width: 780px; font-size: 39px; font-weight: 600; line-height: 1.38; color: rgba(255,255,255,0.9); text-wrap: pretty;">{sub}</p>
+
+{cta(cta_text)}
+
+  </div>"""
+    return shell(width, height, inner)
+
+
+# Both hooks are pains the app's own landing copy names: the endless "buy me
+# that" and the endless reminding. Variant B used to be a benefit ("learn the
+# value of money") — a vitamin, not a painkiller.
 VARIANTS = {
     "A": dict(
-        badge="Hľadáme prvých testerov",
+        badge_text="Zadarmo pre prvých 333 rodín",
         head_plain="Už žiadne",
         head_accent="„Kúpiš mi to?“",
-        sub="Deti si na svoje veci zarobia samy — cez bežné úlohy doma.",
-        cta="Vyskúšať zadarmo",
+        sub="Dieťa si na svoje veci zarobí samo — cez bežné úlohy doma.",
+        cta_text="Chcem to skúsiť",
         phone_src="tasks-rewards.jpg",
     ),
     "B": dict(
-        badge="Hľadáme prvých testerov",
-        head_plain="Naučte deti",
-        head_accent="hodnotu peňazí",
-        sub="Vy zadáte úlohu, dieťa ju splní a ušetrí si na svoj cieľ.",
-        cta="Vyskúšať zadarmo",
-        phone_src="goals-savings.jpg",
+        badge_text="Zadarmo pre prvých 333 rodín",
+        head_plain="„Urobil si si už povinnosti?“",
+        head_accent="Naposledy.",
+        sub="Amos zadá úlohu, skontroluje fotku a vyplatí vreckové. Naťahovanie preberá za teba.",
+        cta_text="Chcem to skúsiť",
+        phone_src="parent-overview.jpg",
     ),
 }
 
-# The text column runs ~545px of children plus 4 gaps plus pad_top; phone_top
-# clears that by enough for the CTA's drop shadow (~58px) not to land on the phone.
-# Feed 4:5 — text block on top, phone bleeding off the bottom edge.
+# The text column runs ~545px of children plus gaps plus pad_top; phone_top
+# clears that by enough for the CTA's drop shadow (~58px) to miss the phone.
 FEED = dict(width=1080, height=1350, pad_top=74, gap=34, phone_top=848, phone_width=600)
-# Story 9:16 — everything that matters inside the ~250px safe zones, with slack
-# for Reels' deeper top chrome.
+# Story keeps everything inside the ~250px safe zones, with slack for Reels'
+# deeper top chrome.
 STORY = dict(width=1080, height=1920, pad_top=304, gap=40, phone_top=1092, phone_width=660)
 
-TARGETS = {
-    "Main.dc.html": (FEED, "A"),
-    "FeedB.dc.html": (FEED, "B"),
-    "StoryA.dc.html": (STORY, "A"),
-    "StoryB.dc.html": (STORY, "B"),
-}
 
-for filename, (frame, variant) in TARGETS.items():
-    (HERE / filename).write_text(artboard(**frame, **VARIANTS[variant]), encoding="utf-8")
+# --------------------------------------------------------------------------
+# Carousel — 5 cards, swiped left to right
+# --------------------------------------------------------------------------
+
+def card(*, step, head, body_text, phone_src=None, closing=False):
+    """One carousel card. Cards 2-4 carry a screenshot; 1 and 5 are all type."""
+    if closing:
+        block = f"""  <div style="position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 40px; padding: 0 92px; text-align: center;">
+{logo(280)}
+    <h2 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: 82px; line-height: 1.08; color: #ffffff;">{head}</h2>
+    <p style="margin: 0; font-size: 38px; font-weight: 600; line-height: 1.4; color: rgba(255,255,255,0.9); text-wrap: pretty;">{body_text}</p>
+{cta("Chcem to skúsiť", 42)}
+    <p style="margin: 0; font-size: 27px; font-weight: 600; color: rgba(255,255,255,0.72);">Bez platobnej karty · Bez záväzkov</p>
+  </div>"""
+        return shell(1080, 1350, block)
+
+    if phone_src is None:
+        block = f"""  <div style="position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 44px; padding: 0 88px; text-align: center;">
+{logo(244)}
+    <h2 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: 104px; line-height: 1.04; letter-spacing: -0.015em; color: #ffffff;">{head}</h2>
+    <p style="margin: 0; font-size: 42px; font-weight: 600; line-height: 1.38; color: {AMBER}; text-wrap: pretty;">{body_text}</p>
+    <p style="margin: 0; font-size: 28px; font-weight: 600; color: rgba(255,255,255,0.66);">Potiahni ďalej →</p>
+  </div>"""
+        return shell(1080, 1350, block)
+
+    block = f"""{phone(phone_src, 742, 560)}
+
+  <div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: 30px; padding: 96px 88px 0; text-align: center;">
+    <div style="display: flex; align-items: center; justify-content: center; width: 76px; height: 76px; border-radius: 50%; background: {AMBER}; color: #4A2A00; font-family: {DISPLAY}; font-size: 42px; font-weight: 700;">{step}</div>
+    <h2 style="margin: 0; font-family: {DISPLAY}; font-weight: 700; font-size: 76px; line-height: 1.08; letter-spacing: -0.01em; color: #ffffff;">{head}</h2>
+    <p style="margin: 0; max-width: 800px; font-size: 36px; font-weight: 600; line-height: 1.38; color: rgba(255,255,255,0.88); text-wrap: pretty;">{body_text}</p>
+  </div>"""
+    return shell(1080, 1350, block)
+
+
+CARDS = [
+    dict(step=0, head="„Urobil si si už povinnosti?“", body_text="Naposledy."),
+    dict(step=1, head="Zadáš úlohu s odmenou",
+         body_text="Vyber si zo šablón alebo si vytvor vlastnú. Odmenu v eurách určuješ ty.",
+         phone_src="tasks-rewards.jpg"),
+    dict(step=2, head="Dieťa pošle fotku, AI ju skontroluje",
+         body_text="Pravidlá sú každý deň rovnaké. Nemusíš byť rozhodca a nemusíte sa hádať.",
+         phone_src="parent-overview.jpg"),
+    dict(step=3, head="Odmena ide na sen, ktorý si vybralo samo",
+         body_text="Bicykel, chrániče, lístok na hokej. Nie body pre body — naozajstné peniaze.",
+         phone_src="goals-savings.jpg"),
+    dict(step=4, head="Zadarmo navždy pre prvých 333 rodín",
+         body_text="Prvých 333 rodín na Slovensku si prémiové funkcie zamkne zadarmo natrvalo.",
+         closing=True),
+]
+
+
+# --------------------------------------------------------------------------
+
+TARGETS = {}
+for name, frame, variant in (("Main.dc.html", FEED, "A"), ("FeedB.dc.html", FEED, "B"),
+                             ("StoryA.dc.html", STORY, "A"), ("StoryB.dc.html", STORY, "B")):
+    TARGETS[name] = ad(**frame, **VARIANTS[variant])
+
+for i, spec in enumerate(CARDS, start=1):
+    TARGETS[f"Card{i}.dc.html"] = card(**spec)
+
+for filename, html in TARGETS.items():
+    (HERE / filename).write_text(html, encoding="utf-8")
     print("wrote", filename)
 
+GAP_X, GAP_Y = 160, 220
 canvas = {
     "artboards": [
-        {"file": "Main.dc.html", "title": "Feed 4:5 — A", "x": 0, "y": 0, "w": 1080, "h": 1350},
-        {"file": "FeedB.dc.html", "title": "Feed 4:5 — B", "x": 1240, "y": 0, "w": 1080, "h": 1350},
-        {"file": "StoryA.dc.html", "title": "Story 9:16 — A", "x": 0, "y": 1560, "w": 1080, "h": 1920},
-        {"file": "StoryB.dc.html", "title": "Story 9:16 — B", "x": 1240, "y": 1560, "w": 1080, "h": 1920},
+        {"file": "Main.dc.html", "title": "Feed 4:5 — A · „Kúpiš mi to?“", "x": 0, "y": 0, "w": 1080, "h": 1350},
+        {"file": "FeedB.dc.html", "title": "Feed 4:5 — B · Naposledy", "x": 1240, "y": 0, "w": 1080, "h": 1350},
+        {"file": "StoryA.dc.html", "title": "Story 9:16 — A", "x": 2480, "y": 0, "w": 1080, "h": 1920},
+        {"file": "StoryB.dc.html", "title": "Story 9:16 — B", "x": 3720, "y": 0, "w": 1080, "h": 1920},
+    ] + [
+        {"file": f"Card{i}.dc.html", "title": f"Carousel {i}/5", "x": (i - 1) * (1080 + GAP_X),
+         "y": 1920 + GAP_Y, "w": 1080, "h": 1350}
+        for i in range(1, 6)
     ],
     "annotations": [
         {
             "id": "campaign-note",
-            "x": 2440,
+            "x": 4960,
             "y": 0,
-            "w": 460,
-            "text": "Meta kampaň — 100 € / 6 dní\n\nA = painkiller hook, B = benefit hook.\nOba vedú na family-finance-trail.lovable.app\n(Pixel 302713312832266, Lead event pri registrácii).\n\nFeed 4:5 → FB/IG Feed\nStory 9:16 → Stories/Reels\n\nExport: Export → PNG na každom artboarde.\n\nPozor pri úprave textu: podnadpis nechaj\ndo ~76 znakov, inak sa zalomí do 3 riadkov\na v 4:5 naruší telefón.",
+            "w": 470,
+            "text": (
+                "Meta kampaň — 100 € / 6 dní\n\n"
+                "Odkaz vo všetkých reklamách:\n"
+                "https://amos.finance\n"
+                "(funnel s Pixelom 302713312832266\n"
+                "a Lead eventom pri registrácii)\n\n"
+                "Feed 4:5 → FB/IG Feed\n"
+                "Story 9:16 → Stories/Reels\n"
+                "Carousel 1-5 → jedna reklama, 5 kariet\n\n"
+                "Export: Export → PNG na každom artboarde.\n\n"
+                "Pozor pri úprave textu: podnadpis nechaj\n"
+                "do ~76 znakov, inak sa zalomí do 3 riadkov\n"
+                "a v 4:5 naruší telefón.\n\n"
+                "Over, či je ponuka „prvých 333 rodín“\n"
+                "stále aktuálna — je prevzatá z textov\n"
+                "na amos.kids."
+            ),
         }
     ],
     "launch": {"view": "canvas"},
