@@ -1,0 +1,48 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "Feed 4:5 — A",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "FeedB.dc.html",
+      "title": "Feed 4:5 — B",
+      "x": 1240,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
+      "file": "StoryA.dc.html",
+      "title": "Story 9:16 — A",
+      "x": 0,
+      "y": 1560,
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "file": "StoryB.dc.html",
+      "title": "Story 9:16 — B",
+      "x": 1240,
+      "y": 1560,
+      "w": 1080,
+      "h": 1920
+    }
+  ],
+  "annotations": [
+    {
+      "id": "campaign-note",
+      "x": 2440,
+      "y": 0,
+      "w": 460,
+      "text": "Meta kampaň — 100 € / 6 dní\n\nA = painkiller hook, B = benefit hook.\nOba vedú na family-finance-trail.lovable.app\n(Pixel 302713312832266, Lead event pri signupe).\n\nFeed 4:5 → FB/IG Feed\nStory 9:16 → Stories/Reels\n\nExport: Export → PNG na každom artboarde."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}
