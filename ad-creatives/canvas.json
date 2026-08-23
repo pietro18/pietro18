@@ -25,6 +25,14 @@
       "h": 1350
     },
     {
+      "file": "FeedD.dc.html",
+      "title": "Feed 4:5 — D · Rutina nejde sama",
+      "x": 3720,
+      "y": 0,
+      "w": 1080,
+      "h": 1350
+    },
+    {
       "file": "StoryA.dc.html",
       "title": "Story 9:16 — A · Našetril som si",
       "x": 0,
@@ -44,6 +52,14 @@
       "file": "StoryC.dc.html",
       "title": "Story 9:16 — C · Ako si ho splniť",
       "x": 2480,
+      "y": 1590,
+      "w": 1080,
+      "h": 1920
+    },
+    {
+      "file": "StoryD.dc.html",
+      "title": "Story 9:16 — D · Rutina nejde sama",
+      "x": 3720,
       "y": 1590,
       "w": 1080,
       "h": 1920
@@ -95,7 +111,7 @@
       "x": 3720,
       "y": 1590,
       "w": 620,
-      "text": "PRIMARY TEXT do Meta Ads Manager\n(text nad obrázkom — Meta ho oreže\npo ~125 znakoch, hook musí byť prvý)\n\n— A —\n„Kúpiš mi to?“ pozná asi každý rodič. 🙂\nS Amosom môže byť odpoveďou vlastný cieľ\ndieťaťa. Plnením rozvojového plánu získava\nvreckové, sleduje svoj pokrok a učí sa, že\nveci, po ktorých túži, majú svoju hodnotu.\n\n— B —\nKoľkokrát denne sa pýtaš, či sú úlohy\nhotové? Amos zadá úlohu, skontroluje\nfotku a vyplatí vreckové. Pravidlá sú\nkaždý deň rovnaké, takže nemusíš byť\nrozhodca — a naťahovanie končí.\n\n— C —\nNechceš mu splniť každý sen. Chceš ho\nnaučiť, ako si ho splní sám. V Amosovi\nsi dieťa vyberie cieľ, plní úlohy doma\na sporí si naň — a na konci sú to naozaj\njeho peniaze.\n\nHeadline: pozri text na kreatíve\nCTA tlačidlo v Meta: Prihlásiť sa"
+      "text": "PRIMARY TEXT do Meta Ads Manager\n(text nad obrázkom — Meta ho oreže\npo ~125 znakoch, hook musí byť prvý)\n\n— A —\n„Kúpiš mi to?“ pozná asi každý rodič. 🙂\nS Amosom môže byť odpoveďou vlastný cieľ\ndieťaťa. Plnením rozvojového plánu získava\nvreckové, sleduje svoj pokrok a učí sa, že\nveci, po ktorých túži, majú svoju hodnotu.\n\n— B —\nKoľkokrát denne sa pýtaš, či sú úlohy\nhotové? Amos zadá úlohu, skontroluje\nfotku a vyplatí vreckové. Pravidlá sú\nkaždý deň rovnaké, takže nemusíš byť\nrozhodca — a naťahovanie končí.\n\n— C —\nNechceš mu splniť každý sen. Chceš ho\nnaučiť, ako si ho splní sám. V Amosovi\nsi dieťa vyberie cieľ, plní úlohy doma\na sporí si naň — a na konci sú to naozaj\njeho peniaze.\n\n— D —\nNiektorým deťom rutina jednoducho\nnejde sama. Amos preto dáva vždy len\njednu úlohu naraz, odmenu hneď a\npravidlá, ktoré sa každý deň nemenia.\nFotku kontroluje AI, takže nemusíš byť\nrozhodca. Má aj režim sústredenia:\njedna úloha, väčšie písmo, žiadne\nanimácie.\n\nHeadline: pozri text na kreatíve\nCTA tlačidlo v Meta: Prihlásiť sa\n\nPOZOR pri variante D:\nNepíš do reklamy „vaše dieťa má ADHD“\nani sa na diagnózu nepýtaj — Meta to\nzamieta podľa pravidiel o osobných\nvlastnostiach. Opisuj produkt, nie\nčitateľa. Ani ADHD/Asperger necieľ\nako záujem; nech sa rodičia nájdu sami."
     },
     {
       "id": "campaign-note",

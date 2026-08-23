@@ -159,7 +159,7 @@ VARIANTS = {
         badge_text="Zadarmo pre prvých 333 rodín",
         head_html=struck_bubble("Urobil si si úlohy?") + "\n"
                   + headline("Nemusíš sa", "pýtať."),
-        sub="Amos zadá úlohu, skontroluje fotku a vyplatí vreckové. Naťahovanie preberá za teba.",
+        sub="Zadá úlohu, skontroluje fotku, vyplatí vreckové. Naťahovanie berie na seba.",
         cta_text="Chcem to skúsiť",
         phone_src="parent-overview.jpg",
         phone_shift=40,  # the bubble makes this column taller than variant A's
@@ -175,6 +175,18 @@ VARIANTS = {
         cta_text="Chcem to skúsiť",
         phone_src="goals-savings.jpg",
         phone_shift=112,  # four headline lines instead of two
+    ),
+    # Built from the app's own "Vytvorené pre deti, ktorým rutina nejde sama"
+    # section. It describes how the product is designed and lets the right
+    # parents recognise themselves — it never tells the viewer what their child
+    # is. That is both kinder and what keeps the ad inside Meta's personal-
+    # attributes policy, which rejects copy asserting a health condition.
+    "D": dict(
+        badge_text="Zadarmo pre prvých 333 rodín",
+        head_html=headline("Pre deti, ktorým", "rutina nejde sama.", 84),
+        sub="Vždy len jedna úloha, okamžitá odmena a pravidlá, ktoré sa nemenia.",
+        cta_text="Chcem to skúsiť",
+        phone_src="tasks-rewards.jpg",
     ),
 }
 
@@ -241,11 +253,9 @@ CARDS = [
 # --------------------------------------------------------------------------
 
 TARGETS = {}
-for name, frame, variant in (("Main.dc.html", FEED, "A"), ("FeedB.dc.html", FEED, "B"),
-                             ("FeedC.dc.html", FEED, "C"),
-                             ("StoryA.dc.html", STORY, "A"), ("StoryB.dc.html", STORY, "B"),
-                             ("StoryC.dc.html", STORY, "C")):
-    TARGETS[name] = ad(**frame, **VARIANTS[variant])
+for key in ("A", "B", "C", "D"):
+    TARGETS["Main.dc.html" if key == "A" else f"Feed{key}.dc.html"] = ad(**FEED, **VARIANTS[key])
+    TARGETS[f"Story{key}.dc.html"] = ad(**STORY, **VARIANTS[key])
 
 for i, spec in enumerate(CARDS, start=1):
     TARGETS[f"Card{i}.dc.html"] = card(**spec)
@@ -256,7 +266,8 @@ for filename, html in TARGETS.items():
 
 GAP_X, GAP_Y = 160, 240
 COL = 1080 + GAP_X
-HOOKS = [("A", "Našetril som si"), ("B", "Nemusíš sa pýtať"), ("C", "Ako si ho splniť")]
+HOOKS = [("A", "Našetril som si"), ("B", "Nemusíš sa pýtať"),
+         ("C", "Ako si ho splniť"), ("D", "Rutina nejde sama")]
 STORY_ROW_Y = 1350 + GAP_Y
 CAROUSEL_ROW_Y = STORY_ROW_Y + 1920 + GAP_Y
 
@@ -302,8 +313,24 @@ canvas = {
                 "si dieťa vyberie cieľ, plní úlohy doma\n"
                 "a sporí si naň — a na konci sú to naozaj\n"
                 "jeho peniaze.\n\n"
+                "— D —\n"
+                "Niektorým deťom rutina jednoducho\n"
+                "nejde sama. Amos preto dáva vždy len\n"
+                "jednu úlohu naraz, odmenu hneď a\n"
+                "pravidlá, ktoré sa každý deň nemenia.\n"
+                "Fotku kontroluje AI, takže nemusíš byť\n"
+                "rozhodca. Má aj režim sústredenia:\n"
+                "jedna úloha, väčšie písmo, žiadne\n"
+                "animácie.\n\n"
                 "Headline: pozri text na kreatíve\n"
-                "CTA tlačidlo v Meta: Prihlásiť sa"
+                "CTA tlačidlo v Meta: Prihlásiť sa\n\n"
+                "POZOR pri variante D:\n"
+                "Nepíš do reklamy „vaše dieťa má ADHD“\n"
+                "ani sa na diagnózu nepýtaj — Meta to\n"
+                "zamieta podľa pravidiel o osobných\n"
+                "vlastnostiach. Opisuj produkt, nie\n"
+                "čitateľa. Ani ADHD/Asperger necieľ\n"
+                "ako záujem; nech sa rodičia nájdu sami."
             ),
         },
         {
