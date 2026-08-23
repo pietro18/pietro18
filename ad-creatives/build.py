@@ -70,7 +70,7 @@ def artboard(*, width, height, pad_top, phone_top, phone_width, phone_src,
   <div style="position: absolute; top: -18%; left: -12%; width: 760px; height: 760px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 70%);"></div>
   <div style="position: absolute; bottom: -22%; right: -18%; width: 900px; height: 900px; border-radius: 50%; background: radial-gradient(circle, rgba(30,220,182,0.20) 0%, rgba(30,220,182,0) 68%);"></div>
 
-  <img src="{phone_src}" alt="Amos Kids" style="position: absolute; left: 50%; top: {phone_top}px; width: {phone_width}px; margin-left: -{phone_width // 2}px; border-radius: 46px; box-shadow: 0 48px 90px rgba(23,4,58,0.55);">
+  <img src="{phone_src}" alt="Ukážka aplikácie Amos.kids" style="position: absolute; left: 50%; top: {phone_top}px; width: {phone_width}px; margin-left: -{phone_width // 2}px; border-radius: 46px; box-shadow: 0 48px 90px rgba(23,4,58,0.55);">
 
   <div style="position: relative; display: flex; flex-direction: column; align-items: center; gap: {gap}px; padding: {pad_top}px 76px 0; text-align: center;">
 
@@ -116,16 +116,19 @@ VARIANTS = {
         badge="Hľadáme prvých testerov",
         head_plain="Naučte deti",
         head_accent="hodnotu peňazí",
-        sub="Vy zadáte úlohu, dieťa ju splní a šetrí si na svoj cieľ.",
+        sub="Vy zadáte úlohu, dieťa ju splní a ušetrí si na svoj cieľ.",
         cta="Vyskúšať zadarmo",
         phone_src="goals-savings.jpg",
     ),
 }
 
+# The text column runs ~545px of children plus 4 gaps plus pad_top; phone_top
+# clears that by enough for the CTA's drop shadow (~58px) not to land on the phone.
 # Feed 4:5 — text block on top, phone bleeding off the bottom edge.
-FEED = dict(width=1080, height=1350, pad_top=74, gap=34, phone_top=796, phone_width=600)
-# Story 9:16 — everything that matters inside the ~250px safe zones.
-STORY = dict(width=1080, height=1920, pad_top=262, gap=40, phone_top=1044, phone_width=660)
+FEED = dict(width=1080, height=1350, pad_top=74, gap=34, phone_top=848, phone_width=600)
+# Story 9:16 — everything that matters inside the ~250px safe zones, with slack
+# for Reels' deeper top chrome.
+STORY = dict(width=1080, height=1920, pad_top=304, gap=40, phone_top=1092, phone_width=660)
 
 TARGETS = {
     "Main.dc.html": (FEED, "A"),
@@ -151,7 +154,7 @@ canvas = {
             "x": 2440,
             "y": 0,
             "w": 460,
-            "text": "Meta kampaň — 100 € / 6 dní\n\nA = painkiller hook, B = benefit hook.\nOba vedú na family-finance-trail.lovable.app\n(Pixel 302713312832266, Lead event pri signupe).\n\nFeed 4:5 → FB/IG Feed\nStory 9:16 → Stories/Reels\n\nExport: Export → PNG na každom artboarde.",
+            "text": "Meta kampaň — 100 € / 6 dní\n\nA = painkiller hook, B = benefit hook.\nOba vedú na family-finance-trail.lovable.app\n(Pixel 302713312832266, Lead event pri registrácii).\n\nFeed 4:5 → FB/IG Feed\nStory 9:16 → Stories/Reels\n\nExport: Export → PNG na každom artboarde.\n\nPozor pri úprave textu: podnadpis nechaj\ndo ~76 znakov, inak sa zalomí do 3 riadkov\na v 4:5 naruší telefón.",
         }
     ],
     "launch": {"view": "canvas"},
