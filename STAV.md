@@ -10,8 +10,14 @@ najmä čítanie celého kódu pred spustením, census pred každou operáciou, 
 môže ubrať riadky, a overovanie zmien cez `get_diff` a SQL namiesto dôvery
 v hlásenie agenta.
 
-Povolenia pre Lovable sú v `.claude/settings.json` a v novej session sa načítajú
-pri štarte, takže `query_database` a `send_message` už nemajú pýtať súhlas.
+Povolenia pre Lovable sú v `.claude/settings.json`. **Nespoliehaj sa na ne** —
+30. 8. bolo overené, že súbor bol prítomný už pri štarte procesu a napriek tomu
+sa neuplatnil: každé volanie do Lovable končilo na „requires approval", a to aj
+volania, ktoré predtým v tej istej session bežali. Zlom nastal po odpojení a
+opätovnom pripojení MCP servera Lovable. Ak sa to zopakuje, netreba to
+diagnostikovať znova — zadanie sa napíše sem a Peter ho vloží do Lovable ručne;
+overovanie odpovede agenta funguje aj bez prístupu.
+
 `deploy_project` ostáva mimo povolení — publikuje výhradne Peter.
 
 ## Kontext
@@ -67,13 +73,66 @@ zmysel stavať na tom istom základe akvizičnú sekvenciu.
 
 ### 4. Mail pre zaseknuté rodiny (text hotový, posiela Peter ručne)
 
-Text je nižšie. Peter k nemu dopĺňa dva screenshoty (dashboard s kartou na
+Text mailu:
+
+> **Predmet:** Ostáva posledný krok
+>
+> Dobrý deň,
+>
+> ďakujem, že ste Amosa vyskúšali.
+>
+> Píšem preto, že väčšina rodičov sa zasekne na tom istom mieste: appku si
+> nastavia, ale nikdy sa nedostane k dieťaťu. A kým sa dieťa neprihlási, Amos
+> nemá čo robiť — celé to stojí na tom, že si úlohy odškrtáva ono, nie vy.
+> Preto to posielam rovno, nech to nemusíte hľadať.
+>
+> Trvá to dve minúty:
+>
+> 1. Prihláste sa do Amosa na svojom telefóne.
+> 2. Na hlavnej obrazovke nájdite kartu na odovzdanie appky dieťaťu — je hneď navrchu.
+> 3. Dajte dieťaťu naskenovať kód jeho telefónom alebo tabletom.
+> 4. Dieťa zadá svoj PIN — ten, ktorý ste mu nastavili, keď ste ho pridávali.
+>
+> PIN sa z bezpečnostných dôvodov nedá nikde zobraziť. Ak si ho nepamätáte,
+> dá sa nastaviť nový v profile dieťaťa.
+>
+> Keby čokoľvek nefungovalo alebo vyzeralo inak, než píšem, odpíšte prosím
+> rovno na tento mail. Sme úplne na začiatku a každú novú rodinu si prechádzam
+> osobne — vaša spätná väzba mi teraz pomôže viac než čokoľvek iné.
+>
+> Peter
+
+Kroky 2 a 3 sú napísané podľa toho, čo je známe o `ChildHandoffCard`. Peter má
+pred odoslaním očami overiť, či to tak naozaj vyzerá, a doplniť presný názov
+tej karty. Appka je z tejto session nedostupná, takže overiť sa to odtiaľto nedá.
+
+Peter k mailu dopĺňa dva screenshoty (dashboard s kartou na
 odovzdanie appky, obrazovka zadávania PIN-u) — **z testovacieho konta, nie
 so skutočnými fotkami jeho detí**.
 
-Adresy si vytiahne sám cez SQL: rodiny, kde `max(children.last_login_at)` je
-NULL, bez demo kont, bez jeho vlastných testovacích, a bez tých, čo sa
-registrovali pred pár hodinami.
+Adresy si Peter vytiahne sám v Supabase. Najprv over názov stĺpca
+(`select column_name from information_schema.columns where table_name = 'children'`),
+potom:
+
+```sql
+select u.email,
+       u.created_at                              as registracia,
+       u.raw_app_meta_data->>'provider'          as sposob,
+       count(c.id)                               as pocet_deti,
+       count(c.id) filter (where c.pin_hash is not null) as deti_s_pinom,
+       case when count(c.id) = 0 then 'nepridal dieta'
+            else 'dieta sa neprihlasilo' end     as zasekol_sa
+from auth.users u
+join profiles p on p.user_id = u.id
+left join children c on c.parent_id = u.id
+where coalesce(p.is_demo, false) = false
+group by u.id, u.email, u.created_at, u.raw_app_meta_data
+having max(c.last_login_at) is null
+order by u.created_at desc;
+```
+
+Z výsledku vyhodiť Petrove vlastné testovacie kontá a rodiny registrované pred
+pár hodinami — mail „ostáva posledný krok" po dvadsiatich minútach je predčasný.
 
 Ďalšie dva maily v sekvencii (T+3 dni: odstránenie prekážky — dieťa nemá
 zariadenie / rodič nepozná PIN; T+7 dní: osobná otázka „Čo vás zastavilo?")
