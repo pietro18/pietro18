@@ -1,4 +1,4 @@
-# Stav rozpracovanej práce — 30. 8. 2026
+# Stav rozpracovanej práce — 31. 8. 2026
 
 Prenos medzi session. Prečítaj to na začiatku novej session; keď je položka
 vybavená, zmaž ju odtiaľto.
@@ -8,26 +8,103 @@ vybavená, zmaž ju odtiaľto.
 Pravidlá pre prácu proti produkcii sú v `CLAUDE.md`. Platia bez výnimky —
 najmä čítanie celého kódu pred spustením, census pred každou operáciou, ktorá
 môže ubrať riadky, a overovanie zmien cez `get_diff` a SQL namiesto dôvery
-v hlásenie agenta.
+v hlásenie agenta. **Session 31. 8. dvakrát chytila vlastnú chybu presne takto**
+— pozri bod 0 nižšie: prvá migrácia aj prvý fallback boli neúplné/chybné a
+odhalilo sa to až nezávislým overením, nie hlásením agenta.
 
-Povolenia pre Lovable sú v `.claude/settings.json`. **Nespoliehaj sa na ne** —
-30. 8. bolo overené, že súbor bol prítomný už pri štarte procesu a napriek tomu
-sa neuplatnil: každé volanie do Lovable končilo na „requires approval", a to aj
-volania, ktoré predtým v tej istej session bežali. Zlom nastal po odpojení a
-opätovnom pripojení MCP servera Lovable. Ak sa to zopakuje, netreba to
-diagnostikovať znova — zadanie sa napíše sem a Peter ho vloží do Lovable ručne;
-overovanie odpovede agenta funguje aj bez prístupu.
+Povolenia pre Lovable sú v `.claude/settings.json`. Session 30. 8. zaznamenala,
+že súbor bol prítomný, ale volania končili na „requires approval", až kým sa
+MCP server Lovable neodpojil a znova pripojil. **Session 31. 8. tento problém
+nemala** — `query_database`, `send_message`, `get_diff` fungovali celý čas bez
+schvaľovania. Ak sa problém vráti, netreba ho diagnostikovať znova: zadanie sa
+napíše sem a Peter ho vloží do Lovable ručne; overovanie odpovede agenta
+funguje aj bez priameho prístupu.
 
 `deploy_project` ostáva mimo povolení — publikuje výhradne Peter.
+
+Zdrojový kód appky nie je v žiadnom GitHub repozitári — ani v `amos-kids`, ani
+v `pietro18/pietro18`. Žije výhradne v Lovable (`list_files`/`read_file` cez
+Lovable MCP naň dosiahnu bez gitu; `get_diff` funguje na commit/message_id
+z Lovable, nie na git commit).
 
 ## Kontext
 
 Beží platená Meta kampaň (`SK | Amos Leads Campaign | 2026-08-25`), appku
-používajú skutočné rodiny. Naprieč všetkými rodinami z kampane je **nula
-prihlásení dieťaťa**. Rodičia dokončia onboarding za 30–90 sekúnd a tým to
-končí. To je jediná brána, o ktorú ide; všetko ostatné je druhoradé.
+používajú skutočné rodiny. Pôvodný odhad „nula prihlásení dieťaťa naprieč
+kampaňou" (30. 8.) bol nepresný — **koreňová príčina je nájdená a čiastočne
+už opravená v produkcii**, pozri bod 0. Presné čísla k 31. 8. ráno:
+
+- 26 reálnych rodičov (bez demo/test/Petrových kont), 30 pridaných detí
+- Zo 47 reálnych pokusov o prihlásenie dieťaťa od 25. 8. (`login_attempts`)
+  uspelo 7 — **všetkých 7 z Petrovho vlastného testovacieho konta** (deti
+  „lukas"/„simon"). Zo skutočných kampaňových rodín neprešiel ani jeden
+  z 40 pokusov.
+- 1 dieťa z 30 má záznam úspešného prihlásenia cez `app_events` (`child_login`,
+  Juliana Gulášová/Štefan, 30. 8. 09:54) — ale to je iný signál než
+  `login_attempts` a nesedí s ním úplne, pozri poznámku v bode 0.
+
+To je jediná brána, o ktorú ide; všetko ostatné je druhoradé.
 
 ## Otvorené — v poradí
+
+### 0. [NOVÉ, 31. 8.] Prihlásenie dieťaťa zlyhávalo takmer vždy — príčina nájdená, DB fix live, UI čaká na publish
+
+**Toto je teraz najvyššia priorita, nad bodom 1** — je to príčina javu z
+"Kontext", nie ďalší symptóm.
+
+**Diagnóza:** `verify_child_pin` (Postgres funkcia) vyžadovala presnú zhodu
+CELÉHO mena dieťaťa. Formulár na `/auth` (child tab, `src/pages/Auth.tsx`) je
+prázdne textové pole bez nápovedy na formát. `login_attempts` ukazuje rodiny
+reálne hádajúce varianty: dieťa "Lucas Dominik" → skúšali "dominik", "dominik
+kovac", "lucas dominik" (9 pokusov za 2 min); dieťa pravdepodobne "Bartolomej
+niekto" → "horvath bartolomej", "bartolomej", "horvath" (meno sa v `children`
+nenašlo vôbec — buď iný pravopis, alebo dieťa ešte nebolo pridané).
+
+**Oprava (Lovable, commity `7610d42` → oprava `39fcc5a`, obe overené priamo
+v DB, nie len z hlásenia agenta):**
+
+- `verify_child_pin`: k presnej zhode pribudol word-level fallback —
+  `v_normalized_name = ANY(string_to_array(lower(name),' '))` a opačne. Zadané
+  meno teda nemusí byť celé, stačí ktorékoľvek slovo z uloženého mena (aj
+  naopak). PIN kontrola cez `extensions.crypt` nezmenená, ostáva jediná
+  skutočná autentifikácia.
+- Lockout zvýšený z 5 na 10 zlyhaní/15 min (rodina si nesmie zamknúť samu seba
+  počas hádania variantu mena).
+- **Prvá verzia migrácie bola neúplná** — porovnávala len PRVÉ slovo, čo by
+  "dominik" pri mene "Lucas Dominik" stále odmietlo (Dominik je druhé slovo).
+  Vlastným overením (`SELECT 'dominik' = ANY(string_to_array(lower('Lucas
+  Dominik'),' '))`) sa to chytilo pred nahlásením Petrovi a Lovable to
+  opravil na word-level match kdekoľvek v mene.
+- **Prvá verzia migrácie mala aj preklep** (`currentStreak` namiesto
+  `current_streak`) — chytil ho Lovable agent sám v druhom kroku, nezávisle
+  overené v `information_schema.columns`.
+- **DB časť je live v produkcii ihneď** (Supabase migrácie sa aplikujú mimo
+  frontend publish cyklu) — child, ktorý teraz skúsi len krstné meno, by mal
+  prejsť. UI časť (nápoveda pod poľom mena, lepšia chybová hláška s odkazom na
+  QR) je len v Lovable preview, čaká na Petrov `get_diff` a publish.
+
+**Neoverené/vedľajšie zistenia, netreba riešiť teraz:**
+- `child_login_tokens` (QR flow) má anomáliu: jeden token mal `used_at` 23 min
+  PO vlastnom `expires_at` — podľa `redeem_child_login_token` (vyžaduje
+  `expires_at > now()`) by to nemalo byť možné. `create_child_login_token`
+  used_at nikdy nenastavuje. Príčina nejasná, mimo rozsahu dnešnej opravy.
+- `client_errors` má opakovaný React DOM crash (`removeChild`/`insertBefore
+  ... is not a child of this node`), ~30+ výskytov za týždeň naprieč
+  `/parent`, `/parent/tasks`, `/parent/goals`, aj `/child`. Nesúvisí s bodom 0,
+  ale je to najčastejšia chyba v appke — kandidát na ďalšiu prioritu.
+- Anonymní používatelia (najmä na `/auth`) hádžu `Error invoking postMessage:
+  Java exception` — 75 % návštevnosti ide z Facebooku/Instagramu, podozrenie
+  na FB in-app browser (Android WebView) quirk práve na vstupnom bode pred
+  registráciou.
+- Onboarding funnel: 41× zobrazené → 19× dokončené (46 %), 15 tichých odchodov
+  bez signálu prečo.
+- `profiles.email` je `NULL` pre reálnych používateľov — email sa musí ťahať
+  z `auth.users`. Ak má byť `profiles.email` zdroj pravdy pre automatizované
+  maily (T+3/T+7 nižšie), zistiť prečo sa nezapisuje.
+
+**Ďalší krok:** Peter otestuje reálne (napr. rodina Kováčová/Lucas Dominik),
+alebo počká na prirodzený pokus niektorej z 18 rodín z bodu 4. Po potvrdení
+zmazať tento bod.
 
 ### 1. Súhrnná karta pripomienky pre viac detí (publikované, zobrazuje sa zle)
 
@@ -51,27 +128,78 @@ chybu. V `send-parent-reminders` sa pri rodičovi s viacerými deťmi vkladá
 
 Týka sa rodín s tromi deťmi: Anna/Peter/Marie a Mario/Demir/František.
 
+Zadanie pre Lovable je hotové, pozri „Zadanie A" nižšie — ešte neodoslané.
+
 ### 2. In-browser zmeny (zadanie pripravené, neodoslané)
 
 - **Banner „dieťa sa ešte neprihlásilo"** na dashboarde rodiča namiesto
-  nagovania o úlohách. Dnes appka rieši úlohy dieťaťa, ktoré sa do nej ani raz
-  nedostalo — ani jeden typ notifikácie túto situáciu nepomenúva.
+  nagovania o úlohách.
 - **Žiadosť o push až po prvom prihlásení dieťaťa**, nie pri registrácii.
-  Pri registrácii sa povolenie spáli naprázdno.
-- **Zjednotiť počítadlá.** Zvonček ukazuje neprečítané notifikácie, odznak na
-  „Domov" ukazuje `pendingWork` (bez zastaraných, bez detských). Dve rôzne
-  čísla o tom istom na jednej obrazovke. Nechať len to, čo čaká na akciu.
-- **„Najlepší deň: St"** v karte týždňa nedáva hodnotu — pri 4 úlohách za
-  týždeň je to šum, a nad tlačidlom „Naplánovať ďalší týždeň" má stáť údaj,
-  ktorý pomôže plánovať. Nahradiť dňom s najvyššou mierou nesplnenia a
-  zobraziť až pri dostatku dát (aspoň tri týždne a skutočný rozdiel).
+- **Zjednotiť počítadlá.** Zvonček vs. odznak na „Domov" (`pendingWork`) —
+  dve rôzne čísla o tom istom.
+- **„Najlepší deň: St"** nahradiť dňom s najvyššou mierou nesplnenia, zobraziť
+  až pri dostatku dát (aspoň tri týždne).
+
+Zadanie pre Lovable je hotové, pozri „Zadanie B" nižšie — ešte neodoslané.
 
 ### 3. `send-weekly-report-sunday-local` nemá ani jeden úspešný beh
 
-`last_success` je NULL. Týždenný report má rodiny držať; kým nefunguje, nemá
-zmysel stavať na tom istom základe akvizičnú sekvenciu.
+`last_success` je NULL, potvrdené aj 31. 8. Týždenný report má rodiny držať;
+kým nefunguje, nemá zmysel stavať na tom istom základe akvizičnú sekvenciu.
 
 ### 4. Mail pre zaseknuté rodiny (text hotový, posiela Peter ručne)
+
+**Cieľová skupina, prepočítaná 31. 8. — použiť namiesto SQL nižšie, je rýchlejšia
+a už vylučuje testovacie kontá:**
+
+18 rodín má dieťa pridané, ale nikdy neúspešne prihlásené (`child_login`
+event chýba): Lakatoš, Dančurová, Štajerová, Ľubomír, Dužda, Kováčová,
+Sitková, Kujovská, Čatová, Tatai, Evka, Lenka ×2, Lomnička84, Horňák,
+Daniheľová, Ferko, Mlynárovičová. Kompletný zoznam s emailami je v transkripte
+session 31. 8. (alebo sa dá prepočítať cez `app_events`/`children`/`profiles`
+join popísaný nižšie).
+
+Samostatná skupina — 3 rodiny bez pridaného dieťaťa vôbec (Teglášová,
+Horníková, Janová) — potrebujú iný text (najprv pridať dieťa), a sú príliš
+čerstvé na to, aby to bol "problém".
+
+Vylúčiť z oboch skupín natrvalo: `test@gmail.com`, `jana.kmoskova@hotmail.com`,
+`kmoskolukas@gmail.com`, `parkovaniecv@gmail.com` (Peter Kmoško, iný mail),
+`klaraturcanova@gmail.com` (ABC ABC, placeholder dáta pred kampaňou) — všetko
+potvrdené Petrom ako vlastné/testovacie kontá 31. 8.
+
+**Dôležité:** keďže bod 0 je teraz čiastočne opravený (DB fix live), zváž
+počkať s odoslaním tohto mailu, kým sa neoverí, či niektorá z 18 rodín už
+prejde prihlásením sama — mail môže byť zbytočný, ak fix stačí.
+
+**Opravená SQL na adresy** (pôvodná verzia odkazovala na neexistujúci stĺpec
+`children.last_login_at` — `children` taký stĺpec nemá; reálny signál
+úspešného prihlásenia je `app_events.event_type = 'child_login'`):
+
+```sql
+with logins as (
+  select distinct child_id from app_events where event_type = 'child_login'
+)
+select
+  au.email,
+  p.name,
+  p.created_at as registracia,
+  p.signup_campaign,
+  count(c.id) as pocet_deti,
+  count(c.id) filter (where l.child_id is not null) as deti_prihlasene
+from profiles p
+join auth.users au on au.id = p.user_id
+left join children c on c.parent_id = p.user_id
+left join logins l on l.child_id = c.id
+where coalesce(p.is_demo, false) = false
+  and p.user_id <> '60491167-4961-426e-81ce-39b2e7b000d3' -- Petrovo testovacie konto
+group by p.id, au.email, p.name, p.created_at, p.signup_campaign
+having count(c.id) filter (where l.child_id is not null) = 0
+order by p.created_at desc;
+```
+
+Z výsledku ešte ručne vyhodiť known-test emaily vyššie a rodiny registrované
+pred pár hodinami.
 
 Text mailu:
 
@@ -103,36 +231,11 @@ Text mailu:
 > Peter
 
 Kroky 2 a 3 sú napísané podľa toho, čo je známe o `ChildHandoffCard`. Peter má
-pred odoslaním očami overiť, či to tak naozaj vyzerá, a doplniť presný názov
-tej karty. Appka je z tejto session nedostupná, takže overiť sa to odtiaľto nedá.
+pred odoslaním očami overiť, či to tak naozaj vyzerá.
 
-Peter k mailu dopĺňa dva screenshoty (dashboard s kartou na
-odovzdanie appky, obrazovka zadávania PIN-u) — **z testovacieho konta, nie
-so skutočnými fotkami jeho detí**.
-
-Adresy si Peter vytiahne sám v Supabase. Najprv over názov stĺpca
-(`select column_name from information_schema.columns where table_name = 'children'`),
-potom:
-
-```sql
-select u.email,
-       u.created_at                              as registracia,
-       u.raw_app_meta_data->>'provider'          as sposob,
-       count(c.id)                               as pocet_deti,
-       count(c.id) filter (where c.pin_hash is not null) as deti_s_pinom,
-       case when count(c.id) = 0 then 'nepridal dieta'
-            else 'dieta sa neprihlasilo' end     as zasekol_sa
-from auth.users u
-join profiles p on p.user_id = u.id
-left join children c on c.parent_id = u.id
-where coalesce(p.is_demo, false) = false
-group by u.id, u.email, u.created_at, u.raw_app_meta_data
-having max(c.last_login_at) is null
-order by u.created_at desc;
-```
-
-Z výsledku vyhodiť Petrove vlastné testovacie kontá a rodiny registrované pred
-pár hodinami — mail „ostáva posledný krok" po dvadsiatich minútach je predčasný.
+Peter k mailu dopĺňa dva screenshoty (dashboard s kartou na odovzdanie appky,
+obrazovka zadávania PIN-u) — **z testovacieho konta, nie so skutočnými
+fotkami jeho detí**.
 
 Ďalšie dva maily v sekvencii (T+3 dni: odstránenie prekážky — dieťa nemá
 zariadenie / rodič nepozná PIN; T+7 dní: osobná otázka „Čo vás zastavilo?")
@@ -145,12 +248,11 @@ Doména je čerstvo napárovaná — pred väčším objemom overiť SPF, DKIM, 
 Projekt v Lovable: `763a3681-341b-4f9b-933b-2a4fbda89ff3`.
 Supabase: `ckzdovblacamaxaovgpe`.
 
-Zdrojový kód appky nie je v žiadnom GitHub repozitári — ani v `amos-kids`,
-ani v `pietro18/pietro18`. Žije výhradne v Lovable. Cez git sa opraviť nedá.
-
-Obe zadania nižšie sú hotové a doslovné. Pošli ich cez `send_message`, alebo
-ich Peter vloží do Lovable chatu ručne. Po každom si vyžiadaj `get_diff` a
-odpoveď over sám — hlásenie agenta nie je dôkaz.
+Obe zadania nižšie sú hotové a doslovné, ešte neodoslané (na rozdiel od
+opravy v bode 0, ktorá už bola odoslaná a je live). Pošli ich cez
+`send_message`, alebo ich Peter vloží do Lovable chatu ručne. Po každom si
+vyžiadaj `get_diff` a odpoveď over sám priamo v kóde/DB — hlásenie agenta
+nie je dôkaz (pozri bod 0, kde to dvakrát zachránilo pred neúplným fixom).
 
 ### Zadanie A — súhrnná karta pripomienky (položka 1, publikovaná chyba)
 
@@ -201,38 +303,28 @@ odpoveď over sám — hlásenie agenta nie je dôkaz.
 > Všetky texty cez i18n kľúče, žiadne reťazce natvrdo v kóde, a každý nový kľúč
 > musí existovať v `sk.json` aj `en.json`.
 >
-> 1. **Banner „dieťa sa ešte neprihlásilo".** Naprieč všetkými rodinami
->    z platenej kampane je nula prihlásení dieťaťa — appka rieši úlohy detí,
->    ktoré sa do nej ani raz nedostali, a ani jeden typ notifikácie tú situáciu
->    nepomenúva. Keď má rodič aspoň jedno dieťa, ktoré sa ešte ani raz
->    neprihlásilo, ukáž na jeho dashboarde navrchu jednu výraznú kartu s touto
->    informáciou a s tlačidlom, ktoré vedie priamo na odovzdanie appky dieťaťu.
->    Kým tam tá karta je, potlač bežné nagovanie o nesplnených úlohách toho
->    dieťaťa — je bezpredmetné. Karta zmizne po prvom prihlásení dieťaťa.
+> 1. **Banner „dieťa sa ešte neprihlásilo".** Keď má rodič aspoň jedno dieťa,
+>    ktoré sa ešte ani raz neprihlásilo, ukáž na jeho dashboarde navrchu jednu
+>    výraznú kartu s touto informáciou a s tlačidlom, ktoré vedie priamo na
+>    odovzdanie appky dieťaťu. Kým tam tá karta je, potlač bežné nagovanie
+>    o nesplnených úlohách toho dieťaťa. Karta zmizne po prvom prihlásení.
 >
 > 2. **Žiadosť o povolenie push notifikácií presuň z registrácie na okamih po
->    prvom prihlásení dieťaťa.** Pri registrácii sa povolenie udelí alebo
->    odmietne naprázdno, lebo ešte nie je čo oznamovať; keď príde prvá skutočná
->    vec, je už spálené.
+>    prvom prihlásení dieťaťa.**
 >
-> 3. **Zjednoť dve počítadlá.** Zvonček v hlavičke ukazuje počet neprečítaných
->    notifikácií, odznak na položke „Domov" v spodnej navigácii ukazuje
->    `pendingWork` (bez zastaraných, bez tých určených dieťaťu). Rodič teda vidí
->    na jednej obrazovke dve rôzne čísla o tom istom — napr. 6 a 1 — a nemá ako
->    vedieť, čo znamenajú. Nechaj jediné číslo, a to to, ktoré hovorí, koľko vecí
->    naozaj čaká na jeho akciu.
+> 3. **Zjednoť dve počítadlá.** Zvonček (neprečítané notifikácie) vs. odznak
+>    na „Domov" (`pendingWork`, bez zastaraných, bez detských). Nechaj jediné
+>    číslo — to, čo naozaj čaká na akciu.
 >
-> 4. **„Najlepší deň" v karte týždňa nahraď.** Pri štyroch splnených úlohách za
->    týždeň ten údaj rozlišuje deň s dvomi od dňa s jednou — je to šum. Navyše je
->    hneď nad tlačidlom „Naplánovať ďalší týždeň", takže má pomáhať plánovať, a
->    nepomáha. Nahraď ho dňom s najvyššou mierou nesplnených úloh („v piatok sa
->    to najčastejšie nestihne"), a zobraz ho až keď je z čoho — aspoň tri týždne
->    dát a skutočný rozdiel medzi dňami. Do vtedy tam nemá byť nič.
+> 4. **„Najlepší deň" v karte týždňa nahraď** dňom s najvyššou mierou
+>    nesplnených úloh, zobraz až pri aspoň troch týždňoch dát.
 >
 > V odpovedi chcem: zoznam nových i18n kľúčov s potvrdením, že sú v oboch
 > locale súboroch, a potvrdenie, že žiadna zmena nepridáva mazanie dát.
 
 ## Prostredie
 
-`amos.kids` aj `*.lovable.app` vracajú 403 na CONNECT — overené 30. 8. 2026.
-Screenshoty ani vizuálnu kontrolu z tejto session spraviť nedá; robí ich Peter.
+`amos.kids` aj `*.lovable.app` vracajú 403 na CONNECT z niektorých sessions
+(overené 30. 8.) — v session 31. 8. toto obmedzenie nebránilo prístupu cez
+Lovable MCP (`read_file`, `query_database`, `send_message`, `get_diff`
+fungovali celý čas). Priamu vizuálnu kontrolu v prehliadači stále robí Peter.
