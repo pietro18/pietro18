@@ -142,10 +142,21 @@ Zadanie pre Lovable je hotové, pozri „Zadanie A" nižšie — ešte neodoslan
 
 Zadanie pre Lovable je hotové, pozri „Zadanie B" nižšie — ešte neodoslané.
 
-### 3. `send-weekly-report-sunday-local` nemá ani jeden úspešný beh
+### 3. Týždenný report — VYRIEŠENÉ 30. 8., ale odhalil tvrdé číslo
 
-`last_success` je NULL, potvrdené aj 31. 8. Týždenný report má rodiny držať;
-kým nefunguje, nemá zmysel stavať na tom istom základe akvizičnú sekvenciu.
+`send-weekly-report-sunday-local` prebehol prvýkrát úspešne 30. 8. o 17:00 UTC
+(`last_success` vyplnené, `failures_7d = 0`). Funkcia je v poriadku.
+
+Odišiel však **jednej jedinej rodine z 32**, ktoré majú týždenný report zapnutý.
+Nie je to chyba — funkcia zámerne preskočí rodinu bez splnenej úlohy
+(„Never send an empty scoreboard", vetva `empty_week`). Census za týždeň
+24.–30. 8.: **9 schválených úloh dokopy, všetky v jednej rodine z 33.**
+
+To je zatiaľ najostrejšie vyjadrenie hlavného problému. Nula prihlásení dieťaťa
+sa tu premieta do nula obsahu: 31 rodín nemá čo dostať. Žiadny e-mailový kanál
+tento stav nevyrieši, kým sa appka nedostane deťom do rúk. *(Poznámka zo session
+31. 8.: presne toto je dôvod, prečo bod 0 — oprava prihlásenia — musí zabrať
+skôr, než sa tento kanál znovu skúma.)*
 
 ### 4. Mail pre zaseknuté rodiny (text hotový, posiela Peter ručne)
 
