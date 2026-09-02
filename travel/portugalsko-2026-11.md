@@ -46,8 +46,8 @@ Ak sa dá čokoľvek meniť, urobte to teraz — v novembri sú lety do/z Faro a
 | 18. 11. | St | Lagos | Roadtrip východ: Ferragudo, Benagil, Praia da Marinha |
 | 19. 11. | Št | Lagos | **Golf #2** alebo vnútrozemie: Silves + Monchique + Fóia |
 | 20. 11. | Pi | Lagos | **Okruh — deň 1** (tréningy) |
-| 21. 11. | So | → Lisabon | **Okruh — deň 2** (kvalifikácie + Sprint), večer presun |
-| 22. 11. | Ne | ✈ | Odlet 7:00 |
+| 21. 11. | So | → letisko | **Okruh — deň 2** (kvalifikácie + Sprint), potom postupne na sever |
+| 22. 11. | Ne | ✈ | Noc bez hotela, odlet 7:00 |
 
 Celkovo najazdíte cca **1 100–1 300 km**.
 
@@ -104,13 +104,11 @@ Bývajte v **Chiado / Baixa / Príncipe Real** — všetko pešo, dobré reštau
 
 Auto v Lisabone **nepotrebujete** a parkovanie stojí 20–30 €/noc. Z letiska Uber (~15 €).
 
-### Posledná noc (21. 11., pri letisku)
+### Posledná noc (21. 11.) — bez hotela
 
-Kvôli letu o 7:00 spite pri letisku, nie v centre.
-
-- **TRYP Lisboa Aeroporto** — oproti terminálu, shuttle 5 min
-- **Holiday Inn Express Lisbon Airport**
-- **Tivoli Oriente / Melia Lisboa Oriente** — Parque das Nações, 8 min od terminálu
+Ubytovanie končí v sobotu ráno check-outom v Lagose. Ako presun na letisko rozložiť
+tak, aby to bolo znesiteľné, je rozpísané nižšie pri sobote — v skratke: **spať pár
+hodín v aute v garáži P2 priamo pri termináli** a auto vrátiť až o 4:15.
 
 ---
 
@@ -275,51 +273,105 @@ pár týždňov pred akciou.
 
 **Vyrazte z Lagosu o 8:00**, na okruhu buďte pred 9:00.
 
-### Sobota 21. 11. — OKRUH, deň 2 + presun do Lisabonu
+### Sobota 21. 11. — okruh deň 2, potom postupne na letisko
 
-Najnabitejší deň víkendu:
+Ráno **check-out** — kufre idú do auta a už tam zostanú. Poproste hotel deň vopred
+o jednu vec: **možnosť sa po okruhu ešte osprchovať a prezliecť**. Väčšina rezortov to
+po check-oute bez problémov dovolí a po celom dni na prašnej trati to veľmi oceníte.
+
+**Program na okruhu:**
 
 - ~10:10 FP2
 - ~10:50 **kvalifikácie Q1 / Q2** — najintenzívnejších 30 minút víkendu
 - ~15:00 **Tissot Sprint** — polovičná vzdialenosť, plné tempo od štartu
 
-**Odchod z parkoviska najneskôr 16:15.** Ak budete čakať, stojíte v kolóne hodinu.
-Alternatíva: nechajte to vyhnívať pri pive a vyrazte o 17:15 — na cestu to vyjde nastejno.
+**Odchod z okruhu ~17:15.** Keďže vás už nikde nečaká recepcia, nemá zmysel tlačiť sa
+v kolóne hneď po Sprinte — nechajte dav odísť, dajte si pivo a vyrazte v pokoji.
 
-**Presun Portimão → Lisabon:** 290 km, ~3 h (A22 → A2 → most). Odchod 16:30,
-príchod k letisku ~19:45. Večera cestou v Alcácer do Sal alebo Grândole.
+**Postupný presun na letisko:**
+
+| Čas | Kde |
+|---|---|
+| 17:15 | odchod z okruhu |
+| 17:45 | Lagos — sprcha, prezlečenie, posledný pohľad na more |
+| 18:30 | večera v Lagose (*Adega da Marina* je rýchla a bez rezervácie) |
+| 20:45 | odchod na sever, 300 km |
+| 22:15 | zastávka Alcácer do Sal alebo odpočívadlo na A2 — káva, natankovať, vystriedať vodiča |
+| ~00:15 | letisko Lisabon |
+
+### Noc na letisku bez hotela
+
+Terminál 1 je otvorený nonstop, ale je to ostro osvetlená hala s tvrdými lavicami
+a málom miest na sedenie. Prepážky na skoré lety otvárajú **okolo 4:30** — dovtedy sa
+do čistej zóny, kde je pohodlnejšie, nedostanete.
+
+**Najlepšie riešenie: nevracajte auto hneď.** Zaparkujte v **garáži P2** priamo pri
+termináli, sklopte sedadlá a **pospite si v aute do 4:15**. Je to o triedu pohodlnejšie
+než hala a stojí to len jednu parkovaciu noc (~20 €). Auto vrátite o 4:15 v tej istej
+garáži a do terminálu prejdete pešo za tri minúty.
+
+> **Overte si vopred, či má vaša požičovňa o 4:15 otvorené.** Väčšina firiem má na LIS
+> vrátenie v P2 nonstop, ale nie všetky — spýtajte sa mailom už pri rezervácii a odpoveď
+> si uložte.
+
+Do príručnej batožiny si dajte mikiny alebo tenké deky, nafukovacie vankúše pod hlavu,
+masky na oči, štuple do uší, powerbanky a stiahnuté filmy pre deti.
+
+> **Jedna poznámka na rovinu.** Celý deň na okruhu, 300 km v noci a let o 7:00 je náročná
+> kombinácia, hlavne pre toho, kto šoféruje. Ak by ste si to chceli poistiť, najlacnejšia
+> verzia je izba pri letisku len na pár hodín — *TRYP Lisboa Aeroporto* alebo
+> *Holiday Inn Express* vyjdú v novembri na 60–90 €. Plán vyššie funguje aj bez toho,
+> ale nechajte si to ako otvorenú možnosť.
 
 ### Nedeľa 22. 11. — odlet 7:00
 
-- Budíček 4:15, na letisku **o 5:00** (kontroly v Lisabone bývajú pomalé)
-- **Vrátenie auta:** overte si už pri rezervácii, či má vaša požičovňa na LIS otvorené
-  o 5:00. Väčšina je v garáži P2 nonstop, ale nie všetky. **Najistejšie: vráťte auto
-  v sobotu večer po príchode** a do hotela si dajte taxík za 5 minút.
+- **4:15** budíček v aute, vrátenie auta v P2
+- **4:30** v termináli, odbavenie hneď ako otvoria prepážky
+- **5:15** cez kontrolu — v Lisabone bývajú rady pomalé, s touto rezervou ste v pohode
+- Raňajky až v čistej zóne, kaviarne tam otvárajú skoro
 
 ---
 
-## Golf — čo hrať
+## Golf — deväť jamiek, rozumné ceny
 
-Október a november sú v Algarve **golfová špička**, takže tee times rezervujte hneď.
-Green fee sú orientačné pre november.
+Pri dvoch kolách a krátkych novembrových dňoch (svetlo len do 17:30) dávajú deväťjamkovky
+väčší zmysel než osemnástky: zahráte ich za dve hodiny, zostane vám celé poobedie na výlet
+a zaplatíte zhruba tretinu.
 
-| Ihrisko | Kde | Od Lagosu | Green fee | Prečo |
+### Skutočné 9-jamkové ihriská
+
+| Ihrisko | Kde | Od Lagosu | Green fee | Poznámka |
 |---|---|---|---|---|
-| **Palmares** | Lagos | 10 min | 150–200 € | 27 jamiek Robert Trent Jones II, linksové jamky priamo nad plážou. Najkrajšie v okolí — sem choďte na ten jeden "veľký" deň. |
-| **Boavista** | Lagos | 10 min | 90–120 € | Výhľady na záliv Lagos, príjemné pre zmiešaný level, dobrý tréningový areál |
-| **Espiche** | Praia da Luz | 15 min | 70–95 € | Uvoľnené, eko, veľmi milé k začiatočníkom a deťom |
-| **Morgado / Álamos** | Portimão | 25 min | 75–110 € | **10 min od okruhu**, široké fervejy, veľké greeny, najlepší pomer cena/výkon |
-| **Penina** | Portimão | 25 min | 120–160 € | Historické ihrisko Sira Henryho Cottona, rovinaté (dá sa chodiť pešo) + dve deväťjamkovky |
-| **Alto Golf** | Alvor | 25 min | 90–120 € | Úzke fervejy, vyvýšené greeny, jamka 16 je jedna z najdlhších v Európe |
-| **Gramacho / Vale da Pinta** | Carvoeiro | 40 min | 90–130 € | Gramacho má zdvojené greeny — zábavné pre zmiešanú partiu |
+| **Penina Academy** (par 30) | Portimão | 25 min | 30–45 € | Rovinaté, krátke, bez tlaku — najlepšie s deťmi. **12 min od okruhu.** |
+| **Penina Resort** (par 35) | Portimão | 25 min | 55–70 € | O úroveň náročnejšie, stále pohodové. Rovnaký areál. |
+| **Vale do Milho** (9× par 3) | Carvoeiro | 40 min | 30–40 € | Celé par-3 od Davea Thomasa. Skvelé na krátku hru a pre celú rodinu naraz. |
+| **Balaia Golf Village** (par 27) | Albufeira | 50 min | 25–35 € | Najlacnejšie v Algarve, ale ďaleko — dáva zmysel len ak by ste išli na východ. |
 
-**S deťmi alebo začiatočníkmi:** deväťjamková **Penina Academy** alebo **Espiche** —
-oboje bez tlaku a s požičovňou vybavenia.
+### Osemnástky, kde sa dá zaplatiť len 9 jamiek alebo twilight
 
-> **Palice:** ak by ste ich brali so sebou, do auta potrebujete kombi/7-miestne.
-> Reálne je jednoduchšie a lacnejšie si ich **požičať na mieste** (40–60 €/set/kolo).
+| Ihrisko | Kde | Od Lagosu | 9 jamiek | Poznámka |
+|---|---|---|---|---|
+| **Espiche** | Praia da Luz | 15 min | 45–60 € | Najbližšie a najuvoľnenejšie, milé k začiatočníkom, dobrý tréningový areál |
+| **Boavista** | Lagos | 10 min | 55–70 € | Výhľady na záliv Lagos |
+| **Álamos** | Portimão | 25 min | 55–75 € | Lacnejší z dvojice Morgado/Álamos, **10 min od okruhu** |
+| **Parque da Floresta** | Budens | 20 min | 60–80 € | Kopcovité a dramatické, mimo sezóny často akcie |
 
----
+### Ako to poskladať
+
+- **Utorok 17. 11.** — Espiche alebo Boavista o 9:00, hotoví o 11:00, a celé poobedie
+  vám zostane na Sagres a Cabo de São Vicente
+- **Štvrtok 19. 11.** — Penina Academy alebo Álamos; oboje je desať minút od okruhu,
+  takže si zároveň obhliadnete cestu na piatok
+
+**Tipy:**
+
+- **Twilight sadzby po 13:00** sú všade výrazne nižšie. Deväť jamiek za dve hodiny
+  stihnete aj s tee time o 13:30 — svetlo je do 17:30.
+- Deväťjamkové a twilight ceny často nie sú na webe. **Napíšte im mailom** — mimo sezóny
+  sa dohodnete lepšie než cez rezervačný portál.
+- **Palice si požičajte na mieste** (20–35 € za set na 9 jamiek). V aute vám vlastné bagy
+  zoberú presne toľko miesta, koľko potrebujete na kufre.
+- Ceny sú orientačné pre november a líšia sa podľa dňa a času — overte pri rezervácii.
 
 ## Okruh — praktické rady
 
@@ -370,10 +422,11 @@ naraz veľkú časť trate.
 
 | Položka | Odhad |
 |---|---|
-| Ubytovanie 9 nocí (3× Lisabon, 6× Algarve, 1× letisko) | 1 400 – 2 600 € |
+| Ubytovanie 9 nocí (3× Lisabon, 6× Algarve) | 1 300 – 2 400 € |
 | Prenájom auta 7 dní + poistenie | 300 – 450 € |
 | Palivo + mýto | 200 – 260 € |
-| Golf, 2 kolá pre 2 hráčov | 300 – 700 € |
+| Golf, 2× 9 jamiek pre 2 hráčov | 120 – 280 € |
+| Parkovanie P2 cez poslednú noc | ~20 € |
 | Jedlo a vstupy | 900 – 1 400 € |
 
 ---
@@ -398,10 +451,10 @@ more zvládnu už len deti.
 
 1. ☐ **Lístky na MotoGP + parkovanie** na 20. a 21. 11.
 2. ☐ **Ubytovanie v Algarve** 15.–21. 11. — MotoGP víkend vypredá región
-3. ☐ **Hotel pri letisku Lisabon** na 21. 11.
-4. ☐ **Auto** 15.–22. 11. (kombi/7-miestne) — a overiť hodiny vrátenia na LIS
+3. ☐ **Auto** 15.–22. 11. (kombi/7-miestne) — a **písomne overiť, či sa dá vrátiť o 4:15 v P2**
+4. ☐ Poprosiť hotel v Lagose o **sprchu po check-oute** v sobotu 21. 11.
 5. ☐ **Palácio da Pena + Quinta da Regaleira** — časované vstupenky
-6. ☐ **Tee times** — november je v Algarve golfová špička
+6. ☐ **Tee times na 9 jamiek** — napísať mailom, november je v Algarve golfová špička
 7. ☐ **Mosteiro dos Jerónimos** — vstupenka online
 8. ☐ *Cervejaria Ramiro* a *Casinha do Petisco* — rezervácia stola
 9. ☐ **Rozhodnúť o spiatočnom lete** (viď úvod — kvôli nedeľným pretekom)
