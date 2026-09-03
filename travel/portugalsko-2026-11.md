@@ -66,29 +66,59 @@ izby maximálne pre dvoch až troch.
 
 ### Lisabon, 3 noci (12.–15. 11.)
 
-**1. Casa do Patio by Shiadu** — *moja voľba*
+> ### ⚠️ Toto vysvetľuje tú cenu: 9.–12. novembra 2026 je v Lisabone Web Summit
+>
+> Desaťtisíce ľudí, mesto vypredané a ceny na úrovni letnej špičky. Vy priletíte
+> **12. 11. večer, čiže v posledný deň konferencie** — to je zďaleka najdrahšia
+> z vašich troch nocí. Tri dôsledky:
+>
+> - **Rezervujte hneď.** Do novembra to bude len horšie, nie lepšie.
+> - **Vyhnite sa Parque das Nações.** Konferencia je presne tam (MEO Arena).
+> - Noci **13. a 14. 11. sú výrazne lacnejšie.** Oplatí sa pozrieť aj variantu
+>   „prvú noc kdekoľvek lacno, potom dve noci v tom peknom" — s kuframi je to otrava,
+>   ale rozdiel môže byť aj sto eur.
 
-Santa Catarina, päť minút pešo do Chiada aj Bairro Alto. Hodnotenie **~9,1–9,3**.
-Jediné z celého výberu, ktoré má **rodinné izby aj apartmán pre štyroch**. Raňajky sa
-podávajú v tienenom patiu — vajíčka na objednávku, čerstvý pomarančový džús, domáce
-koláče. Práve to patio je dôvod, prečo ho ľudia v recenziách spomínajú najviac.
-Odhad **90–130 € za noc**.
+A oprava odo mňa: tých **90–130 € bol odhad za dvojlôžkovú izbu**, nie za rodinnú pre
+štyroch. Rodinná izba v slušnom penzióne v centre vyjde aj mimo Web Summitu na 150–180 €.
+Tu sú tri cesty, ako sa dostať nižšie.
 
-**2. Casa Amora Studios** — Rato / Amoreiras, hneď pri Jardim das Amoreiras. **~9,2.**
-Dom zo začiatku 20. storočia s dlaždicovou fasádou a záhradným patiom, **štúdiá
-s kuchynkou** — s deťmi veľmi praktické. Raňajky sú tu legenda: špenátová tortilla,
-hruškové clafoutis, domáce croissanty. Je to o desať minút chôdze ďalej od centra,
-preto tichšie a lacnejšie. **100–140 €.**
+#### 1. Cez Accor
 
-**3. Casa C'Alma** — Praça das Flores, Príncipe Real. Len päť izieb, dizajnové,
-nádherne servírované raňajky, pokojné tradičné námestie. **Háčik: pri piatich izbách
-neexistuje rodinná izba**, museli by ste brať dve dvojlôžkové. Dobré, ak deti už chcú
-vlastnú izbu. **120–160 € za izbu.**
+**Novotel Lisboa** je pre vás najsilnejší tromf v celom výbere: **deti do 16 rokov spia
+v izbe rodičov zadarmo a majú zadarmo aj raňajky**. Veľká izba s rozkladacím gaučom pre
+deti, vonkajší bazén, metro Praça de Espanha. Pre štyroch to často vyjde lacnejšie než
+rodinná izba v penzióne — a raňajky sú v cene, čo pri štyroch ľuďoch nie je maličkosť.
 
-*Keby ste chceli priplatiť:* **Dear Lisbon — Palace Chiado** má hodnotenie 9,4 a je
-nádherné, ale za 250–300 € na noc to už nie je „lacné".
+**ibis Lisboa** (Saldanha, Liberdade, José Malhoa) — najlacnejšie, čisté, bez duše, ale
+funkčné. **Pobočku Parque das Nações vynechajte**, je priamo pri Web Summite.
 
-Auto v Lisabone nepotrebujete a parkovanie stojí 20–30 € za noc — z letiska Uber (~15 €).
+**Adagio** — aparthotel s kuchynkou, na tri noci pre štyroch veľmi praktický.
+
+Accor má naprieč značkami aj ponuku **50 % na druhú izbu pre deti**, ak by ste nechceli
+byť všetci v jednej izbe.
+
+#### 2. Lacnejšie penzióny a B&B
+
+| Miesto | Hodnotenie | Od | Prečo |
+|---|---|---|---|
+| **Typical Lisbon Guest House** | 4,4/5, 272 recenzií | ~64 € | Dom z 30. rokov so štukovými stropmi, **raňajky v cene** aj **spoločná kuchyňa**. Najlepší pomer ceny a kvality z tohto zoznamu. |
+| **Lisbon Calling** | 8,4 z 1 014 recenzií | ~84 € | Budova z 19. storočia v Misericórdii, **veľké rodinné izby s vlastnou kúpeľňou**, spoločná kuchyňa. |
+| **Casa do Bairro by Shiadu** | 1 379 recenzií | ~84 € | Ten istý majiteľ ako Casa do Patio, päť minút od Bairro Alto aj Chiada, domáce raňajky, ponúkajú aj stráženie detí. |
+| **Goodmorning Solo Traveller Hostel** | **9,3 z 3 818 recenzií** | najlacnejšie | Neľakajte sa slova hostel — má **súkromné izby** a **raňajky zadarmo vrátane čerstvých waflí**. Pri metre Restauradores. Najvyššie hodnotenie z celého lisabonského výberu. |
+
+**Čo nebrať:** *Estrela dos Anjos* láka cenou od 58 €, ale má hodnotenie 7,7
+a **neponúka raňajky** — nespĺňa ani jedno z vašich kritérií.
+
+#### 3. Apartmán namiesto B&B
+
+Pri štyroch ľuďoch je **apartmán takmer vždy lacnejší než rodinná izba** — a máte
+k tomu kuchyňu. Prídete o servírované raňajky, ale káva s pastelom de nata v pastelarii
+stojí tri eurá na osobu, takže za tri dni ušetríte aj na jedle. Ak vám raňajky nie sú
+posvätné, je toto najrýchlejšia cesta pod sto eur za noc.
+
+*Pôvodné tipy, ak by rozpočet predsa len pustil:* **Casa do Patio by Shiadu** (~9,2,
+rodinné izby, raňajky v patiu — ale 163 €), **Casa Amora Studios** (~9,2, štúdiá
+s kuchynkou v Rate) a **Casa C'Alma** (päť izieb v Príncipe Real, bez rodinnej izby).
 
 ### Lagos, 6 nocí (15.–21. 11.)
 
@@ -96,6 +126,12 @@ Tu vstupuje do hry jedna vec navyše: **máte auto**. Staré mesto v Lagose je s
 jednosmeriek s plateným a väčšinou obsadeným parkovaním. Penzión kúsok za centrom
 s vlastným parkovaním je pri šiestich nociach reálne pohodlnejší než romantické miesto,
 pri ktorom každý večer krúžite dvadsať minút.
+
+> **Accor v okolí Lagosu prakticky nie je.** Najbližšie je *ibis Faro* (hodinu cesty)
+> a *Victoria Golf Resort & Spa* vo Vilamoure, ktorý Accor prevzal — ten je ale
+> na opačnom konci Algarve, hodinu od okruhu a ďaleko od všetkého ostatného, čo máte
+> v pláne. Na Lagos zostaňte pri penziónoch nižšie.
+
 
 **1. Casa dos Cedros** — *moja voľba pre vás*
 
