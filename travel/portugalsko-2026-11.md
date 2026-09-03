@@ -480,8 +480,49 @@ naraz veľkú časť trate.
 
 ## Auto, cesty, peniaze
 
-- **Prenájom:** vyzdvihnutie **letisko Lisabon, nedeľa 15. 11. ráno**, vrátenie tam istam
-  21. alebo 22. 11. Mestské pobočky bývajú v nedeľu zatvorené.
+### Od koho prenajať auto na letisku
+
+Pulty všetkých firiem sú v **Termináli 1 v príletovej hale**, na ľavej strane komplexu.
+Autá sa preberajú aj vracajú v **parkovacom dome pri termináli** — pri vracaní sledujte
+značky „car hire drop-off" na spodnom podlaží.
+
+**U vás nerozhoduje cena, ale vrátenie o 4:15 ráno.** To vyradí väčšinu ponuky:
+
+- **Sixt** a **Avis** deklarujú **24-hodinové vrátenie**. Pre váš prípad sú to dve
+  najbezpečnejšie voľby a jednu z nich by som bral.
+- **Europcar otvára až o 6:00.** Ich systém rezerváciu na štvrtú rannú rovno odmieta.
+  Nebrať.
+- **Hertz** — zdroje si protirečia, jeden uvádza 24/7, druhý 6:00–1:00. Ak by ste ich
+  chceli, treba si to vopred písomne potvrdiť.
+- **Enterprise, Alamo, National, Guerin, Budget** majú typicky 6:00–24:00 a nočné vrátenie
+  riešia **key-drop schránkou**. Funguje to, ale auto preberú až ráno bez vás — prípadné
+  poškodenie teda zapíšu vo vašej neprítomnosti. Ak by ste na to museli pristúpiť,
+  **odfoťte auto zo všetkých strán, tachometer aj palivomer** a nechajte si časové razítko.
+
+**Koho obísť:** **Goldcar** a **Centauro**, a vo všeobecnosti ultra-lacné značky
+(Record go, InterRent, Firefly, Klass Wagen, Ok Mobility). Vzorec je vždy rovnaký — cena
+vyzerá o polovicu lepšie, ale na pulte príde tlak na drahé pripoistenie, blokácia
+1 200–2 500 € na karte a hodinové rady. Hodnotenia oboch sú na Trustpilote dlhodobo zlé.
+Pri lete o siedmej ráno nechcete stáť hodinu v rade.
+
+**Sedem vecí, ktoré si treba pri rezervácii vypýtať a overiť:**
+
+1. **Písomné potvrdenie, že vrátenie 22. 11. o 4:15 je možné s obsluhou**, nie cez key-drop.
+2. **Transpondér Via Verde** — A22 v Algarve nemá mýtne búdky, bez neho riešite pokuty spätne.
+3. **Kombi, SUV alebo 7-miestne.** Rodina a kufre sa do kompaktu nezmestia. Ak chcete
+   **automat, rezervujte teraz** — portugalské flotily sú prevažne manuálne a automatov je málo.
+4. **Kreditná karta na meno hlavného vodiča.** Debetnú na depozit väčšinou neberú a vedia
+   vás odmietnuť priamo na pulte. Toto je najčastejší dôvod, prečo ľuďom prenájom padne.
+5. **Palivo „full-to-full"**, nie „full-to-empty".
+6. **Výška spoluúčasti a depozitu.** Buď si dokúpte jej zníženie, alebo majte vlastné
+   poistenie spoluúčasti — ale rátajte, že depozit vám na karte zablokujú tak či tak.
+7. **Zapísať druhého vodiča.** Pri nočnej ceste z Portimãa do Lisabonu sa to oplatí.
+
+
+### Ostatné
+
+- **Prenájom:** vyzdvihnutie **letisko Lisabon, nedeľa 15. 11. ráno**, vrátenie tam isto
+  22. 11. o 4:15. Mestské pobočky bývajú v nedeľu zatvorené, letiskové sú nonstop.
 - **Veľkosť:** rodina + kufre (+ prípadne golfové bagy) = kombi, SUV alebo 7-miestne.
   Neberte kompakt, nezmestíte sa.
 - **Transpondér Via Verde** si vypýtajte hneď pri preberaní — A22 v Algarve nemá búdky.
