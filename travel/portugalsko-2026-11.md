@@ -53,133 +53,53 @@ Celkovo najazdíte cca **1 100–1 300 km**.
 
 ---
 
-## Kde bývať — konkrétny výber
+## Ubytovanie — rezervované
 
-Filtroval som na: **penzión alebo B&B s raňajkami, výborné hodnotenie, rozumná cena
-a miesto pre štyroch**. To posledné je najtvrdšie sito — väčšina malých penziónov má
-izby maximálne pre dvoch až troch.
+| | Kde | Kedy |
+|---|---|---|
+| **Novotel Lisboa** | Praça de Espanha, Lisabon | 12.–15. 11., 3 noci |
+| **Clube Porto Mós** | Praia de Porto de Mós, Lagos | 15.–21. 11., 6 nocí |
+| *bez hotela* | spanie v aute v garáži P2 | 21.–22. 11. |
 
-> **Dve poznámky k číslam.** Hodnotenia sú z Tripadvisoru a agregátorov, nie live
-> z Bookingu (ten je z môjho prostredia blokovaný) — pred rezerváciou si skóre aj cenu
-> overte priamo. Ceny sú odhad na november pre 2 dospelých + 2 deti; ak je vaša rodina
-> iná, povedzte a prepočítam.
+### Čo z toho vyplýva pre program
 
-### Lisabon, 3 noci (12.–15. 11.)
+**Novotel Lisboa** nie je v historickom centre, je pri Praça de Espanha. Do Baixy a Chiada
+sa dostanete metrom asi za desať minút (stanica Praça de Espanha alebo São Sebastião),
+takže program v pláne funguje bez zmeny — len sa večer vraciate metrom, nie pešo.
+Deti do 16 rokov majú raňajky v cene, čo pri troch dňoch pre štyroch nie je málo,
+a je tam bazén, keby bolo treba deti niekam vypustiť.
 
-> ### ⚠️ Toto vysvetľuje tú cenu: 9.–12. novembra 2026 je v Lisabone Web Summit
->
-> Desaťtisíce ľudí, mesto vypredané a ceny na úrovni letnej špičky. Vy priletíte
-> **12. 11. večer, čiže v posledný deň konferencie** — to je zďaleka najdrahšia
-> z vašich troch nocí. Tri dôsledky:
->
-> - **Rezervujte hneď.** Do novembra to bude len horšie, nie lepšie.
-> - **Vyhnite sa Parque das Nações.** Konferencia je presne tam (MEO Arena).
-> - Noci **13. a 14. 11. sú výrazne lacnejšie.** Oplatí sa pozrieť aj variantu
->   „prvú noc kdekoľvek lacno, potom dve noci v tom peknom" — s kuframi je to otrava,
->   ale rozdiel môže byť aj sto eur.
+> **Web Summit 9.–12. 11.** už neriešite kvôli cene, ale v deň príletu bude mesto plné:
+> letisko preplnené, Uber drahší, dobré reštaurácie obsadené. Na štvrtok večer si stôl
+> radšej rezervujte vopred — alebo choďte do **Time Out Marketu**, kde sa rezervovať nedá
+> a vždy sa niečo nájde. Novotel je pri Praça de Espanha, čiže **ďaleko od Parque das Nações**,
+> kde konferencia prebieha. To je dobre.
 
-A oprava odo mňa: tých **90–130 € bol odhad za dvojlôžkovú izbu**, nie za rodinnú pre
-štyroch. Rodinná izba v slušnom penzióne v centre vyjde aj mimo Web Summitu na 150–180 €.
-Tu sú tri cesty, ako sa dostať nižšie.
+**Nedeľa 15. 11., prevzatie auta.** Z Novotelu je to na letisko asi pätnásť minút Uberom.
+Vyzdvihnite auto a choďte **rovno na juh cez most Vasco da Gama a A12 na A2** — z letiska
+je to prirodzenejšia trasa než vracať sa cez mesto na Ponte 25 de Abril.
+**LX Factory tým z plánu vypadáva:** je pri druhom moste a znamenala by zachádzku okolo
+štyridsiatich minút. Buď ju vynechajte a vyrazte skôr, alebo si ju dajte už v sobotu podvečer.
 
-#### 1. Cez Accor
+**Clube Porto Mós** stojí priamo nad plážou Porto de Mós, asi 2 km juhozápadne od starého
+mesta Lagos. Pešo do centra 25–30 minút, autom päť. Parkovanie na mieste, bazén aj spa.
 
-**Novotel Lisboa** je pre vás najsilnejší tromf v celom výbere: **deti do 16 rokov spia
-v izbe rodičov zadarmo a majú zadarmo aj raňajky**. Veľká izba s rozkladacím gaučom pre
-deti, vonkajší bazén, metro Praça de Espanha. Pre štyroch to často vyjde lacnejšie než
-rodinná izba v penzióne — a raňajky sú v cene, čo pri štyroch ľuďoch nie je maličkosť.
+Z tejto polohy vyplývajú dve veci, ktoré stoja za využitie:
 
-**ibis Lisboa** (Saldanha, Liberdade, José Malhoa) — najlacnejšie, čisté, bez duše, ale
-funkčné. **Pobočku Parque das Nações vynechajte**, je priamo pri Web Summite.
+- **Chodník po útesoch na Ponta da Piedade začína priamo pod hotelom.** Z Porto de Mós
+  sa dá po hrane útesov prejsť k majáku za 30–40 minút. Pondelkový program teda máte
+  doslova za dverami a nemusíte kvôli nemu nikam ísť autom.
+- **Golf máte bližšie, než rátal plán.** Boavista je od Porto de Mós asi osem minút,
+  Espiche dvanásť. Utorňajšie deväť jamiek si teda dáte ešte pohodlnejšie.
 
-**Adagio** — aparthotel s kuchynkou, na tri noci pre štyroch veľmi praktický.
-
-Accor má naprieč značkami aj ponuku **50 % na druhú izbu pre deti**, ak by ste nechceli
-byť všetci v jednej izbe.
-
-#### 2. Lacnejšie penzióny a B&B
-
-| Miesto | Hodnotenie | Od | Prečo |
-|---|---|---|---|
-| **Typical Lisbon Guest House** | 4,4/5, 272 recenzií | ~64 € | Dom z 30. rokov so štukovými stropmi, **raňajky v cene** aj **spoločná kuchyňa**. Najlepší pomer ceny a kvality z tohto zoznamu. |
-| **Lisbon Calling** | 8,4 z 1 014 recenzií | ~84 € | Budova z 19. storočia v Misericórdii, **veľké rodinné izby s vlastnou kúpeľňou**, spoločná kuchyňa. |
-| **Casa do Bairro by Shiadu** | 1 379 recenzií | ~84 € | Ten istý majiteľ ako Casa do Patio, päť minút od Bairro Alto aj Chiada, domáce raňajky, ponúkajú aj stráženie detí. |
-| **Goodmorning Solo Traveller Hostel** | **9,3 z 3 818 recenzií** | najlacnejšie | Neľakajte sa slova hostel — má **súkromné izby** a **raňajky zadarmo vrátane čerstvých waflí**. Pri metre Restauradores. Najvyššie hodnotenie z celého lisabonského výberu. |
-
-**Čo nebrať:** *Estrela dos Anjos* láka cenou od 58 €, ale má hodnotenie 7,7
-a **neponúka raňajky** — nespĺňa ani jedno z vašich kritérií.
-
-#### 3. Apartmán namiesto B&B
-
-Pri štyroch ľuďoch je **apartmán takmer vždy lacnejší než rodinná izba** — a máte
-k tomu kuchyňu. Prídete o servírované raňajky, ale káva s pastelom de nata v pastelarii
-stojí tri eurá na osobu, takže za tri dni ušetríte aj na jedle. Ak vám raňajky nie sú
-posvätné, je toto najrýchlejšia cesta pod sto eur za noc.
-
-*Pôvodné tipy, ak by rozpočet predsa len pustil:* **Casa do Patio by Shiadu** (~9,2,
-rodinné izby, raňajky v patiu — ale 163 €), **Casa Amora Studios** (~9,2, štúdiá
-s kuchynkou v Rate) a **Casa C'Alma** (päť izieb v Príncipe Real, bez rodinnej izby).
-
-### Lagos, 6 nocí (15.–21. 11.)
-
-Keďže ubytovanie objednáva agentúra, malé penzióny odpadajú — agentúry predávajú len to,
-čo majú v systéme, čiže reťazce, hotely a apartmánové rezorty. **Casa dos Cedros** teda
-vypadáva a **The Sun Hill** za 160 € nespĺňa cenu.
-
-Dobrá správa: v tejto inventúre je Lagos **výrazne lacnejší** než penzióny.
-
-**Odpoveď na ibis: v Lagose ani v Portimão žiadny Accor nie je.** Najbližší ibis je vo Fare,
-hodinu cesty. Rovnakú rolu — spoľahlivý reťazec za rozumné peniaze — tu hrajú portugalské
-siete **Água Hotels**, **Sunplace**, **Vila Galé** a **Pestana**, z medzinárodných
-**Iberostar**, **Tivoli/Minor** a **NH**.
-
-Ceny sú **za celých 6 nocí pre 2 dospelých a 2 deti**, prepočítané aj na noc. Zdroj je jeden
-agregátor, čiže orientačné — ale je to tá istá inventúra, z akej čerpá agentúra.
-
-| Hotel | Reťazec | Hodnotenie | Za noc | Za 6 nocí | Storno |
-|---|---|---|---|---|---|
-| **Clube Porto Mós** | Sunplace | 80 / 405 rec. | **~67 €** | ~400 € | **áno** |
-| **Água Hotels Vila Branca** | Água Hotels | 82 / **1 050 rec.** | ~70 € | ~420 € | nie |
-| **Quinta do Mar** | — | **84** / 360 rec. | ~76 € | ~455 € | áno |
-| **Dunas do Alvor – Torralvor** | — | 78 / 342 rec. | **~57 €** | ~340 € | nie |
-| **Villa Doris Suites** | — | 78 / 184 rec. | ~85 € | ~510 € | áno |
-| **Ancora Park** | Sunplace | 80 / 198 rec. | ~98 € | ~590 € | áno |
-| **Marina Club Lagos** | — | 4★ | ~116 € | ~695 € | áno |
-| **Vila Palmeira Beach Resort** | — | 96 / len 115 rec. | ~126 € | ~755 € | áno |
-| **Vila Galé Lagos** | Vila Galé | 80 / 2 228 rec. | ~215 € | ~1 290 € | áno |
-
-#### Čo by som z toho vybral
-
-**1. Clube Porto Mós (Sunplace Hotels & Beach Resort)** — *moja voľba.*
-Štyri hviezdy, bazén a spa, apartmány — a stojí priamo nad **Praia de Porto de Mós**,
-peknou širokou plážou asi dvadsať minút pešo od starého mesta. Za ~67 € na noc pre štyroch
-je to najlepší pomer z celého zoznamu a **rate je stornovateľný**, čo pri rezervácii
-štrnásť mesiacov dopredu nie je maličkosť.
-
-**2. Água Hotels Vila Branca** — *najbezpečnejšia stávka.*
-Portugalský reťazec s **1 050 recenziami a hodnotením 82**, čiže žiadne prekvapenia.
-**Apartmány s kuchyňou**, dva bazény pre dospelých a dva detské, parkovanie. Dvanásť minút
-pešo na Praia de Porto de Mós, do starého mesta 1,5 km. Presne to „ibis pre rodiny", čo
-hľadáte — len bez možnosti storna.
-
-**3. Dunas do Alvor – Torralvor** — *cenová a okruhová voľba.*
-Najlacnejšie z celého zoznamu (~57 € na noc, 340 € za šesť nocí), bazén aj spa, a leží
-**v Alvore, čiže pätnásť minút od okruhu** namiesto tridsiatich. Platíte za to tým, že Alvor
-je v novembri ospalý a do Lagosu je to 25 minút.
-
-> **Jedna technická poznámka.** Vzdialenosti, ktoré ten agregátor uvádza, sú merané od zlého
-> bodu (Vila Branca ukazuje 13,8 km, hoci je 1,5 km od starého mesta). Vzdialenosti vyššie
-> som doplnil podľa skutočnej mapy, nie podľa neho.
-
-Ak by agentúra vedela objednať čokoľvek, pôvodné penzióny stále platia: **Happy Silva
-Guesthouse** (~9,2 z 580 recenzií, od 65–75 €), **Merry's House** v centre a **Quinta Bonita
-Country House** ako drahšia, ale krásna voľba.
+Vzdialenosti z Porto de Mós: **okruh 35 km / 30 min**, Sagres 40 min, Praia da Marinha
+40 min, Penina a Álamos 25 min.
 
 ### Posledná noc (21. 11.) — bez hotela
 
-Ubytovanie končí v sobotu ráno check-outom v Lagose. Ako presun na letisko rozložiť,
-je rozpísané nižšie pri sobote — v skratke: **spať pár hodín v aute v garáži P2 priamo
-pri termináli** a auto vrátiť až o 4:15.
+Check-out v sobotu ráno. Poproste recepciu deň vopred o **možnosť sa po okruhu ešte
+osprchovať a prezliecť** — po dni na prašnej trati to zmení celý večer. Zvyšok je
+rozpísaný nižšie pri sobote a nedeli.
 
 ---
 
@@ -215,9 +135,21 @@ vyberie svoje — ideálne po lete s deťmi.
 **Západ slnka (~17:20):** Miradouro de Santa Catarina alebo strešný bar **Park**
 (vjazd cez parkovací dom na Calçada do Combro, výťah na 6. poschodie).
 
-**Večera:** *Cervejaria Ramiro* (morské plody, legenda, rad — choďte o 18:00),
-*Taberna da Rua das Flores* (malé, treba rezerváciu), *A Cevicheria*.
+**Večera — jedna vec, ktorú by som v Lisabone neobišiel:**
 
+**Zé dos Cornos**, Beco dos Surradores 5, Mouraria. Klasická tasca, kde miestni sedia
+pri spoločných stoloch. Rebierka z uhlia s ryžou a fazuľou a paradajkovým šalátom vyjdú
+**okolo 12 € na osobu**. Šťastná zhoda: **na večeru majú otvorené len v piatok a v sobotu**
+— a váš lisabonský deň je práve piatok.
+
+> **Neberú karty, len hotovosť, a nerezervuje sa.** Príďte o 19:00, neskôr sa stojí rad.
+> Je to malé a hlučné, čo je presne to, čo tam chcete.
+
+Alternatívy: *Cervejaria Ramiro* (morské plody, legenda, ale drahšie — choďte o 18:00),
+*Taberna da Rua das Flores* (malé, treba rezerváciu).
+
+**Zadarmo v tento deň:** kostol v Jerónimskom kláštore (platí sa len krížová chodba), Torre de Belém a Padrão dos Descobrimentos zvonku vrátane mozaikovej ružice vetrov, promenáda pri rieke, strecha MAAT-u, Praça do Comércio, Rua Augusta, Chiado, Bairro Alto a všetky vyhliadky. 
+**Platené:** krížová chodba Jerónimos ~15 €, Convento do Carmo ~7 €, strecha oblúka Rua Augusta ~4 €.
 ### Sobota 14. 11. — Sintra + Cabo da Roca + Cascais
 
 Celodenný výlet. Autom to je 40 min, ale **parkovanie v Sintre je peklo** — najlepšie
@@ -240,6 +172,8 @@ pri mori. Späť do Lisabonu 30 min.
 akvárií na svete, počítajte 2,5 h) + **Pavilhão do Conhecimento** (interaktívne múzeum vedy)
 + **lanovka nad Parque das Nações**. Poobede električka 28 a **Castelo de São Jorge**.
 
+**Zadarmo v tento deň:** historické centrum Sintry, **Cabo da Roca** vrátane parkovania, Cascais — prístav, staré mesto a **Boca do Inferno**, pláž Guincho.
+**Platené:** Quinta da Regaleira ~15 €, Pena ~20 € alebo len park ~10 €.
 ### Nedeľa 15. 11. — presun na juh (~4,5 h aj so zastávkami)
 
 **Ráno:** vyzdvihnite auto **na letisku** (mestské pobočky bývajú v nedeľu zatvorené,
@@ -263,6 +197,7 @@ prechádzka po marine, večera.
 > **Dôležité:** diaľnica **A22 v Algarve má výhradne elektronické mýto** — vypýtajte si
 > od požičovne transpondér **Via Verde** (~2 €/deň + mýto). Bez neho riešite pokuty.
 
+**Zadarmo v tento deň:** celá Comporta — pláž, duny aj ryžové polia. Prípadne Portinho da Arrábida. Platí sa len mýto a obed.
 ### Pondelok 16. 11. — Lagos naplno
 
 Aklimatizačný deň, nikam sa nehrňte.
@@ -277,18 +212,38 @@ Aklimatizačný deň, nikam sa nehrňte.
   najfotenejšie pláže Portugalska
 - **Meia Praia** — 4 km rovného piesku, ak chcete behať alebo púšťať šarkana
 
-**Jedlo v Lagose:** *Adega da Marina* (obrovské porcie z grilu, lacné, rodiny, bez rezervácie),
-*Casinha do Petisco* (maličké, treba prísť skoro), *O Camilo* (nad plážou Camilo, ryby + výhľad),
-*Nah Nah Bah* (burgre, keď deti už nechcú ryby), *Bora Café* (brunch).
+**Kde jesť v Lagose — jedno miesto nad ostatnými:**
 
+**Restaurante A Forja**, Rua dos Ferreiros 17. Miestni jej hovoria „reštaurácia s modrými
+dverami". Rodinný podnik v starom meste, spoločné stoly, ryba rovno z lagoskej rybej tržnice,
+obrovské porcie. **15–25 € na osobu.** Od vášho hotela desať minút.
+
+> Rad sa tvorí po 19:30. **Príďte o 19:00** alebo si rezervujte — inak stojíte na ulici.
+
+Ďalšie osvedčené: *Adega da Marina* (porcie z grilu, lacné, bez rezervácie, funguje vždy),
+*Casinha do Petisco* (maličké, treba prísť skoro), *O Camilo* (nad plážou Camilo, ryby
+a výhľad, drahšie), *Nah Nah Bah* (burgre, keď deti už nechcú ryby).
+
+**Zadarmo v tento deň:** drevené lávky a vyhliadky na **Ponta da Piedade**, pláže **Porto de Mós** (pod hotelom), **Dona Ana**, **Camilo** a Meia Praia, staré mesto, hradby, Praça Gil Eanes a rybí trh.
+**Platené:** loďka na Ponta da Piedade ~20–25 € (jediná vec, ktorú tu naozaj kúpte), Igreja de Santo António ~3 €.
 ### Utorok 17. 11. — golf + západ Algarve
 
 **Doobeda golf** (tee time 8:30–9:30, v novembri sa hrá krásne, 19 °C).
 
 **Poobede na západ:**
 
-Lagos → Praia da Luz → **Burgau** → **Salema** (rybárska dedinka, obed v *Água na Boca*)
-→ **Sagres** (Fortaleza de Sagres na výbežku) → **Cabo de São Vicente**.
+Lagos → Praia da Luz → **Burgau** → **Salema** → **Sagres** → **Cabo de São Vicente**.
+
+**Obed v Salemе — druhé miesto, ktoré by som neobišiel:**
+
+**Snack-Bar Restaurante Lourenço**, priamo v rybárskej dedinke. Za sporákom stojí
+kuchárka Maria vyše tridsať rokov, jej syn chodí niekoľkokrát do týždňa vyberať rybu
+na tržnicu v Sagres. Pred podnikom je akvárium s krabmi a homármi, vnútri malá sála.
+Nevyzerá to na nič — a je to jedna z najlepších rýb v celom Algarve, za ceny bežnej
+dedinskej krčmy.
+
+> Ak by mali zatvorené, hneď na námestí je **Atlântico** — najstaršia reštaurácia v Salеme,
+> celopresklená s terasou, takže funguje aj keď fúka.
 
 Cabo de São Vicente je juhozápadný cíp Európy — 75 m útesy, maják, oceán do nekonečna.
 **Buďte tam na západ slnka (~17:30)**, je to jeden z najlepších na svete. Pri parkovisku
@@ -297,6 +252,8 @@ stojí stánok *Letzte Bratwurst vor Amerika* ("posledná klobása pred Amerikou
 Ak zvýši čas, cestou späť odbočka na **Praia do Amado** alebo **Carrapateira** —
 surferské pláže Costa Vicentina, divoké duny.
 
+**Zadarmo v tento deň:** Praia da Luz, **Burgau**, **Salema**, a hlavne **Cabo de São Vicente** — útesy, maják zvonku, západ slnka aj parkovanie. Prípadne Praia do Amado a duny pri Carrapateire.
+**Platené:** len golf. Pevnosť v Sagres (~5 €) vynechajte, dráma je vonku na útesoch.
 ### Streda 18. 11. — roadtrip na východ: jaskyne a útesy
 
 Najkrajší pobrežný úsek Algarve. Celý deň, ~40 min od Lagosu.
@@ -321,6 +278,8 @@ zadarmo) a obed v Monchique.
 
 **Večera vo Ferragude:** *Sueste* (na móle, grilované ryby) alebo *O Barril*.
 
+**Zadarmo v tento deň:** **Ferragudo**, **Algar Seco** aj s drevenou lávkou, **Praia da Marinha** a vyhliadka nad ňou, celý **Percurso dos Sete Vales Suspensos**. To je prakticky celý dnešný program.
+**Platené:** iba loďka do jaskyne Benagil ~25–35 € na osobu — a tú pokojne vynechajte.
 ### Štvrtok 19. 11. — golf a nič viac
 
 Deň bez programu. Ráno deväť jamiek, poobede bazén, pláž alebo mesto.
@@ -465,9 +424,41 @@ pozrite zhora, je to zadarmo a rovnako pekné.
 je škoda dňa aj stovky eur. Ak bude liať, je to jedno z najlepších akvárií na svete
 a nebudete ľutovať.
 
-Všetko ostatné v pláne — Ponta da Piedade zhora, Praia Dona Ana a Camilo, Cabo de São
-Vicente, Sedem visutých údolí, Algar Seco, Comporta, Alfama, vyhliadky, Praça do Comércio,
-LX Factory — **je zadarmo**. A je to väčšina toho najlepšieho, čo uvidíte.
+### Čo je zadarmo, po mestách
+
+Toto je väčšina toho najlepšieho, čo na zájazde uvidíte — a nestojí to nič.
+
+**Lisabon**
+Praça do Comércio a Rua Augusta · Alfama a jej uličky · vyhliadky Portas do Sol,
+Santa Luzia, Senhora do Monte, Graça, Santa Catarina a São Pedro de Alcântara ·
+Chiado, Bairro Alto a Príncipe Real · **kostol Jerónimskeho kláštora** (platí sa len
+krížová chodba) · Torre de Belém a Padrão dos Descobrimentos zvonku · mozaiková ružica
+vetrov · promenáda pri rieke a strecha MAAT-u · LX Factory · vstup do Time Out Marketu ·
+Jardim da Estrela a Jardim do Príncipe Real
+
+**Sintra, Cabo da Roca a Cascais**
+Historické centrum Sintry · **Cabo da Roca**, najzápadnejší bod kontinentálnej Európy,
+vrátane parkovania · Cascais — prístav, staré mesto a **Boca do Inferno** · pláž Guincho
+
+**Cesta na juh**
+Comporta — pláž, duny aj ryžové polia · Portinho da Arrábida
+
+**Lagos a okolie**
+**Ponta da Piedade** zhora, po drevených lávkach až k majáku · pláže **Porto de Mós**,
+**Dona Ana**, **Camilo** a Meia Praia · staré mesto, hradby, Praça Gil Eanes a rybí trh ·
+chodník po útesoch, ktorý začína priamo pod vaším hotelom
+
+**Západ**
+Praia da Luz, **Burgau** a **Salema** · **Cabo de São Vicente** — útesy, maják zvonku,
+západ slnka aj parkovanie · Praia do Amado a duny pri Carrapateire
+
+**Východ**
+**Ferragudo** · **Algar Seco** aj s drevenou lávkou · **Praia da Marinha** a vyhliadka
+nad ňou · celý **Percurso dos Sete Vales Suspensos**
+
+**Vnútrozemie, keď prší**
+**Fóia**, 902 m, najvyšší bod Algarve · mestečko Monchique a Caldas de Monchique
+*(hrad v Silves stojí ~3 € a za tie peniaze sa oplatí)*
 
 ## Golf — deväť jamiek, rozumné ceny
 
@@ -546,69 +537,35 @@ naraz veľkú časť trate.
 
 ## Auto, cesty, peniaze
 
-### Od koho prenajať auto na letisku
+### Auto — Sixt, letisko Lisabon
 
-Pulty všetkých firiem sú v **Termináli 1 v príletovej hale**, na ľavej strane komplexu.
-Autá sa preberajú aj vracajú v **parkovacom dome pri termináli** — pri vracaní sledujte
-značky „car hire drop-off" na spodnom podlaží.
+Dobrá voľba. Sixt deklaruje **24-hodinové vrátenie**, čo je pri vašom pláne jediná vec,
+na ktorej naozaj záleží — Europcar otvára až o 6:00 a väčšina ostatných rieši noc
+schránkou na kľúče. Pulty sú v **Termináli 1 v príletovej hale**, autá sa preberajú aj
+vracajú v parkovacom dome; pri vracaní sledujte značky „car hire drop-off" na spodnom podlaží.
 
-**U vás nerozhoduje cena, ale vrátenie o 4:15 ráno.** To vyradí väčšinu ponuky:
+**Sedem vecí, ktoré si pri rezervácii vypýtať a overiť:**
 
-- **Sixt** a **Avis** deklarujú **24-hodinové vrátenie**. Pre váš prípad sú to dve
-  najbezpečnejšie voľby a jednu z nich by som bral.
-- **Europcar otvára až o 6:00.** Ich systém rezerváciu na štvrtú rannú rovno odmieta.
-  Nebrať.
-- **Hertz** — zdroje si protirečia, jeden uvádza 24/7, druhý 6:00–1:00. Ak by ste ich
-  chceli, treba si to vopred písomne potvrdiť.
-- **Enterprise, Alamo, National, Guerin, Budget** majú typicky 6:00–24:00 a nočné vrátenie
-  riešia **key-drop schránkou**. Funguje to, ale auto preberú až ráno bez vás — prípadné
-  poškodenie teda zapíšu vo vašej neprítomnosti. Ak by ste na to museli pristúpiť,
-  **odfoťte auto zo všetkých strán, tachometer aj palivomer** a nechajte si časové razítko.
-
-**Koho obísť:** **Goldcar** a **Centauro**, a vo všeobecnosti ultra-lacné značky
-(Record go, InterRent, Firefly, Klass Wagen, Ok Mobility). Vzorec je vždy rovnaký — cena
-vyzerá o polovicu lepšie, ale na pulte príde tlak na drahé pripoistenie, blokácia
-1 200–2 500 € na karte a hodinové rady. Hodnotenia oboch sú na Trustpilote dlhodobo zlé.
-Pri lete o siedmej ráno nechcete stáť hodinu v rade.
-
-**Sedem vecí, ktoré si treba pri rezervácii vypýtať a overiť:**
-
-1. **Písomné potvrdenie, že vrátenie 22. 11. o 4:15 je možné s obsluhou**, nie cez key-drop.
-2. **Transpondér Via Verde** — A22 v Algarve nemá mýtne búdky, bez neho riešite pokuty spätne.
-3. **Kombi, SUV alebo 7-miestne.** Rodina a kufre sa do kompaktu nezmestia. Ak chcete
-   **automat, rezervujte teraz** — portugalské flotily sú prevažne manuálne a automatov je málo.
+1. **Písomné potvrdenie, že vrátenie 22. 11. o 4:15 je možné s obsluhou.** Toto majte
+   čierne na bielom, nie ústne — je to celý dôvod, prečo beriete Sixt.
+2. **Transpondér Via Verde.** A22 v Algarve nemá mýtne búdky, bez neho riešite pokuty spätne.
+3. **Kombi, SUV alebo 7-miestne.** Ak chcete automat, rezervujte teraz — portugalské
+   flotily sú prevažne manuálne.
 4. **Kreditná karta na meno hlavného vodiča.** Debetnú na depozit väčšinou neberú a vedia
    vás odmietnuť priamo na pulte. Toto je najčastejší dôvod, prečo ľuďom prenájom padne.
 5. **Palivo „full-to-full"**, nie „full-to-empty".
-6. **Výška spoluúčasti a depozitu.** Buď si dokúpte jej zníženie, alebo majte vlastné
-   poistenie spoluúčasti — ale rátajte, že depozit vám na karte zablokujú tak či tak.
-7. **Zapísať druhého vodiča.** Pri nočnej ceste z Portimãa do Lisabonu sa to oplatí.
+6. **Výška spoluúčasti a depozitu** — číslo potrebujete predtým, než kúpite poistku (viď nižšie).
+7. **Zapísať druhého vodiča** kvôli nočnej ceste z Portimãa do Lisabonu.
 
-#### Ktoré značky sú v skutočnosti tá istá firma
+### Poistenie spoluúčasti — kde sa naozaj šetrí
 
-- **Enterprise, Alamo, National a Guerin majú na LIS jeden spoločný pult.** V Portugalsku
-  vás pri rezervácii cez Alamo obslúži Guerin. Pýtať si tri ponuky teda nemá zmysel — je to
-  jeden dodávateľ, jedna flotila a jedny otváracie hodiny.
-- **Budget patrí do Avis Budget Group**, čiže je to lacnejšia značka Avisu. To je z vašej
-  trojky najzaujímavejšie: môže vám dať Avisovu prevádzku za nižšiu cenu. Vypýtajte si ale
-  potvrdenie, **či sa Budget rezervácia vybavuje na Avis pulte a s rovnakými hodinami**.
-
-#### 270 € za sedem dní nie je zlá cena
-
-Polovica novembra je mimo sezóny a pre kombi alebo SUV od poriadnej letiskovej značky je to
-zhruba trhová cena. Ísť výrazne nižšie väčšinou znamená pristáť presne u tých firiem, ktorým
-sa oplatí vyhnúť. Tú sumu by som nebral ako problém.
-
-#### Kde sa naozaj dajú ušetriť peniaze
-
-Nie na značke, ale na poistení. Na pulte vám budú predávať zníženie spoluúčasti na nulu za
-**25–35 € na deň** — to je pri siedmich dňoch **175–245 €** a cenu by vám to skoro
-zdvojnásobilo. Namiesto toho si **vopred kúpte samostatné poistenie spoluúčasti**
-u špecializovaného poisťovateľa: týždňová európska poistka stojí okolo **30 €**, ročná
-okolo **50 €**. Úspora 150–200 €.
+Na pulte vám budú predávať zníženie spoluúčasti na nulu za **25–35 € na deň**, čo je pri
+siedmich dňoch **175–245 €** a cenu by vám to skoro zdvojnásobilo. Namiesto toho si
+**vopred kúpte samostatné poistenie spoluúčasti**: týždňová európska poistka stojí okolo
+**30 €**, ročná okolo **50 €**. Úspora 150–200 €.
 
 Ako to funguje: depozit vám na karte zablokujú tak či tak a prípadné poškodenie najprv
-zaplatíte požičovni — až potom si to nárokujete od svojho poisťovateľa. Treba na to kreditnú
+zaplatíte Sixtu — až potom si to nárokujete od svojho poisťovateľa. Treba na to kreditnú
 kartu s dostatočným limitom a trochu papierovania, ale finančne to vyjde podstatne lepšie.
 
 #### Kto to predáva
@@ -700,7 +657,6 @@ To je to skutočné rozhodnutie: štyri hodiny spánku v aute proti tomu, že au
 
 | Položka | Odhad |
 |---|---|
-| Ubytovanie 9 nocí (3× Lisabon, 6× Algarve) | 1 300 – 2 400 € |
 | Prenájom auta 7 dní + poistenie | 300 – 450 € |
 | Palivo + mýto | 200 – 260 € |
 | Golf, 2× 9 jamiek pre 2 hráčov | 120 – 280 € |
@@ -727,15 +683,17 @@ more zvládnu už len deti.
 
 ## Čo rezervovať teraz (september)
 
-1. ☐ **Lístky na MotoGP + parkovanie** na 20. a 21. 11.
-2. ☐ **Ubytovanie v Algarve** 15.–21. 11. — MotoGP víkend vypredá región
-3. ☐ **Auto** 15.–22. 11. (kombi/7-miestne) — a **písomne overiť, či sa dá vrátiť o 4:15 v P2**
-4. ☐ Poprosiť hotel v Lagose o **sprchu po check-oute** v sobotu 21. 11.
-5. ☐ **Palácio da Pena + Quinta da Regaleira** — časované vstupenky
-6. ☐ **Tee times na 9 jamiek** — napísať mailom, november je v Algarve golfová špička
+*Ubytovanie máte vybavené — Novotel Lisboa a Clube Porto Mós.* Zostáva:
+
+1. ☐ **Rozhodnúť o spiatočnom lete** (viď úvod — kvôli nedeľným pretekom)
+2. ☐ **Lístky na MotoGP + parkovanie** na 20. a 21. 11.
+3. ☐ **Sixt** 15.–22. 11., kombi alebo 7-miestne — a **písomne overiť vrátenie o 4:15**
+4. ☐ **Poistenie spoluúčasti** — najprv overiť kreditnú kartu, potom Union či Generali
+5. ☐ **Tee times na 9 jamiek** — napísať mailom, november je v Algarve golfová špička
+6. ☐ **Quinta da Regaleira** — časovaná vstupenka
 7. ☐ **Mosteiro dos Jerónimos** — vstupenka online
-8. ☐ *Cervejaria Ramiro* a *Casinha do Petisco* — rezervácia stola
-9. ☐ **Rozhodnúť o spiatočnom lete** (viď úvod — kvôli nedeľným pretekom)
+8. ☐ **A Forja** v Lagose — rezervácia na 19:00
+9. ☐ Poprosiť Clube Porto Mós o **sprchu po check-oute** v sobotu 21. 11.
 
 ---
 
