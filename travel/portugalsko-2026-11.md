@@ -545,6 +545,61 @@ Ako to funguje: depozit vám na karte zablokujú tak či tak a prípadné poško
 zaplatíte požičovni — až potom si to nárokujete od svojho poisťovateľa. Treba na to kreditnú
 kartu s dostatočným limitom a trochu papierovania, ale finančne to vyjde podstatne lepšie.
 
+#### Kto to predáva
+
+> **Pozor na past, ktorú väčšina návodov neuvádza:** najznámejšie poistky spoluúčasti
+> (iCarhireinsurance, Questor, Worldwide Insure) predávajú **len rezidentom Spojeného
+> kráľovstva**. Ako Slovákovi vám poistku vystavia, ale pri škode ju môžu odmietnuť.
+> Vždy si pred kúpou overte, či je produkt pre **EÚ rezidentov**.
+
+**Najprv skontrolujte kreditnú kartu.** Prémiové karty (Visa Infinite, Mastercard World
+Elite, Amex Platinum) často obsahujú krytie spoluúčasti pri prenájme auta. Ak ho máte,
+je zadarmo a nemusíte kupovať nič.
+
+**Slovenská cesta** — jednoduchšia komunikácia aj likvidácia škody:
+
+- **Union** — „poistenie auta na dovolenku" ako pripoistenie k cestovnému poisteniu,
+  **od 1,99 € na deň**, čiže za sedem dní okolo 14 €. Najlacnejšie riešenie.
+- **Generali** — pripoistenie spoluúčasti pri prenajatých veciach v zahraničí, kryje všetky
+  osoby na poistke **do 1 000 €**. **Pozor na ten strop:** spoluúčasť a depozit v Portugalsku
+  bývajú 1 200–2 500 €, takže si najprv zistite konkrétnu výšku v ponuke od Budgetu alebo
+  Enterprise a až potom vyberte krytie.
+- **Allianz** kryje poškodenie prenajatého auta v rámci cestovného poistenia ako poistenie
+  zodpovednosti — to je ale niečo iné než spoluúčasť. Preverte si formuláciu.
+
+**Špecializovaní poisťovatelia** — drahšie, ale kryjú viac:
+
+- **insurance4carhire** — má samostatný produkt pre **EÚ rezidentov**.
+- **CarInsuRent** — jeden z mála, čo berie EÚ aj mimoeurópskych rezidentov. Ročná celosvetová
+  poistka okolo **160 $**.
+- **RentalCover.com** — predáva sa na jeden prenájom a výslovne kryje aj to, čo býva vylúčené.
+
+#### Čo poistka musí kryť (a väčšinou nekryje)
+
+Toto je dôležitejšie než cena. Základné CDW od požičovne aj lacné poistky štandardne
+**vylučujú presne to, čo sa reálne poškodí**:
+
+- **pneumatiky a disky** (výtlky a obrubníky v Algarve),
+- **sklá vrátane čelného** (kamienky na A22),
+- **podvozok a strecha** (poľné cesty k plážam a k okruhu),
+- **kľúče**, odťah, a **administratívne poplatky a „loss of use"**, ktoré si požičovne
+  účtujú za dni, keď auto opravujú.
+
+Ak poistka tieto štyri body výslovne nemenuje ako kryté, nekupujte ju — väčšina skutočných
+škôd padne práve sem.
+
+#### Ako to prakticky prebehne
+
+1. Poistku kúpte **pred prevzatím auta** a **na meno hlavného vodiča**.
+2. Na pulte **odmietnite ich pripoistenie**. Budú tlačiť, je to ich hlavná marža.
+3. Depozit vám na karte zablokujú tak či tak — mať dostatočný limit.
+4. Auto si pri prevzatí aj odovzdaní **odfoťte dokola vrátane kolies, skiel, strechy,
+   tachometra a palivomera**.
+5. Ak niečo zaplatíte, pýtajte si **faktúru s rozpisom** — bez nej vám poisťovňa nič neuzná.
+
+*Ceny a podmienky sa menia a nedokážem ich odtiaľto overiť naživo — porovnajte si dve
+až tri ponuky a hlavne si prečítajte zoznam výluk.*
+
 #### A tá istá poistka rieši aj key-drop
 
 Toto je podstatné: ak máte vlastné poistenie spoluúčasti, **nočné vrátenie cez schránku
