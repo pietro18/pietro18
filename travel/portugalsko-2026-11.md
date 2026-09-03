@@ -53,62 +53,89 @@ Celkovo najazdíte cca **1 100–1 300 km**.
 
 ---
 
-## Kde bývať
+## Kde bývať — konkrétny výber
 
-### Algarve — odporúčanie: **Lagos** (15.–21. 11., 6 nocí)
+Filtroval som na: **penzión alebo B&B s raňajkami, výborné hodnotenie, rozumná cena
+a miesto pre štyroch**. To posledné je najtvrdšie sito — väčšina malých penziónov má
+izby maximálne pre dvoch až troch.
 
-Lagos vyhráva, lebo spĺňa všetky štyri vaše podmienky naraz: pekné mesto, ktoré aj
-v novembri žije (väčšina Algarve v novembri zatvára), skvelé pláže, tri golfové ihriská
-do 15 minút a je to najlepšia štartovacia základňa pre roadtripy na západ.
+> **Dve poznámky k číslam.** Hodnotenia sú z Tripadvisoru a agregátorov, nie live
+> z Bookingu (ten je z môjho prostredia blokovaný) — pred rezerváciou si skóre aj cenu
+> overte priamo. Ceny sú odhad na november pre 2 dospelých + 2 deti; ak je vaša rodina
+> iná, povedzte a prepočítam.
 
-Vzdialenosti z Lagosu:
+### Lisabon, 3 noci (12.–15. 11.)
 
-- Okruh AIA: **35 km / 30 min** (A22, výjazd Mexilhoeira Grande)
-- Portimão: 20 km / 20 min
-- Sagres a Cabo de São Vicente: 35 km / 40 min
-- Praia da Marinha / Benagil: 40 km / 40 min
-- Monchique + Fóia: 45 km / 50 min
-- Letisko Faro: 90 km / 1 h
+**1. Casa do Patio by Shiadu** — *moja voľba*
 
-**Ubytovanie — užší výber:**
+Santa Catarina, päť minút pešo do Chiada aj Bairro Alto. Hodnotenie **~9,1–9,3**.
+Jediné z celého výberu, ktoré má **rodinné izby aj apartmán pre štyroch**. Raňajky sa
+podávajú v tienenom patiu — vajíčka na objednávku, čerstvý pomarančový džús, domáce
+koláče. Práve to patio je dôvod, prečo ho ľudia v recenziách spomínajú najviac.
+Odhad **90–130 € za noc**.
 
-- **Cascade Wellness Resort** — na útese pri Ponta da Piedade, rodinné suity, vyhrievané
-  bazény, spa. Do mesta 5 min autom. Najlepší kompromis komfort / poloha.
-- **Boavista Golf & Spa Resort** — apartmány a vily priamo na golfovom ihrisku, 10 min
-  do Lagosu aj na Praia da Luz. Vyberte, ak je golf priorita.
-- **Vila Galé Lagos** — pri Meia Praia (4 km piesku), rodinné izby, dobrý pomer cena/výkon.
-- **Marina Club Lagos Resort** — apartmány pri marine, pešo do starého mesta.
-- **Vila v Praia da Luz alebo Burgau** — tichšie, veľmi pekné, s vlastnou kuchyňou.
+**2. Casa Amora Studios** — Rato / Amoreiras, hneď pri Jardim das Amoreiras. **~9,2.**
+Dom zo začiatku 20. storočia s dlaždicovou fasádou a záhradným patiom, **štúdiá
+s kuchynkou** — s deťmi veľmi praktické. Raňajky sú tu legenda: špenátová tortilla,
+hruškové clafoutis, domáce croissanty. Je to o desať minút chôdze ďalej od centra,
+preto tichšie a lacnejšie. **100–140 €.**
 
-**Alternatíva, ak chcete byť čo najbližšie k okruhu:**
+**3. Casa C'Alma** — Praça das Flores, Príncipe Real. Len päť izieb, dizajnové,
+nádherne servírované raňajky, pokojné tradičné námestie. **Háčik: pri piatich izbách
+neexistuje rodinná izba**, museli by ste brať dve dvojlôžkové. Dobré, ak deti už chcú
+vlastnú izbu. **120–160 € za izbu.**
 
-- **Alvor** (Pestana Alvor Praia, Prainha Clube) — rybárska dedinka, veľká pláž,
-  **15 min na okruh**, golf Alto hneď vedľa. V novembri je ale ospalejšia než Lagos.
-- **Penina (Le Méridien Penina Golf & Resort)** — tri ihriská priamo v areáli,
-  **12 min na okruh**, shuttle na pláž. Ideálne ak dominuje golf + okruh, ale je to
-  izolovaný rezort, nie mesto.
-- **Ferragudo** — najkrajšia dedinka v okolí, 15 min na okruh, výborné reštaurácie.
+*Keby ste chceli priplatiť:* **Dear Lisbon — Palace Chiado** má hodnotenie 9,4 a je
+nádherné, ale za 250–300 € na noc to už nie je „lacné".
 
-> **Rezervujte teraz.** MotoGP víkend vypredá celé západné Algarve. V septembri máte
-> ešte plný výber, v októbri už nie.
+Auto v Lisabone nepotrebujete a parkovanie stojí 20–30 € za noc — z letiska Uber (~15 €).
 
-### Lisabon (12.–15. 11., 3 noci)
+### Lagos, 6 nocí (15.–21. 11.)
 
-Bývajte v **Chiado / Baixa / Príncipe Real** — všetko pešo, dobré reštaurácie, bezpečné.
+Tu vstupuje do hry jedna vec navyše: **máte auto**. Staré mesto v Lagose je spleť úzkych
+jednosmeriek s plateným a väčšinou obsadeným parkovaním. Penzión kúsok za centrom
+s vlastným parkovaním je pri šiestich nociach reálne pohodlnejší než romantické miesto,
+pri ktorom každý večer krúžite dvadsať minút.
 
-- **Martinhal Chiado Family Suites** — postavené priamo pre rodiny (kuchynky, detský kútik),
-  najlepšia voľba ak máte menšie deti.
-- **Le Consulat** alebo **Hotel do Chiado** — štýlové, výborná poloha.
-- **Memmo Alfama** — bazén s výhľadom nad Alfamou, romantickejšie, viac schodov.
-- Apartmán v Príncipe Real — najviac priestoru za peniaze.
+**1. Casa dos Cedros** — *moja voľba pre vás*
 
-Auto v Lisabone **nepotrebujete** a parkovanie stojí 20–30 €/noc. Z letiska Uber (~15 €).
+Rodinný penzión v pokojnej rezidenčnej štvrti, 1,4 km od Praia Dona Ana. Vysoko hodnotené
+raňajky a **parkovanie zadarmo v okolí**. Presne ten typ miesta, ktorý s autom a deťmi
+na šesť nocí funguje najlepšie.
+
+**2. Happy Silva Guesthouse** — *najlepší pomer ceny a hodnotenia*
+
+**~9,2 z vyše 580 recenzií**, od **~65–75 € za noc**. Raňajky v cene (vajíčka, ovocie,
+cereálie), vonkajšia kuchyňa. Overte dostupnosť rodinnej izby na celých šesť nocí —
+pri tejto cene sa vypredáva prvá.
+
+**3. The Sun Hill** — B&B na samote na kopci kúsok za Lagosom, vedie ho taliansky pár,
+**bazén**, domáce a veľmi pestré raňajky, výborné recenzie. Do mesta sa musí autom,
+ale pokoj a výhľady to vynahradia.
+
+**4. Merry's House** — v historickom centre, päť minút pešo na Praia da Batata a Pinhão.
+Šarmantné a lacné, ale **bez parkovania**.
+
+**5. Sensations Guesthouse** — na kopci nad starým mestom, strešný infinity bazén
+s výhľadom na mesto aj oceán, spoločná kuchyňa. **~8,7** — dobré, ale najslabšie skóre
+z tohto výberu.
+
+*Keby ste chceli priplatiť za niečo naozaj pekné:* **Quinta Bonita Country House** —
+osem izieb, rodinne vedené, raňajky z vlastného sadu a od miestneho pekára, **parkovanie
+aj raňajky v cene**, výhľad cez záliv Lagos až na Praia da Luz. Odhad **130–180 €**.
+
+> **Rezervujte hneď.** Cez víkend MotoGP (20.–21. 11.) idú ceny v Lagose hore a malé
+> penzióny sa vypredajú ako prvé.
+
+Ak by pre vás blízkosť okruhu prevážila nad všetkým ostatným, alternatívou je **Alvor**
+alebo **Penina** (12–15 min na okruh) — ale Alvor je v novembri ospalý a Penina je
+izolovaný rezort, nie mesto.
 
 ### Posledná noc (21. 11.) — bez hotela
 
-Ubytovanie končí v sobotu ráno check-outom v Lagose. Ako presun na letisko rozložiť
-tak, aby to bolo znesiteľné, je rozpísané nižšie pri sobote — v skratke: **spať pár
-hodín v aute v garáži P2 priamo pri termináli** a auto vrátiť až o 4:15.
+Ubytovanie končí v sobotu ráno check-outom v Lagose. Ako presun na letisko rozložiť,
+je rozpísané nižšie pri sobote — v skratke: **spať pár hodín v aute v garáži P2 priamo
+pri termináli** a auto vrátiť až o 4:15.
 
 ---
 
