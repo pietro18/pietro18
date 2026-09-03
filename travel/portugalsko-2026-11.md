@@ -122,50 +122,58 @@ s kuchynkou v Rate) a **Casa C'Alma** (päť izieb v Príncipe Real, bez rodinne
 
 ### Lagos, 6 nocí (15.–21. 11.)
 
-Tu vstupuje do hry jedna vec navyše: **máte auto**. Staré mesto v Lagose je spleť úzkych
-jednosmeriek s plateným a väčšinou obsadeným parkovaním. Penzión kúsok za centrom
-s vlastným parkovaním je pri šiestich nociach reálne pohodlnejší než romantické miesto,
-pri ktorom každý večer krúžite dvadsať minút.
+Keďže ubytovanie objednáva agentúra, malé penzióny odpadajú — agentúry predávajú len to,
+čo majú v systéme, čiže reťazce, hotely a apartmánové rezorty. **Casa dos Cedros** teda
+vypadáva a **The Sun Hill** za 160 € nespĺňa cenu.
 
-> **Accor v okolí Lagosu prakticky nie je.** Najbližšie je *ibis Faro* (hodinu cesty)
-> a *Victoria Golf Resort & Spa* vo Vilamoure, ktorý Accor prevzal — ten je ale
-> na opačnom konci Algarve, hodinu od okruhu a ďaleko od všetkého ostatného, čo máte
-> v pláne. Na Lagos zostaňte pri penziónoch nižšie.
+Dobrá správa: v tejto inventúre je Lagos **výrazne lacnejší** než penzióny.
 
+**Odpoveď na ibis: v Lagose ani v Portimão žiadny Accor nie je.** Najbližší ibis je vo Fare,
+hodinu cesty. Rovnakú rolu — spoľahlivý reťazec za rozumné peniaze — tu hrajú portugalské
+siete **Água Hotels**, **Sunplace**, **Vila Galé** a **Pestana**, z medzinárodných
+**Iberostar**, **Tivoli/Minor** a **NH**.
 
-**1. Casa dos Cedros** — *moja voľba pre vás*
+Ceny sú **za celých 6 nocí pre 2 dospelých a 2 deti**, prepočítané aj na noc. Zdroj je jeden
+agregátor, čiže orientačné — ale je to tá istá inventúra, z akej čerpá agentúra.
 
-Rodinný penzión v pokojnej rezidenčnej štvrti, 1,4 km od Praia Dona Ana. Vysoko hodnotené
-raňajky a **parkovanie zadarmo v okolí**. Presne ten typ miesta, ktorý s autom a deťmi
-na šesť nocí funguje najlepšie.
+| Hotel | Reťazec | Hodnotenie | Za noc | Za 6 nocí | Storno |
+|---|---|---|---|---|---|
+| **Clube Porto Mós** | Sunplace | 80 / 405 rec. | **~67 €** | ~400 € | **áno** |
+| **Água Hotels Vila Branca** | Água Hotels | 82 / **1 050 rec.** | ~70 € | ~420 € | nie |
+| **Quinta do Mar** | — | **84** / 360 rec. | ~76 € | ~455 € | áno |
+| **Dunas do Alvor – Torralvor** | — | 78 / 342 rec. | **~57 €** | ~340 € | nie |
+| **Villa Doris Suites** | — | 78 / 184 rec. | ~85 € | ~510 € | áno |
+| **Ancora Park** | Sunplace | 80 / 198 rec. | ~98 € | ~590 € | áno |
+| **Marina Club Lagos** | — | 4★ | ~116 € | ~695 € | áno |
+| **Vila Palmeira Beach Resort** | — | 96 / len 115 rec. | ~126 € | ~755 € | áno |
+| **Vila Galé Lagos** | Vila Galé | 80 / 2 228 rec. | ~215 € | ~1 290 € | áno |
 
-**2. Happy Silva Guesthouse** — *najlepší pomer ceny a hodnotenia*
+#### Čo by som z toho vybral
 
-**~9,2 z vyše 580 recenzií**, od **~65–75 € za noc**. Raňajky v cene (vajíčka, ovocie,
-cereálie), vonkajšia kuchyňa. Overte dostupnosť rodinnej izby na celých šesť nocí —
-pri tejto cene sa vypredáva prvá.
+**1. Clube Porto Mós (Sunplace Hotels & Beach Resort)** — *moja voľba.*
+Štyri hviezdy, bazén a spa, apartmány — a stojí priamo nad **Praia de Porto de Mós**,
+peknou širokou plážou asi dvadsať minút pešo od starého mesta. Za ~67 € na noc pre štyroch
+je to najlepší pomer z celého zoznamu a **rate je stornovateľný**, čo pri rezervácii
+štrnásť mesiacov dopredu nie je maličkosť.
 
-**3. The Sun Hill** — B&B na samote na kopci kúsok za Lagosom, vedie ho taliansky pár,
-**bazén**, domáce a veľmi pestré raňajky, výborné recenzie. Do mesta sa musí autom,
-ale pokoj a výhľady to vynahradia.
+**2. Água Hotels Vila Branca** — *najbezpečnejšia stávka.*
+Portugalský reťazec s **1 050 recenziami a hodnotením 82**, čiže žiadne prekvapenia.
+**Apartmány s kuchyňou**, dva bazény pre dospelých a dva detské, parkovanie. Dvanásť minút
+pešo na Praia de Porto de Mós, do starého mesta 1,5 km. Presne to „ibis pre rodiny", čo
+hľadáte — len bez možnosti storna.
 
-**4. Merry's House** — v historickom centre, päť minút pešo na Praia da Batata a Pinhão.
-Šarmantné a lacné, ale **bez parkovania**.
+**3. Dunas do Alvor – Torralvor** — *cenová a okruhová voľba.*
+Najlacnejšie z celého zoznamu (~57 € na noc, 340 € za šesť nocí), bazén aj spa, a leží
+**v Alvore, čiže pätnásť minút od okruhu** namiesto tridsiatich. Platíte za to tým, že Alvor
+je v novembri ospalý a do Lagosu je to 25 minút.
 
-**5. Sensations Guesthouse** — na kopci nad starým mestom, strešný infinity bazén
-s výhľadom na mesto aj oceán, spoločná kuchyňa. **~8,7** — dobré, ale najslabšie skóre
-z tohto výberu.
+> **Jedna technická poznámka.** Vzdialenosti, ktoré ten agregátor uvádza, sú merané od zlého
+> bodu (Vila Branca ukazuje 13,8 km, hoci je 1,5 km od starého mesta). Vzdialenosti vyššie
+> som doplnil podľa skutočnej mapy, nie podľa neho.
 
-*Keby ste chceli priplatiť za niečo naozaj pekné:* **Quinta Bonita Country House** —
-osem izieb, rodinne vedené, raňajky z vlastného sadu a od miestneho pekára, **parkovanie
-aj raňajky v cene**, výhľad cez záliv Lagos až na Praia da Luz. Odhad **130–180 €**.
-
-> **Rezervujte hneď.** Cez víkend MotoGP (20.–21. 11.) idú ceny v Lagose hore a malé
-> penzióny sa vypredajú ako prvé.
-
-Ak by pre vás blízkosť okruhu prevážila nad všetkým ostatným, alternatívou je **Alvor**
-alebo **Penina** (12–15 min na okruh) — ale Alvor je v novembri ospalý a Penina je
-izolovaný rezort, nie mesto.
+Ak by agentúra vedela objednať čokoľvek, pôvodné penzióny stále platia: **Happy Silva
+Guesthouse** (~9,2 z 580 recenzií, od 65–75 €), **Merry's House** v centre a **Quinta Bonita
+Country House** ako drahšia, ale krásna voľba.
 
 ### Posledná noc (21. 11.) — bez hotela
 
