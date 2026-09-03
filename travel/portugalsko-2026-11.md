@@ -44,8 +44,8 @@ Ak sa dá čokoľvek meniť, urobte to teraz — v novembri sú lety do/z Faro a
 | 16. 11. | Po | Lagos | Lagos, Ponta da Piedade, pláže |
 | 17. 11. | Ut | Lagos | **Golf #1** + Sagres / Cabo de São Vicente |
 | 18. 11. | St | Lagos | Roadtrip východ: Ferragudo, Benagil, Praia da Marinha |
-| 19. 11. | Št | Lagos | **Golf #2** alebo vnútrozemie: Silves + Monchique + Fóia |
-| 20. 11. | Pi | Lagos | **Okruh — deň 1** (tréningy) |
+| 19. 11. | Št | Lagos | **Golf** a potom voľno |
+| 20. 11. | Pi | Lagos | Voľné dopoludnie, **na okruh na 12:00** |
 | 21. 11. | So | → letisko | **Okruh — deň 2** (kvalifikácie + Sprint), potom postupne na sever |
 | 22. 11. | Ne | ✈ | Noc bez hotela, odlet 7:00 |
 
@@ -197,7 +197,8 @@ vyberie svoje — ideálne po lete s deťmi.
 
 - **Mosteiro dos Jerónimos** — manuelská gotika, absolútny vrchol. Lístky kúpte online
   vopred, otvárajú o 9:30, **v pondelok zatvorené**. Choďte hneď na otvorenie.
-- **Padrão dos Descobrimentos** — výťah hore, výhľad na rieku a mozaikovú ružicu vetrov.
+- **Padrão dos Descobrimentos** — mozaiková ružica vetrov na zemi pred ním je zadarmo
+  a je to na ňom to najlepšie. Výťah hore neplaťte.
 - **Torre de Belém** — rad býva dlhý; zvonku vyzerá rovnako dobre.
 - **Pastéis de Belém** — originál z roku 1837. Kúpte aspoň 4 na osobu, so škoricou.
 - Ak prší alebo deti potrebujú zmenu: **Museu Nacional dos Coches** (zlaté kočiare, deti to milujú)
@@ -308,41 +309,61 @@ Najkrajší pobrežný úsek Algarve. Celý deň, ~40 min od Lagosu.
 4. **Percurso dos Sete Vales Suspensos** — 5,7 km po hrane útesov z Marinhy do
    Vale Centeanes. Nemusíte celý: prejdite hodinu tam a hodinu späť, aj tak uvidíte
    to najlepšie. Pevné topánky, žiadne zábradlia.
-5. **Jaskyňa Benagil** — tá slávna s dierou v strope. Loďkou z Benagilu, Portimãa
-   alebo Carvoeira (~25–35 €/os, 1–2 h), alebo kajakom. **V novembri závisí od mora** —
-   ak fúka, nejde sa. Overte deň vopred a majte plán B.
+5. **Jaskyňa Benagil** — tá slávna s dierou v strope, loďkou z Benagilu alebo Carvoeira
+   (~25–35 €/os). **Zvážte, či ju naozaj chcete:** je to druhý výlet loďkou do jaskýň
+   po Ponta da Piedade a pre štyroch to je 100–140 €. Navyše v novembri závisí od mora —
+   ak fúka, nejde sa.
+
+**Plán B, keď je more rozbúrené:** vnútrozemie. **Silves** — bývalé maurské hlavné
+mesto Algarve, hrad z červeného pieskovca nad pomarančovými sadmi, vstup ~3 €, a je to
+najlepšia pamiatka v regióne. Odtiaľ ďalej na **Fóiu** (902 m, najvyšší bod Algarve,
+zadarmo) a obed v Monchique.
 
 **Večera vo Ferragude:** *Sueste* (na móle, grilované ryby) alebo *O Barril*.
 
-### Štvrtok 19. 11. — golf #2 alebo vnútrozemie
+### Štvrtok 19. 11. — golf a nič viac
 
-**Možnosť A — golf.** Zahrajte si **Morgado** alebo **Álamos** — sú 10 minút od okruhu,
-široké ferveje, dobrá cena. Zároveň si obhliadnete cestu na okruh pred piatkom.
+Deň bez programu. Ráno deväť jamiek, poobede bazén, pláž alebo mesto.
 
-**Možnosť B — vnútrozemie (ideálne ak je vietor alebo dážď):**
+Zahrajte **Penina Academy** alebo **Álamos** — oboje je desať minút od okruhu, takže si
+zároveň v pokoji obhliadnete piatkovú cestu a parkoviská. Tee time okolo 9:00, hotoví
+o 11:00.
 
-- **Silves** — bývalé maurské hlavné mesto Algarve, **hrad z červeného pieskovca**
-  s výhľadom na pomarančové sady, katedrála, rímsky most. Najlepšia pamiatka v regióne.
-- **Caldas de Monchique** — miniatúrne termálne kúpeľné mestečko v eukalyptovom lese
-- **Fóia (902 m)** — najvyšší bod Algarve, za jasného dňa vidno oba pobrežia
-- **Monchique** — mestečko na svahu; obed *Restaurante A Charrete*, alebo grilované
-  kurča piri-piri v *Rampa* / *Luar da Fóia*. Ochutnajte **medronho** (pálenka z plánok).
+Zvyšok dňa nechajte otvorený. Po štyroch dňoch behania po útesoch je voľné poobedie
+to najlepšie, čo sa dá naplánovať — a na druhý deň vás čaká okruh.
 
-*Alebo* si tento deň nechajte úplne voľný — po štyroch dňoch bude dobre padnúť bazén.
-
-### Piatok 20. 11. — OKRUH, deň 1
+### Piatok 20. 11. — voľné dopoludnie, poobede okruh
 
 **Autódromo Internacional do Algarve**, Sítio do Escampadinho, Mexilhoeira Grande
-(GPS 37.2306, −8.6317). Z Lagosu 30 min po A22.
+(GPS 37.2306, −8.6317). Z Lagosu 35 km, 30 minút po A22.
 
-Piatok je pokojný, lacnejší a paradoxne najlepší na spoznanie okruhu:
-menej ľudí, dá sa obísť celý areál a nájsť si "svoje" miesto na sobotu.
+**Dopoludnia voľno.** Raňajky bez budíka, prechádzka po pláži, nákup vody a jedla
+na okruh. Balenie nechajte na večer — v sobotu ráno je check-out a nechcete to riešiť
+o pol siedmej.
 
-Program: voľné tréningy všetkých tried doobeda, **MotoGP Practice ~15:00**
-(rozhoduje o postupe do Q2, takže sa jazdí naplno). Presné časy zverejnia
-pár týždňov pred akciou.
+| Čas | |
+|---|---|
+| 10:45 | odchod z Lagosu |
+| 11:20 | príchod na parkovisko |
+| ~12:00 | pri trati, hodinu pred poobedňajšou sériou tréningov |
 
-**Vyrazte z Lagosu o 8:00**, na okruhu buďte pred 9:00.
+**Tú hodinu pred prvou poobedňajšou jazdou nezabite čakaním pri jednom plote.**
+Je to najcennejšia vec, čo vám piatok dá: kým je prázdno, **obíďte okruh a nájdite si
+miesto na sobotu**. Portimão má prevýšenie skoro šesťdesiat metrov, takže rozdiel medzi
+dobrým a zlým miestom je tu väčší než na hociktorom inom okruhu. Pozrite si **T1**
+(za stúpaním nad cieľovou rovinkou), **T3**, **T5** a **T13/14** pred rovinkou, kde sa
+predbieha, a vyberte si, kde chcete v sobotu na Sprint stáť.
+
+Poobede idú tréningy Moto3, Moto2 a nakoniec **MotoGP Practice**. Tú poslednú neodchádzajte
+skôr — rozhoduje o priamom postupe do Q2, takže sa v jej závere jazdí na doraz a je to
+najlepšia jazda celého piatka.
+
+Späť do Lagosu po skončení; západ slnka je o 17:30.
+
+> **Presné časy si over dva-tri týždne pred akciou.** Oficiálny rozpis víkendu vtedy
+> zverejnia a poobedňajší blok sa medzi sezónami posúva. Ak by Moto2 začínalo až okolo
+> druhej, príchod o dvanástej vám aj tak sadne — len budete mať na obhliadku okruhu
+> dve hodiny namiesto jednej.
 
 ### Sobota 21. 11. — okruh deň 2, potom postupne na letisko
 
@@ -403,6 +424,51 @@ masky na oči, štuple do uší, powerbanky a stiahnuté filmy pre deti.
 
 ---
 
+## Platené atrakcie — čo sa oplatí a čo nie
+
+Prešiel som všetko, čo v pláne stojí peniaze, a rozdelil to natvrdo. Ceny sú orientačné,
+za dospelého.
+
+### Toto si kúpte
+
+| | Cena | Prečo |
+|---|---|---|
+| **Mosteiro dos Jerónimos**, Belém | ~15 € | Vrchol manuelskej gotiky a jediná vec v Lisabone, ktorú označím za povinnú. Kvôli krížovej chodbe — samotný kostol je zadarmo. |
+| **Quinta da Regaleira**, Sintra | ~15 € | Iniciačná studňa a tajné tunely. S deťmi zábavnejšia než Pena a rady sú menšie. |
+| **Loďka na Ponta da Piedade**, Lagos | ~20–25 € | **Najlepšie vynaložené peniaze z celého zájazdu.** Malé člny vchádzajú priamo do jaskýň pod skalnými vežami — zhora to nezažijete. |
+| **Lístky na MotoGP** | — | Kvôli tomu tam idete. |
+
+### Toto vynechajte
+
+| | Cena | Prečo nie |
+|---|---|---|
+| **Torre de Belém** | ~8 € | Hodinový rad za pár tesných schodísk. Zvonku vyzerá rovnako. |
+| **Castelo de São Jorge** | ~15 € | Najprecenenejšia vec v Lisabone. Sú to hradby a výhľad — a ten istý výhľad máte zadarmo z Miradouro da Senhora do Monte alebo da Graça. |
+| **Elevador de Santa Justa** | ~6 € | Hore vyjdete zadarmo cez Largo do Carmo a pozeráte sa na to isté. |
+| **Padrão dos Descobrimentos**, výťah | ~10 € | Výhľad na rieku, aký máte z desiatich miest zadarmo. |
+| **Pevnosť v Sagres** | ~5 € | Za múrmi je prázdna planina. Dráma je v útesoch a na Cabo de São Vicente — a tie sú zadarmo. |
+| **MAAT**, Múzeum kočiarov | ~8–11 € | Len keď prší. Po streche MAAT-u sa dá chodiť zadarmo. |
+
+### Tri rozhodnutia, kde je to tesné
+
+**Pena Palace (~20 €) verzus Quinta da Regaleira.** Berte jednu, nie obe — na dve pamiatky
+v Sintre nie je v novembri dosť svetla ani trpezlivosti. Ja by som bral Regaleiru. Ak chcete
+tú slávnu fotku žlto-červeného zámku, kúpte si **lacnejší lístok len do parku (~10 €)**:
+z terás máte presne ten pohľad, ktorý poznáte, bez radu do interiéru.
+
+**Jaskyňa Benagil (~25–35 € na osobu).** Je nádherná, ale je to druhý výlet loďkou do jaskýň
+po Ponta da Piedade a pre štyroch to je 100–140 €. Ak vám prvý sadol a more je pokojné,
+choďte. Inak to pokojne vynechajte — na Praia da Marinha a na Sedem visutých údolí sa
+pozrite zhora, je to zadarmo a rovnako pekné.
+
+**Oceanário (~25 € na osobu) je plán do dažďa**, nie fixný bod. Ak bude v Lisabone pekne,
+je škoda dňa aj stovky eur. Ak bude liať, je to jedno z najlepších akvárií na svete
+a nebudete ľutovať.
+
+Všetko ostatné v pláne — Ponta da Piedade zhora, Praia Dona Ana a Camilo, Cabo de São
+Vicente, Sedem visutých údolí, Algar Seco, Comporta, Alfama, vyhliadky, Praça do Comércio,
+LX Factory — **je zadarmo**. A je to väčšina toho najlepšieho, čo uvidíte.
+
 ## Golf — deväť jamiek, rozumné ceny
 
 Pri dvoch kolách a krátkych novembrových dňoch (svetlo len do 17:30) dávajú deväťjamkovky
@@ -432,7 +498,7 @@ a zaplatíte zhruba tretinu.
 - **Utorok 17. 11.** — Espiche alebo Boavista o 9:00, hotoví o 11:00, a celé poobedie
   vám zostane na Sagres a Cabo de São Vicente
 - **Štvrtok 19. 11.** — Penina Academy alebo Álamos; oboje je desať minút od okruhu,
-  takže si zároveň obhliadnete cestu na piatok
+  takže si zároveň obhliadnete piatkovú cestu. Zvyšok dňa voľno
 
 **Tipy:**
 
