@@ -518,6 +518,51 @@ Pri lete o siedmej ráno nechcete stáť hodinu v rade.
    poistenie spoluúčasti — ale rátajte, že depozit vám na karte zablokujú tak či tak.
 7. **Zapísať druhého vodiča.** Pri nočnej ceste z Portimãa do Lisabonu sa to oplatí.
 
+#### Ktoré značky sú v skutočnosti tá istá firma
+
+- **Enterprise, Alamo, National a Guerin majú na LIS jeden spoločný pult.** V Portugalsku
+  vás pri rezervácii cez Alamo obslúži Guerin. Pýtať si tri ponuky teda nemá zmysel — je to
+  jeden dodávateľ, jedna flotila a jedny otváracie hodiny.
+- **Budget patrí do Avis Budget Group**, čiže je to lacnejšia značka Avisu. To je z vašej
+  trojky najzaujímavejšie: môže vám dať Avisovu prevádzku za nižšiu cenu. Vypýtajte si ale
+  potvrdenie, **či sa Budget rezervácia vybavuje na Avis pulte a s rovnakými hodinami**.
+
+#### 270 € za sedem dní nie je zlá cena
+
+Polovica novembra je mimo sezóny a pre kombi alebo SUV od poriadnej letiskovej značky je to
+zhruba trhová cena. Ísť výrazne nižšie väčšinou znamená pristáť presne u tých firiem, ktorým
+sa oplatí vyhnúť. Tú sumu by som nebral ako problém.
+
+#### Kde sa naozaj dajú ušetriť peniaze
+
+Nie na značke, ale na poistení. Na pulte vám budú predávať zníženie spoluúčasti na nulu za
+**25–35 € na deň** — to je pri siedmich dňoch **175–245 €** a cenu by vám to skoro
+zdvojnásobilo. Namiesto toho si **vopred kúpte samostatné poistenie spoluúčasti**
+u špecializovaného poisťovateľa: týždňová európska poistka stojí okolo **30 €**, ročná
+okolo **50 €**. Úspora 150–200 €.
+
+Ako to funguje: depozit vám na karte zablokujú tak či tak a prípadné poškodenie najprv
+zaplatíte požičovni — až potom si to nárokujete od svojho poisťovateľa. Treba na to kreditnú
+kartu s dostatočným limitom a trochu papierovania, ale finančne to vyjde podstatne lepšie.
+
+#### A tá istá poistka rieši aj key-drop
+
+Toto je podstatné: ak máte vlastné poistenie spoluúčasti, **nočné vrátenie cez schránku
+prestáva byť strašiak** — najhorší scenár je papierovačka, nie tisíc eur z karty. Čiže
+**Enterprise/Alamo alebo Budget + vlastná poistka spoluúčasti + dôkladná fotodokumentácia
+pri odovzdaní** je rozumná a výrazne lacnejšia cesta.
+
+#### Alebo ten problém odstráňte úplne
+
+Je aj druhá možnosť: **vrátiť auto hneď po príchode okolo polnoci**, kým je pult ešte
+otvorený — väčšina zatvára o 24:00 alebo o 1:00. Stačí vyraziť z Lagosu o 20:15 namiesto
+20:45 a ste tam pred 23:45. Odovzdanie prebehne s obsluhou a máte pokoj.
+
+Cena za to je, že **prídete o spanie v aute v garáži P2** a strávite celú noc v hale.
+To je to skutočné rozhodnutie: štyri hodiny spánku v aute proti tomu, že auto odovzdáte
+človeku a nie schránke.
+
+
 
 ### Ostatné
 
