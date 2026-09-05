@@ -1,35 +1,11 @@
-# Portugalsko 12.–22. 11. 2026 — rodinný plán
+# Kde Európa končí
 
-Lisabon → Alentejo → Algarve → MotoGP Portimão → Lisabon
+**Rodinný roadbook · 12.–22. novembra 2026**
 
----
+Desať dní od brehov Teja po najzápadnejší mys kontinentu. Mesto na siedmich kopcoch,
+zlaté útesy Algarve, deväť jamiek pred obedom a dva dni na najdramatickejšom okruhu v Európe.
 
-## ⚠️ Najdôležitejšie hneď na úvod: preteky vám ujdú
-
-Grand Prix Portugalska 2026 na Autódromo Internacional do Algarve je **20.–22. novembra** (piatok–nedeľa)
-a je to **finále sezóny**. Rozvrh víkendu:
-
-| Deň | Čo sa deje |
-|---|---|
-| Piatok 20. 11. | Voľné tréningy + Practice (kvalifikačný) |
-| Sobota 21. 11. | FP2, kvalifikácie Q1/Q2, **Tissot Sprint** (~15:00) |
-| Nedeľa 22. 11. | Warm-up + **hlavné preteky MotoGP (~14:00)** |
-
-Váš let je v nedeľu 22. 11. o 7:00 z Lisabonu — čiže **hlavné preteky nestihnete**.
-Uvidíte tréningy a sobotný Sprint, ale nie samotnú Grand Prix.
-
-**Tri možnosti:**
-
-1. **Nechať tak (plán nižšie je postavený na tomto).** Piatok + sobota na okruhu.
-   Sprint je plnohodnotné preteky na polovičnú vzdialenosť — zážitok to je. V sobotu
-   večer po Sprinte presun do Lisabonu (~3 h) a spanie pri letisku.
-2. **Preložiť let na pondelok 23. 11.** — najlepšie riešenie. Získate nedeľné preteky,
-   v nedeľu večer po pretekoch presun do Lisabonu (pozor, hustá doprava, príchod ~21:00),
-   let v pondelok. Stojí to jednu noc navyše.
-3. **Letieť z Faro (FAO) namiesto Lisabonu.** Faro je 1 h od Lagosu, takže po nedeľných
-   pretekoch je to pohodlné. Vyžaduje zmenu spiatočnej letenky.
-
-Ak sa dá čokoľvek meniť, urobte to teraz — v novembri sú lety do/z Faro aj Lisabonu ešte lacné.
+Lisabon · Sintra · Comporta · Lagos · Sagres · Benagil · Portimão
 
 ---
 
@@ -105,13 +81,13 @@ rozpísaný nižšie pri sobote a nedeli.
 
 ## Deň po dni
 
-### Štvrtok 12. 11. — prílet
+### Štvrtok 12. 11. — Prvý pastel de nata
 
 Nič neplánujte. Uber do hotela, prejdite sa po Baixe, dajte si večeru.
 Tip: **Time Out Market** (Mercado da Ribeira) je otvorený do 24:00 a každý si
 vyberie svoje — ideálne po lete s deťmi.
 
-### Piatok 13. 11. — Belém + Baixa + Alfama
+### Piatok 13. 11. — Odkiaľ vyplávali
 
 **Doobeda — Belém** (električka 15E z Praça da Figueira, ~25 min, alebo Uber ~10 €):
 
@@ -150,7 +126,7 @@ Alternatívy: *Cervejaria Ramiro* (morské plody, legenda, ale drahšie — cho�
 
 **Zadarmo v tento deň:** kostol v Jerónimskom kláštore (platí sa len krížová chodba), Torre de Belém a Padrão dos Descobrimentos zvonku vrátane mozaikovej ružice vetrov, promenáda pri rieke, strecha MAAT-u, Praça do Comércio, Rua Augusta, Chiado, Bairro Alto a všetky vyhliadky. 
 **Platené:** krížová chodba Jerónimos ~15 €, Convento do Carmo ~7 €, strecha oblúka Rua Augusta ~4 €.
-### Sobota 14. 11. — Sintra + Cabo da Roca + Cascais
+### Sobota 14. 11. — Zámok v oblakoch
 
 Celodenný výlet. Autom to je 40 min, ale **parkovanie v Sintre je peklo** — najlepšie
 vlakom z Rossio (40 min) + Uber/tuk-tuk hore, alebo si najmite vodiča na celý deň.
@@ -174,7 +150,7 @@ akvárií na svete, počítajte 2,5 h) + **Pavilhão do Conhecimento** (interakt
 
 **Zadarmo v tento deň:** historické centrum Sintry, **Cabo da Roca** vrátane parkovania, Cascais — prístav, staré mesto a **Boca do Inferno**, pláž Guincho.
 **Platené:** Quinta da Regaleira ~15 €, Pena ~20 € alebo len park ~10 €.
-### Nedeľa 15. 11. — presun na juh (~4,5 h aj so zastávkami)
+### Nedeľa 15. 11. — Ryžové polia a prázdne duny
 
 **Ráno:** vyzdvihnite auto **na letisku** (mestské pobočky bývajú v nedeľu zatvorené,
 letiskové sú 24/7 — Uber tam je 15 €).
@@ -198,7 +174,7 @@ prechádzka po marine, večera.
 > od požičovne transpondér **Via Verde** (~2 €/deň + mýto). Bez neho riešite pokuty.
 
 **Zadarmo v tento deň:** celá Comporta — pláž, duny aj ryžové polia. Prípadne Portinho da Arrábida. Platí sa len mýto a obed.
-### Pondelok 16. 11. — Lagos naplno
+### Pondelok 16. 11. — Zlaté veže v mori
 
 Aklimatizačný deň, nikam sa nehrňte.
 
@@ -226,7 +202,7 @@ a výhľad, drahšie), *Nah Nah Bah* (burgre, keď deti už nechcú ryby).
 
 **Zadarmo v tento deň:** drevené lávky a vyhliadky na **Ponta da Piedade**, pláže **Porto de Mós** (pod hotelom), **Dona Ana**, **Camilo** a Meia Praia, staré mesto, hradby, Praça Gil Eanes a rybí trh.
 **Platené:** loďka na Ponta da Piedade ~20–25 € (jediná vec, ktorú tu naozaj kúpte), Igreja de Santo António ~3 €.
-### Utorok 17. 11. — golf + západ Algarve
+### Utorok 17. 11. — Posledná klobása pred Amerikou
 
 **Doobeda golf** (tee time 8:30–9:30, v novembri sa hrá krásne, 19 °C).
 
@@ -254,7 +230,7 @@ surferské pláže Costa Vicentina, divoké duny.
 
 **Zadarmo v tento deň:** Praia da Luz, **Burgau**, **Salema**, a hlavne **Cabo de São Vicente** — útesy, maják zvonku, západ slnka aj parkovanie. Prípadne Praia do Amado a duny pri Carrapateire.
 **Platené:** len golf. Pevnosť v Sagres (~5 €) vynechajte, dráma je vonku na útesoch.
-### Streda 18. 11. — roadtrip na východ: jaskyne a útesy
+### Streda 18. 11. — Diera v strope
 
 Najkrajší pobrežný úsek Algarve. Celý deň, ~40 min od Lagosu.
 
@@ -280,7 +256,7 @@ zadarmo) a obed v Monchique.
 
 **Zadarmo v tento deň:** **Ferragudo**, **Algar Seco** aj s drevenou lávkou, **Praia da Marinha** a vyhliadka nad ňou, celý **Percurso dos Sete Vales Suspensos**. To je prakticky celý dnešný program.
 **Platené:** iba loďka do jaskyne Benagil ~25–35 € na osobu — a tú pokojne vynechajte.
-### Štvrtok 19. 11. — golf a nič viac
+### Štvrtok 19. 11. — Deväť jamiek a bazén
 
 Deň bez programu. Ráno deväť jamiek, poobede bazén, pláž alebo mesto.
 
@@ -291,7 +267,7 @@ o 11:00.
 Zvyšok dňa nechajte otvorený. Po štyroch dňoch behania po útesoch je voľné poobedie
 to najlepšie, čo sa dá naplánovať — a na druhý deň vás čaká okruh.
 
-### Piatok 20. 11. — voľné dopoludnie, poobede okruh
+### Piatok 20. 11. — Hodina, kým je trať prázdna
 
 **Autódromo Internacional do Algarve**, Sítio do Escampadinho, Mexilhoeira Grande
 (GPS 37.2306, −8.6317). Z Lagosu 35 km, 30 minút po A22.
@@ -324,7 +300,7 @@ Späť do Lagosu po skončení; západ slnka je o 17:30.
 > druhej, príchod o dvanástej vám aj tak sadne — len budete mať na obhliadku okruhu
 > dve hodiny namiesto jednej.
 
-### Sobota 21. 11. — okruh deň 2, potom postupne na letisko
+### Sobota 21. 11. — Sprint, potom na sever
 
 Ráno **check-out** — kufre idú do auta a už tam zostanú. Poproste hotel deň vopred
 o jednu vec: **možnosť sa po okruhu ešte osprchovať a prezliecť**. Väčšina rezortov to
@@ -350,7 +326,7 @@ v kolóne hneď po Sprinte — nechajte dav odísť, dajte si pivo a vyrazte v p
 | 22:15 | zastávka Alcácer do Sal alebo odpočívadlo na A2 — káva, natankovať, vystriedať vodiča |
 | ~00:15 | letisko Lisabon |
 
-### Noc na letisku bez hotela
+### Noc bez hotela
 
 Terminál 1 je otvorený nonstop, ale je to ostro osvetlená hala s tvrdými lavicami
 a málom miest na sedenie. Prepážky na skoré lety otvárajú **okolo 4:30** — dovtedy sa
@@ -361,10 +337,6 @@ termináli, sklopte sedadlá a **pospite si v aute do 4:15**. Je to o triedu poh
 než hala a stojí to len jednu parkovaciu noc (~20 €). Auto vrátite o 4:15 v tej istej
 garáži a do terminálu prejdete pešo za tri minúty.
 
-> **Overte si vopred, či má vaša požičovňa o 4:15 otvorené.** Väčšina firiem má na LIS
-> vrátenie v P2 nonstop, ale nie všetky — spýtajte sa mailom už pri rezervácii a odpoveď
-> si uložte.
-
 Do príručnej batožiny si dajte mikiny alebo tenké deky, nafukovacie vankúše pod hlavu,
 masky na oči, štuple do uší, powerbanky a stiahnuté filmy pre deti.
 
@@ -374,7 +346,7 @@ masky na oči, štuple do uší, powerbanky a stiahnuté filmy pre deti.
 > *Holiday Inn Express* vyjdú v novembri na 60–90 €. Plán vyššie funguje aj bez toho,
 > ale nechajte si to ako otvorenú možnosť.
 
-### Nedeľa 22. 11. — odlet 7:00
+### Nedeľa 22. 11. — Štyri hodiny v garáži P2
 
 - **4:15** budíček v aute, vrátenie auta v P2
 - **4:30** v termináli, odbavenie hneď ako otvoria prepážky
@@ -535,135 +507,24 @@ naraz veľkú časť trate.
 
 ---
 
-## Auto, cesty, peniaze
+## Na ceste, počasie, peniaze
 
-### Auto — Sixt, letisko Lisabon
+### Na ceste
 
-Dobrá voľba. Sixt deklaruje **24-hodinové vrátenie**, čo je pri vašom pláne jediná vec,
-na ktorej naozaj záleží — Europcar otvára až o 6:00 a väčšina ostatných rieši noc
-schránkou na kľúče. Pulty sú v **Termináli 1 v príletovej hale**, autá sa preberajú aj
-vracajú v parkovacom dome; pri vracaní sledujte značky „car hire drop-off" na spodnom podlaží.
-
-**Sedem vecí, ktoré si pri rezervácii vypýtať a overiť:**
-
-1. **Písomné potvrdenie, že vrátenie 22. 11. o 4:15 je možné s obsluhou.** Toto majte
-   čierne na bielom, nie ústne — je to celý dôvod, prečo beriete Sixt.
-2. **Transpondér Via Verde.** A22 v Algarve nemá mýtne búdky, bez neho riešite pokuty spätne.
-3. **Kombi, SUV alebo 7-miestne.** Ak chcete automat, rezervujte teraz — portugalské
-   flotily sú prevažne manuálne.
-4. **Kreditná karta na meno hlavného vodiča.** Debetnú na depozit väčšinou neberú a vedia
-   vás odmietnuť priamo na pulte. Toto je najčastejší dôvod, prečo ľuďom prenájom padne.
-5. **Palivo „full-to-full"**, nie „full-to-empty".
-6. **Výška spoluúčasti a depozitu** — číslo potrebujete predtým, než kúpite poistku (viď nižšie).
-7. **Zapísať druhého vodiča** kvôli nočnej ceste z Portimãa do Lisabonu.
-
-### Poistenie spoluúčasti — kde sa naozaj šetrí
-
-Na pulte vám budú predávať zníženie spoluúčasti na nulu za **25–35 € na deň**, čo je pri
-siedmich dňoch **175–245 €** a cenu by vám to skoro zdvojnásobilo. Namiesto toho si
-**vopred kúpte samostatné poistenie spoluúčasti**: týždňová európska poistka stojí okolo
-**30 €**, ročná okolo **50 €**. Úspora 150–200 €.
-
-Ako to funguje: depozit vám na karte zablokujú tak či tak a prípadné poškodenie najprv
-zaplatíte Sixtu — až potom si to nárokujete od svojho poisťovateľa. Treba na to kreditnú
-kartu s dostatočným limitom a trochu papierovania, ale finančne to vyjde podstatne lepšie.
-
-#### Kto to predáva
-
-> **Pozor na past, ktorú väčšina návodov neuvádza:** najznámejšie poistky spoluúčasti
-> (iCarhireinsurance, Questor, Worldwide Insure) predávajú **len rezidentom Spojeného
-> kráľovstva**. Ako Slovákovi vám poistku vystavia, ale pri škode ju môžu odmietnuť.
-> Vždy si pred kúpou overte, či je produkt pre **EÚ rezidentov**.
-
-**Najprv skontrolujte kreditnú kartu.** Prémiové karty (Visa Infinite, Mastercard World
-Elite, Amex Platinum) často obsahujú krytie spoluúčasti pri prenájme auta. Ak ho máte,
-je zadarmo a nemusíte kupovať nič.
-
-**Slovenská cesta** — jednoduchšia komunikácia aj likvidácia škody:
-
-- **Union** — „poistenie auta na dovolenku" ako pripoistenie k cestovnému poisteniu,
-  **od 1,99 € na deň**, čiže za sedem dní okolo 14 €. Najlacnejšie riešenie.
-- **Generali** — pripoistenie spoluúčasti pri prenajatých veciach v zahraničí, kryje všetky
-  osoby na poistke **do 1 000 €**. **Pozor na ten strop:** spoluúčasť a depozit v Portugalsku
-  bývajú 1 200–2 500 €, takže si najprv zistite konkrétnu výšku v ponuke od Budgetu alebo
-  Enterprise a až potom vyberte krytie.
-- **Allianz** kryje poškodenie prenajatého auta v rámci cestovného poistenia ako poistenie
-  zodpovednosti — to je ale niečo iné než spoluúčasť. Preverte si formuláciu.
-
-**Špecializovaní poisťovatelia** — drahšie, ale kryjú viac:
-
-- **insurance4carhire** — má samostatný produkt pre **EÚ rezidentov**.
-- **CarInsuRent** — jeden z mála, čo berie EÚ aj mimoeurópskych rezidentov. Ročná celosvetová
-  poistka okolo **160 $**.
-- **RentalCover.com** — predáva sa na jeden prenájom a výslovne kryje aj to, čo býva vylúčené.
-
-#### Čo poistka musí kryť (a väčšinou nekryje)
-
-Toto je dôležitejšie než cena. Základné CDW od požičovne aj lacné poistky štandardne
-**vylučujú presne to, čo sa reálne poškodí**:
-
-- **pneumatiky a disky** (výtlky a obrubníky v Algarve),
-- **sklá vrátane čelného** (kamienky na A22),
-- **podvozok a strecha** (poľné cesty k plážam a k okruhu),
-- **kľúče**, odťah, a **administratívne poplatky a „loss of use"**, ktoré si požičovne
-  účtujú za dni, keď auto opravujú.
-
-Ak poistka tieto štyri body výslovne nemenuje ako kryté, nekupujte ju — väčšina skutočných
-škôd padne práve sem.
-
-#### Ako to prakticky prebehne
-
-1. Poistku kúpte **pred prevzatím auta** a **na meno hlavného vodiča**.
-2. Na pulte **odmietnite ich pripoistenie**. Budú tlačiť, je to ich hlavná marža.
-3. Depozit vám na karte zablokujú tak či tak — mať dostatočný limit.
-4. Auto si pri prevzatí aj odovzdaní **odfoťte dokola vrátane kolies, skiel, strechy,
-   tachometra a palivomera**.
-5. Ak niečo zaplatíte, pýtajte si **faktúru s rozpisom** — bez nej vám poisťovňa nič neuzná.
-
-*Ceny a podmienky sa menia a nedokážem ich odtiaľto overiť naživo — porovnajte si dve
-až tri ponuky a hlavne si prečítajte zoznam výluk.*
-
-#### A tá istá poistka rieši aj key-drop
-
-Toto je podstatné: ak máte vlastné poistenie spoluúčasti, **nočné vrátenie cez schránku
-prestáva byť strašiak** — najhorší scenár je papierovačka, nie tisíc eur z karty. Čiže
-**Enterprise/Alamo alebo Budget + vlastná poistka spoluúčasti + dôkladná fotodokumentácia
-pri odovzdaní** je rozumná a výrazne lacnejšia cesta.
-
-#### Alebo ten problém odstráňte úplne
-
-Je aj druhá možnosť: **vrátiť auto hneď po príchode okolo polnoci**, kým je pult ešte
-otvorený — väčšina zatvára o 24:00 alebo o 1:00. Stačí vyraziť z Lagosu o 20:15 namiesto
-20:45 a ste tam pred 23:45. Odovzdanie prebehne s obsluhou a máte pokoj.
-
-Cena za to je, že **prídete o spanie v aute v garáži P2** a strávite celú noc v hale.
-To je to skutočné rozhodnutie: štyri hodiny spánku v aute proti tomu, že auto odovzdáte
-človeku a nie schránke.
-
-
-
-### Ostatné
-
-- **Prenájom:** vyzdvihnutie **letisko Lisabon, nedeľa 15. 11. ráno**, vrátenie tam isto
-  22. 11. o 4:15. Mestské pobočky bývajú v nedeľu zatvorené, letiskové sú nonstop.
-- **Veľkosť:** rodina + kufre (+ prípadne golfové bagy) = kombi, SUV alebo 7-miestne.
-  Neberte kompakt, nezmestíte sa.
-- **Transpondér Via Verde** si vypýtajte hneď pri preberaní — A22 v Algarve nemá búdky.
-- **Mýto:** A2 Lisabon–Algarve ~22 € jedným smerom. Benzín ~1,75 €/l.
-- **Rýchlosti:** 120 diaľnica, 90 cesta, 50 obec. Radary sú a pokuty tiež.
+- **A22 v Algarve má výhradne elektronické mýto** — bez transpondéra vám pokuty prídu spätne.
+- **Mýto** A2 z Lisabonu na juh ~22 € jedným smerom, benzín ~1,75 €/l.
+- **Rýchlosti** 120 diaľnica, 90 cesta, 50 obec. Radary sú a pokuty prídu.
 - **Parkovanie v Lisabone** je drahé a zložité — preto auto až na odchod.
+- Staré mesto v Lagose je spleť jednosmeriek; parkujte v hoteli a choďte pešo.
 
-**Orientačný rozpočet mimo letenky a lístkov na MotoGP** (rodina 4 osoby):
+### Orientačný rozpočet, rodina 4 osoby
 
 | Položka | Odhad |
 |---|---|
-| Prenájom auta 7 dní + poistenie | 300 – 450 € |
-| Palivo + mýto | 200 – 260 € |
+| Palivo a mýto | 200 – 260 € |
 | Golf, 2× 9 jamiek pre 2 hráčov | 120 – 280 € |
 | Parkovanie P2 cez poslednú noc | ~20 € |
 | Jedlo a vstupy | 900 – 1 400 € |
-
----
 
 ## Počasie a svetlo v novembri
 
@@ -683,17 +544,14 @@ more zvládnu už len deti.
 
 ## Čo rezervovať teraz (september)
 
-*Ubytovanie máte vybavené — Novotel Lisboa a Clube Porto Mós.* Zostáva:
+*Ubytovanie aj auto máte vybavené.* Zostáva:
 
-1. ☐ **Rozhodnúť o spiatočnom lete** (viď úvod — kvôli nedeľným pretekom)
-2. ☐ **Lístky na MotoGP + parkovanie** na 20. a 21. 11.
-3. ☐ **Sixt** 15.–22. 11., kombi alebo 7-miestne — a **písomne overiť vrátenie o 4:15**
-4. ☐ **Poistenie spoluúčasti** — najprv overiť kreditnú kartu, potom Union či Generali
-5. ☐ **Tee times na 9 jamiek** — napísať mailom, november je v Algarve golfová špička
-6. ☐ **Quinta da Regaleira** — časovaná vstupenka
-7. ☐ **Mosteiro dos Jerónimos** — vstupenka online
-8. ☐ **A Forja** v Lagose — rezervácia na 19:00
-9. ☐ Poprosiť Clube Porto Mós o **sprchu po check-oute** v sobotu 21. 11.
+1. ☐ **Lístky na MotoGP + parkovanie** na 20. a 21. 11.
+2. ☐ **Tee times na 9 jamiek** — napísať mailom, november je v Algarve golfová špička
+3. ☐ **Quinta da Regaleira** — časovaná vstupenka
+4. ☐ **Mosteiro dos Jerónimos** — vstupenka online
+5. ☐ **A Forja** v Lagose — rezervácia na 19:00
+6. ☐ Poprosiť Clube Porto Mós o **sprchu po check-oute** v sobotu 21. 11.
 
 ---
 
