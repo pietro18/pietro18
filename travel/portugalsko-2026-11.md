@@ -31,7 +31,8 @@ Celkovo najazdíte cca **1 100–1 300 km**.
 
 ## Rezervácie
 
-Štyria na hotelových voucheroch, lety zvlášť. Všetko predplatené cez GO Travel Slovakia —
+Štyria na hotelových voucheroch, lety zvlášť. **Peter a chalani letia z Viedne spolu, Jana
+samostatne a pripojí sa 12. 11. v Lisabone.** Všetko predplatené cez GO Travel Slovakia —
 na mieste sa platia už len extra veci. Núdzová linka **+421 2 3300 2664**.
 
 ### Lety — TAP Portugal, rezervácia 7W5Z26
@@ -47,14 +48,13 @@ na mieste sa platia už len extra veci. Núdzová linka **+421 2 3300 2664**.
 
 Letenky: TP/ETKT 047 5584286747–749.
 
-> **Dve veci, ktoré treba doriešiť:**
->
-> - **Batožina je 0 PC** — v cene nie je ani jeden kufor v podpalubí. Pre štyroch na desať dní
->   to nestačí, dokupuje sa zvlášť. A definitívne to potvrdzuje, že **golfové palice si požičajte
->   na mieste**.
-> - **Na letenkách sú traja cestujúci** (Peter, Lukáš Teo, Šimon Daniel), ale na oboch hotelových
->   voucheroch sú **štyria**, vrátane Jany. Buď má letenku na samostatnej rezervácii, alebo niekde
->   chýba — **overte si to v GO Travel skôr než čokoľvek iné**.
+> **Batožina je 0 PC.** V cene nie je ani jeden kufor v podpalubí, len príručná. Pre troch
+> na desať dní to nestačí — dokupuje sa zvlášť a pri TAP-e je to lacnejšie vopred online než
+> na letisku. A definitívne to potvrdzuje, že **golfové palice si požičajte na mieste**.
+
+> **Janin spiatočný let je iný.** Ak neodlieta tiež v nedeľu skoro ráno, nemá zmysel, aby s vami
+> trávila noc v garáži P2 — vysaďte ju v sobotu večer pri jej hoteli alebo termináli a v aute
+> prespíte traja.
 
 **Prílet je o 15:10, nie večer.** Plán som podľa toho upravil — štvrtok má celé poobedie.
 
