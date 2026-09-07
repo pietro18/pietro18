@@ -52,9 +52,8 @@ Letenky: TP/ETKT 047 5584286747–749.
 > na desať dní to nestačí — dokupuje sa zvlášť a pri TAP-e je to lacnejšie vopred online než
 > na letisku. A definitívne to potvrdzuje, že **golfové palice si požičajte na mieste**.
 
-> **Janin spiatočný let je iný.** Ak neodlieta tiež v nedeľu skoro ráno, nemá zmysel, aby s vami
-> trávila noc v garáži P2 — vysaďte ju v sobotu večer pri jej hoteli alebo termináli a v aute
-> prespíte traja.
+> **Jana letí späť s vami**, takže noc v garáži P2 aj ranné odbavenie sú vo štyroch. Sedadlá
+> sklopte hneď po príchode, kým ste ešte pri sile.
 
 **Prílet je o 15:10, nie večer.** Plán som podľa toho upravil — štvrtok má celé poobedie.
 
