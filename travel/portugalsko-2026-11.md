@@ -13,7 +13,7 @@ Lisabon · Sintra · Comporta · Lagos · Sagres · Benagil · Portimão
 
 | Dátum | Deň | Základňa | Program |
 |---|---|---|---|
-| 12. 11. | Št | Lisabon | Prílet večer, ubytovanie, večera |
+| 12. 11. | Št | Lisabon | Prílet 15:10, ubytovanie, prvé poobedie |
 | 13. 11. | Pi | Lisabon | Belém + Baixa / Alfama |
 | 14. 11. | So | Lisabon | Sintra + Cabo da Roca + Cascais |
 | 15. 11. | Ne | → Algarve | LX Factory, presun cez Comportu do Lagosu |
@@ -23,27 +23,70 @@ Lisabon · Sintra · Comporta · Lagos · Sagres · Benagil · Portimão
 | 19. 11. | Št | Lagos | **Golf** a potom voľno |
 | 20. 11. | Pi | Lagos | Voľné dopoludnie, **na okruh na 12:00** |
 | 21. 11. | So | → letisko | **Okruh — deň 2** (kvalifikácie + Sprint), potom postupne na sever |
-| 22. 11. | Ne | ✈ | Noc bez hotela, odlet 7:00 |
+| 22. 11. | Ne | ✈ | Noc bez hotela v aute, odlet 6:55 |
 
 Celkovo najazdíte cca **1 100–1 300 km**.
 
 ---
 
-## Ubytovanie — rezervované
+## Rezervácie
 
-| | Kde | Kedy |
+Štyria na hotelových voucheroch, lety zvlášť. Všetko predplatené cez GO Travel Slovakia —
+na mieste sa platia už len extra veci. Núdzová linka **+421 2 3300 2664**.
+
+### Lety — TAP Portugal, rezervácia 7W5Z26
+
+| | Tam · štvrtok 12. 11. | Späť · nedeľa 22. 11. |
 |---|---|---|
-| **Novotel Lisboa** | Praça de Espanha, Lisabon | 12.–15. 11., 3 noci |
-| **Clube Porto Mós** | Praia de Porto de Mós, Lagos | 15.–21. 11., 6 nocí |
-| *bez hotela* | spanie v aute v garáži P2 | 21.–22. 11. |
+| Let | **TP 1271** | **TP 1270** |
+| Odlet | Viedeň T3 **12:25** | Lisabon T1 **06:55** |
+| Prílet | Lisabon T1 **15:10** | Viedeň T3 **11:30** |
+| Trvanie | 3 h 45 min | 3 h 35 min |
+| Posledný check-in | 11:40 | **05:55** |
+| Lietadlo | Airbus A321neo | Airbus A321neo |
+
+Letenky: TP/ETKT 047 5584286747–749.
+
+> **Dve veci, ktoré treba doriešiť:**
+>
+> - **Batožina je 0 PC** — v cene nie je ani jeden kufor v podpalubí. Pre štyroch na desať dní
+>   to nestačí, dokupuje sa zvlášť. A definitívne to potvrdzuje, že **golfové palice si požičajte
+>   na mieste**.
+> - **Na letenkách sú traja cestujúci** (Peter, Lukáš Teo, Šimon Daniel), ale na oboch hotelových
+>   voucheroch sú **štyria**, vrátane Jany. Buď má letenku na samostatnej rezervácii, alebo niekde
+>   chýba — **overte si to v GO Travel skôr než čokoľvek iné**.
+
+**Prílet je o 15:10, nie večer.** Plán som podľa toho upravil — štvrtok má celé poobedie.
+
+### Novotel Lisboa — 12.–15. 11., 3 noci
+
+Avenida José Malhoa 1–1A, Lisabon · +351 21 724 4800
+Family double + rozkladací gauč · voucher GO31238987-33891572-A(SK) · ref 9110098647684
+
+- **Raňajky nie sú v cene** — na mieste 16 € na osobu, aj za deti, čiže 64 € denne za štyroch.
+  Na Avenida José Malhoa je viacero pastelarií, kde dáte kávu a pastel za tretinu.
+- **Mestská daň 4 € na osobu a noc** na recepcii; deti do 13 rokov neplatia, takže za vás 36 €.
+- **Hotelový bazén je v novembri zatvorený** (otvorený apríl – september).
+- Parkovanie 12 € na deň — nepotrebujete, auto beriete až v nedeľu.
+
+### Clube Porto Mós — 15.–21. 11., 6 nocí
+
+Praia do Porto de Mós, Lagos · +351 282 790 550
+Prízemný apartmán s výhľadom do záhrady · voucher GO31235934-33888286-A(SK) · ref ZZWB5P
+
+- **Je to apartmán, nie izba — má kuchyňu.** Pri šiestich raňajkách pre štyroch je to citeľný
+  rozdiel: prvý deň nakúpte v Lagose (Intermarché alebo Pingo Doce) a raňajkujte doma. Ušetríte
+  aj čas, lebo ráno idete na golf a na okruh.
+- Prízemie znamená, že z terasy vyjdete rovno do záhrady.
+- Aj tu **bez raňajok**.
+
+---
 
 ### Čo z toho vyplýva pre program
 
 **Novotel Lisboa** nie je v historickom centre, je pri Praça de Espanha. Do Baixy a Chiada
 sa dostanete metrom asi za desať minút (stanica Praça de Espanha alebo São Sebastião),
 takže program v pláne funguje bez zmeny — len sa večer vraciate metrom, nie pešo.
-Deti do 16 rokov majú raňajky v cene, čo pri troch dňoch pre štyroch nie je málo,
-a je tam bazén, keby bolo treba deti niekam vypustiť.
 
 > **Web Summit 9.–12. 11.** už neriešite kvôli cene, ale v deň príletu bude mesto plné:
 > letisko preplnené, Uber drahší, dobré reštaurácie obsadené. Na štvrtok večer si stôl
@@ -83,9 +126,16 @@ rozpísaný nižšie pri sobote a nedeli.
 
 ### Štvrtok 12. 11. — Prvý pastel de nata
 
-Nič neplánujte. Uber do hotela, prejdite sa po Baixe, dajte si večeru.
-Tip: **Time Out Market** (Mercado da Ribeira) je otvorený do 24:00 a každý si
-vyberie svoje — ideálne po lete s deťmi.
+Priletíte **o 15:10**, v hoteli ste okolo 16:15. Zostáva vám celé poobedie — nezahoďte ho,
+ale ani nepreťažujte.
+
+- Uber z letiska k Novotelu, ~15 €, dvadsať minút.
+- Metrom na **Praça do Comércio** a odtiaľ pešo hore Rua Augusta — prvá prechádzka Baixou,
+  kým je ešte svetlo (do 17:30).
+- Prvý **pastel de nata** v ktorejkoľvek pastelarii. Nečakajte na Belém, ten je až zajtra.
+
+**Večera:** *Time Out Market* je otvorený do polnoci, nerezervuje sa a každý si vyberie svoje —
+po lete s deťmi ideálne. Cez Web Summit tam bude plno, ale miesto sa vždy nájde.
 
 ### Piatok 13. 11. — Odkiaľ vyplávali
 
@@ -349,6 +399,7 @@ masky na oči, štuple do uší, powerbanky a stiahnuté filmy pre deti.
 ### Nedeľa 22. 11. — Štyri hodiny v garáži P2
 
 - **4:15** budíček v aute, vrátenie auta v P2
+- **5:55** posledný check-in na let TP 1270 — tvrdý strop, nie odporúčanie
 - **4:30** v termináli, odbavenie hneď ako otvoria prepážky
 - **5:15** cez kontrolu — v Lisabone bývajú rady pomalé, s touto rezervou ste v pohode
 - Raňajky až v čistej zóne, kaviarne tam otvárajú skoro
