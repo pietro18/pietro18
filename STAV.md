@@ -379,3 +379,48 @@ to (poistka funguje), ale ako kanál to nefunguje — stojí za zváženie, či
 **Cielenie win-back mailu z bodu 4 treba prepočítať.** Zoznam 18 rodín je z 31. 8.,
 spred opravy; časť z nich sa medzitým prihlásila. Použi `child_login` join
 z bodu 4, nie starý zoznam mien.
+
+
+---
+
+## 8. 9. 2026 — vyplácanie a rodičovský zámok (VYRIEŠENÉ, publikované)
+
+Publikoval Peter 8. 9. večer. Všetko nižšie je overené v diffe, nie z hlásenia agenta.
+
+**Objaviteľnosť vyplácania** (`543a40b2`). Podnet: reálny zákaznícky dotaz „ako
+môžem dať peniaze za úlohy na účet v banke". Príčina bola v UI, nie v logike —
+platobný tok funguje (52 vyplatení, z toho 37 vybavených), ale viedli k nemu
+len dve nenájditeľné cesty: karta „Na vyplatenie" na dashboarde sa objaví až keď
+je sen na 100 % (`if (outstanding.length === 0) return null;`), a na `/parent/goals`
+bola pri aktívnom sne len **ikona `HandCoins` bez textu**, s popisom iba v `title`.
+
+Opravené: nový kľúč `parent.goals.payOut` („Vyplatiť" / „Pay out") v oboch locale
+súboroch, tlačidlo má viditeľný text, riadok je `flex-wrap` s `min-w-[120px]`.
+`payout.noIbanHint` je teraz odkaz na `/parent/children/:childId/edit` (route
+overená v `App.tsx`) a text prepísaný na výzvu.
+
+**Rodičovský zámok** (`0214180d`). Dve chyby, obe vedeli vyhodiť rodiča z konta:
+
+- `ParentPinGate.forgotPin` volal `signOut()` bez potvrdenia, a zámok nemal cestu
+  späť k dieťaťu — dieťa sa naň dostalo omylom a jedným klepnutím odhlásilo rodiča.
+  Opravené: `AlertDialog` s konkrétnym dôsledkom + tlačidlo „Späť k dieťaťu", ktoré
+  **nevolá `unlockParent()`** (overené).
+- `AppHeader` volal na detskej strane `lockParent()` **bezpodmienečne**, aj bez
+  existujúceho PIN-u. Rodič potom musel zadať štyri náhodné číslice, kým mu appka
+  ponúkla PIN vytvoriť — a tie pokusy sa počítali do `too_many_attempts`.
+  Opravené: `handleBackToParent` zisťuje stav cez `getParentProfile`; zamyká len
+  keď PIN existuje, neznámy stav zamyká (konzervatívne).
+
+**Vedomý kompromis:** bez nastaveného PIN-u vedie detská šípka do rodičovskej časti
+**odomknutej**, s okamžitou výzvou PIN si nastaviť. Dieťa sa teda pri rodine bez
+PIN-u vie preklikať k rodičovi. Je to lepšie než zamknúť rodiča z vlastného konta,
+ale ochrana začína platiť až po vytvorení PIN-u.
+
+**Drobnosť na neskôr:** `markPinResetPending` sa teraz používa aj pre stav „PIN ešte
+neexistuje", hoci jeho komentár hovorí o obnove po zabudnutí. Funguje, len názov klame.
+
+**Tretie hlásenie z tej istej dávky** — „deťom sa tvrdí, že ich vlastný sen je od
+rodiča" — v kóde k 8. 9. neplatí. `ChildDashboard` má poistku `hasOwnDream ||
+!authorskipKnown`, ktorá mlčí aj pri neznámom autorstve (`created_by` je NULL pri
+64 z 89 snov). Podľa znenia komentára pri tej poistke šlo pravdepodobne o opravu
+práve tohto hlásenia. Zdroj hlásení je spoľahlivý — dve z troch sedeli do písmena.
