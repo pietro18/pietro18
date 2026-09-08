@@ -339,3 +339,43 @@ nie je dôkaz (pozri bod 0, kde to dvakrát zachránilo pred neúplným fixom).
 (overené 30. 8.) — v session 31. 8. toto obmedzenie nebránilo prístupu cez
 Lovable MCP (`read_file`, `query_database`, `send_message`, `get_diff`
 fungovali celý čas). Priamu vizuálnu kontrolu v prehliadači stále robí Peter.
+
+
+---
+
+## Kontrolné meranie 8. 9. 2026 — oprava z bodu 0 zabrala
+
+Overené priamo v produkčnej databáze, nie z hlásenia agenta.
+
+**Prihlásenia detí — signál `app_events.event_type = 'child_login'`:**
+
+| | pred 31. 8. | od 31. 8. do 8. 9. |
+|---|---|---|
+| detí s aspoň jedným prihlásením | 1 (z toho Petrove testy) | **29** |
+| prihlásení spolu | — | **67** |
+| rodín s prihláseným dieťaťom | 1 | **25** |
+
+Prvé prihlásenie prišlo 31. 8. o 10:24, teda v to isté ráno, keď šla oprava
+`verify_child_pin` do produkcie. Posledné 8. 9. o 13:40. Bod 0 sa dá zavrieť.
+
+**Používanie:** 153 schválených úloh v 18 rodinách za 31. 8. – 8. 9., oproti
+9 úlohám v jedinej rodine za predošlý týždeň. 62 nových snov.
+
+**Rast:** 172 reálnych rodičov (+143 za týždeň), 177 detí (+145). Všetkých 177
+detí má nastavený PIN. 18 rodičov zatiaľ nepridalo dieťa.
+
+**Bod 1 (súhrnná karta) je vyriešený.** Všetky karty s `variant = "multi"` majú
+v `params` aj `name`, takže nadpis s prázdnym menom už nevzniká.
+
+**Zastavenie otravovania funguje.** Z 132 rodičov, ktorí za toto obdobie dostali
+pripomienku, ani jeden nemá viac než 3 a všetky neprečítané; maximum na rodiča
+je 6, priemer 2,4.
+
+**Čo ostáva nepríjemné:** z 319 pripomienok bolo prečítaných 8, teda 2,5 %.
+`reminder_empty_tomorrow` má 63 odoslaní a **nula** prečítaní. Nezastavuje ich
+to (poistka funguje), ale ako kanál to nefunguje — stojí za zváženie, či
+`reminder_empty_tomorrow` vôbec posielať.
+
+**Cielenie win-back mailu z bodu 4 treba prepočítať.** Zoznam 18 rodín je z 31. 8.,
+spred opravy; časť z nich sa medzitým prihlásila. Použi `child_login` join
+z bodu 4, nie starý zoznam mien.
